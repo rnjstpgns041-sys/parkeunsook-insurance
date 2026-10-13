@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://parkeunsook-insurance.netlify.app/sitemap.xml
