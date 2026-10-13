@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>광고 장부 | 박은숙 보험상담</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="/stats/stats.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>광고 장부</h1>
+      <p>광고에 쓴 돈을 적어 두면 전화 한 통에 얼마가 들었는지 계산해 드려요.</p>
+    </div>
+    <nav class="tabs" aria-label="통계 메뉴"><a href="/stats/">홈페이지 통계</a><a href="/stats/ledger/" aria-current="page">광고 장부</a></nav>
+  </header>
+
+  <section id="login" class="panel login" hidden>
+    <h2>비밀번호</h2>
+    <form id="login-form" class="login">
+      <label for="pw">통계 비밀번호</label>
+      <div class="row"><input id="pw" type="password" autocomplete="current-password" style="flex:1"><button class="btn" type="submit">장부 보기</button></div>
+      <p id="login-err" class="err" role="alert"></p>
+      <p class="hint">통계 페이지와 같은 비밀번호예요.</p>
+    </form>
+  </section>
+
+  <div id="app" hidden style="display:grid;gap:18px">
+    <div class="tiles">
+      <div class="tile"><div class="k" id="m-label">이번 달 광고비</div><div class="v" id="m-spend">-</div><div class="d" id="m-count"></div></div>
+      <div class="tile"><div class="k">이번 달 전화 버튼 누름</div><div class="v" id="m-calls">-</div><div class="d">홈페이지에서 누른 횟수</div></div>
+      <div class="tile hero"><div class="k">전화 1건당 광고비</div><div class="v" id="m-cpc">-</div><div class="d">광고비 ÷ 전화 버튼 누름</div></div>
+      <div class="tile"><div class="k">이번 달 방문자</div><div class="v" id="m-visitors">-</div><div class="d" id="m-cpv"></div></div>
+    </div>
+
+    <section class="panel">
+      <h2>광고비 적기</h2>
+      <form id="add" class="form">
+        <label>날짜<input id="f-date" type="date" required></label>
+        <label>어디에 썼나요<input id="f-channel" list="channels" placeholder="네이버 파워링크" required></label>
+        <label>금액(원)<input id="f-amount" type="number" inputmode="numeric" min="0" step="1" placeholder="50000" required></label>
+        <label class="memo">메모<input id="f-memo" placeholder="선택 사항"></label>
+        <div class="go"><button class="btn" type="submit" style="width:100%">적기</button></div>
+      </form>
+      <datalist id="channels">
+        <option value="네이버 파워링크"></option><option value="네이버 플레이스"></option><option value="네이버 블로그 체험단"></option>
+        <option value="구글 광고"></option><option value="당근 광고"></option><option value="인스타그램 광고"></option>
+        <option value="전단지 · 명함"></option><option value="기타"></option>
+      </datalist>
+      <p id="add-err" class="err" role="alert" style="margin-top:8px"></p>
+    </section>
+
+    <section class="panel"><h2>월별 정리 <small>전화·방문 수는 최근 90일까지만 나와요</small></h2><div class="scroll" id="months"></div></section>
+    <section class="panel"><h2>매체별 광고비 <small>전체 기간</small></h2><div id="channels-sum"></div></section>
+    <section class="panel"><h2>적은 내역</h2><div class="scroll" id="entries"></div></section>
+  </div>
+</div>
+<script src="/stats/stats.js"></script>
+<script>
+var ENTRIES = [], STATS = null;
+function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+function kstToday() { return new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10); }
+function monthStats() {
+  var m = {};
+  (STATS ? STATS.days : []).forEach(function (d) {
+    var k = d.day.slice(0, 7); m[k] = m[k] || { calls: 0, visitors: 0 };
+    m[k].calls += d.calls; m[k].visitors += d.visitors;
+  });
+  return m;
+}
+function render() {
+  var ms = monthStats(), spend = {}, count = {};
+  ENTRIES.forEach(function (e) { var k = e.date.slice(0, 7); spend[k] = (spend[k] || 0) + e.amount; count[k] = (count[k] || 0) + 1; });
+  var cur = kstToday().slice(0, 7), s = spend[cur] || 0, st = ms[cur] || { calls: 0, visitors: 0 };
+  document.getElementById('m-label').textContent = (+cur.slice(5)) + '월 광고비';
+  document.getElementById('m-spend').textContent = PS.won(s);
+  document.getElementById('m-count').textContent = (count[cur] || 0) + '건 적음';
+  document.getElementById('m-calls').textContent = PS.num(st.calls);
+  document.getElementById('m-cpc').textContent = st.calls ? PS.won(s / st.calls) : '-';
+  document.getElementById('m-visitors').textContent = PS.num(st.visitors);
+  document.getElementById('m-cpv').textContent = st.visitors && s ? '방문자 1명당 ' + PS.won(s / st.visitors) : '';
+
+  var months = Object.keys(Object.assign({}, spend, ms)).filter(function (k) { return spend[k] || (ms[k] && ms[k].visitors); }).sort().reverse();
+  document.getElementById('months').innerHTML = months.length ? '<table><thead><tr><th>월</th><th class="n">광고비</th><th class="n">방문자</th><th class="n">전화 버튼</th><th class="n">전화 1건당</th></tr></thead><tbody>' + months.map(function (k) {
+    var sp = spend[k] || 0, x = ms[k];
+    return '<tr><td>' + k.replace('-', '년 ') + '월</td><td class="n">' + PS.won(sp) + '</td><td class="n">' + (x ? PS.num(x.visitors) : '-') + '</td><td class="n">' + (x ? PS.num(x.calls) : '-') + '</td><td class="n">' + (x && x.calls && sp ? PS.won(sp / x.calls) : '-') + '</td></tr>';
+  }).join('') + '</tbody></table>' : '<p class="empty">아직 적은 내역이 없어요.</p>';
+
+  var ch = {}; ENTRIES.forEach(function (e) { ch[e.channel] = (ch[e.channel] || 0) + e.amount; });
+  var rows = Object.keys(ch).sort(function (a, b) { return ch[b] - ch[a]; }), max = rows.length ? ch[rows[0]] : 1;
+  document.getElementById('channels-sum').innerHTML = rows.length ? '<table><tbody>' + rows.map(function (k) {
+    return '<tr><td class="pt">' + esc(k) + '<div class="meter"><i style="width:' + (max ? ch[k] / max * 100 : 0) + '%"></i></div></td><td class="n">' + PS.won(ch[k]) + '</td></tr>';
+  }).join('') + '</tbody></table>' : '<p class="empty">광고비를 적으면 매체별로 모아 보여 드려요.</p>';
+
+  document.getElementById('entries').innerHTML = ENTRIES.length ? '<table><thead><tr><th>날짜</th><th>어디에</th><th class="n">금액</th><th>메모</th><th></th></tr></thead><tbody>' + ENTRIES.map(function (e) {
+    return '<tr><td class="n" style="text-align:left">' + e.date.replace(/-/g, '.') + '</td><td>' + esc(e.channel) + '</td><td class="n">' + PS.won(e.amount) + '</td><td class="pt">' + esc(e.memo) + '</td><td class="n"><button class="del" data-id="' + e.id + '" type="button">지우기</button></td></tr>';
+  }).join('') + '</tbody></table>' : '<p class="empty">위에서 첫 광고비를 적어 보세요. 예: 오늘, 네이버 파워링크, 50000원.</p>';
+  document.querySelectorAll('.del').forEach(function (b) {
+    b.addEventListener('click', async function () {
+      if (b.dataset.armed !== '1') { b.dataset.armed = '1'; b.textContent = '한 번 더 누르면 지워져요'; return; }
+      try { ENTRIES = (await PS.api('/api/ledger', { method: 'DELETE', body: { id: b.dataset.id } })).entries; render(); }
+      catch (e) { document.getElementById('add-err').textContent = '지우지 못했어요. ' + e.message; }
+    });
+  });
+}
+async function load(key) {
+  var r = await Promise.all([PS.api('/api/ledger', { key: key }), PS.api('/api/stats?days=92', { key: key })]);
+  ENTRIES = r[0].entries; STATS = r[1];
+  render();
+}
+document.getElementById('f-date').value = kstToday();
+document.getElementById('add').addEventListener('submit', async function (ev) {
+  ev.preventDefault();
+  var err = document.getElementById('add-err'); err.textContent = '';
+  try {
+    ENTRIES = (await PS.api('/api/ledger', { method: 'POST', body: {
+      date: document.getElementById('f-date').value,
+      channel: document.getElementById('f-channel').value.trim(),
+      amount: document.getElementById('f-amount').value,
+      memo: document.getElementById('f-memo').value.trim(),
+    } })).entries;
+    document.getElementById('f-amount').value = ''; document.getElementById('f-memo').value = '';
+    render();
+  } catch (e) { err.textContent = '적지 못했어요. ' + e.message; }
+});
+PS.gate(load);
+</script>
+</body>
+</html>

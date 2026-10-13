@@ -44,6 +44,7 @@ def head(title, desc, url, extra=''):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@600&display=swap">
 <link rel="stylesheet" href="guide.css">
+<script src="/assets/track.js" defer></script>
 {extra}</head>
 <body>
 <header class="top"><div class="wrap">
@@ -113,6 +114,10 @@ sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitem
 sm += [f'  <url><loc>{u}</loc><lastmod>{TODAY}</lastmod><priority>{p}</priority></url>' for u, p in urls]
 sm.append('</urlset>')
 open(f'{OUT}/sitemap.xml', 'w', encoding='utf-8').write('\n'.join(sm) + '\n')
+
+# page titles for the stats page
+os.makedirs(OUT + '/stats', exist_ok=True)
+json.dump({f'/guide/{x}.html': arts[x]['title'] for x in order}, open(OUT + '/stats/titles.json', 'w', encoding='utf-8'), ensure_ascii=False)
 
 # featured list for homepage
 feat = ['silson-generations', 'brain-coverage-range', 'renewal-vs-nonrenewal', 'before-cancel', 'claim-time-limit', 'duty-to-disclose']

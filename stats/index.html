@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>홈페이지 통계 | 박은숙 보험상담</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="/stats/stats.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>홈페이지 통계</h1>
+      <p>박은숙 보험상담 · parkeunsook-insurance.netlify.app · 운영자만 보는 페이지</p>
+    </div>
+    <nav class="tabs" aria-label="통계 메뉴"><a href="/stats/" aria-current="page">홈페이지 통계</a><a href="/stats/ledger/">광고 장부</a></nav>
+  </header>
+
+  <section id="login" class="panel login" hidden>
+    <h2>비밀번호</h2>
+    <form id="login-form" class="login">
+      <label for="pw">통계 비밀번호</label>
+      <div class="row"><input id="pw" type="password" autocomplete="current-password" style="flex:1"><button class="btn" type="submit">보기</button></div>
+      <p id="login-err" class="err" role="alert"></p>
+      <p class="hint">한 번 들어오면 이 기기에서는 다시 묻지 않아요. 이 기기에서 홈페이지를 보는 것도 통계에서 빠져요.</p>
+    </form>
+  </section>
+
+  <div id="app" hidden style="display:grid;gap:18px">
+    <div class="row" role="group" aria-label="기간">
+      <button class="btn-line" id="r1" data-n="1">오늘</button>
+      <button class="btn-line" id="r7" data-n="7" aria-pressed="true">최근 7일</button>
+      <button class="btn-line" id="r30" data-n="30">최근 30일</button>
+      <button class="btn-line" id="r90" data-n="90">최근 90일</button>
+      <span class="hint" id="range-label" style="margin-left:auto"></span>
+    </div>
+
+    <div class="tiles">
+      <div class="tile hero"><div class="k">전화 버튼 누름</div><div class="v" id="t-calls">-</div><div class="d" id="d-calls"></div></div>
+      <div class="tile"><div class="k">방문자</div><div class="v" id="t-visitors">-</div><div class="d" id="d-visitors"></div></div>
+      <div class="tile"><div class="k">페이지 조회</div><div class="v" id="t-views">-</div><div class="d" id="d-views"></div></div>
+      <div class="tile"><div class="k">번호 복사</div><div class="v" id="t-copies">-</div><div class="d" id="d-copies"></div></div>
+    </div>
+
+    <section class="panel"><h2>일별 방문자</h2><div class="chart" id="c-visitors"></div></section>
+    <section class="panel"><h2>일별 전화 버튼 누름</h2><div class="chart" id="c-calls"></div></section>
+
+    <div class="two">
+      <section class="panel"><h2>어디서 왔나요 <small>방문자 기준</small></h2><div id="refs"></div></section>
+      <section class="panel"><h2>기기 <small>방문자 기준</small></h2><div id="devices"></div></section>
+    </div>
+    <section class="panel"><h2>많이 본 페이지 <small>조회 기준, 상위 15개</small></h2><div class="scroll" id="pages"></div></section>
+
+    <p class="hint">방문자는 하루 단위로 셉니다. 같은 사람이 여러 날 들어오면 날마다 한 번씩 셉니다. 검색 로봇과 이 통계를 연 기기는 빠지고, 개인을 알아볼 수 있는 정보는 저장하지 않습니다. 통계는 이 기능을 켠 날부터 쌓입니다.</p>
+  </div>
+</div>
+<script src="/stats/stats.js"></script>
+<script>
+var DATA = null, N = 7, TITLES = {};
+var REF_NAMES = { naver: '네이버', google: '구글', daum: '다음 · 카카오', sns: 'SNS', direct: '직접 방문 · 즐겨찾기' };
+fetch('/stats/titles.json').then(function (r) { return r.json(); }).then(function (t) { TITLES = t; if (DATA) render(); }).catch(function () {});
+
+function sum(days, f) { return days.reduce(function (a, d) { return a + (d[f] || 0); }, 0); }
+function merge(days, f) {
+  var o = {};
+  days.forEach(function (d) { Object.keys(d[f] || {}).forEach(function (k) { o[k] = (o[k] || 0) + d[f][k]; }); });
+  return o;
+}
+function pageName(p) {
+  if (p === '/' || p === '/index.html') return '홈';
+  if (p === '/guide/' || p === '/guide/index.html') return '보험 가이드 목록';
+  return TITLES[p] || p;
+}
+function delta(cur, prev) {
+  if (prev == null) return '';
+  if (prev === 0) return cur ? '이전 기간 0' : '';
+  var d = Math.round((cur - prev) / prev * 100);
+  return '이전 ' + N + '일보다 ' + (d >= 0 ? d + '% 늘었어요' : Math.abs(d) + '% 줄었어요');
+}
+function bars(el, days, field, label, cls) {
+  var W = 760, H = 180, L = 34, B = 22, T = 8;
+  var max = Math.max(1, Math.max.apply(null, days.map(function (d) { return d[field]; })));
+  var step = Math.pow(10, Math.floor(Math.log10(max)));
+  var nice = [1, 2, 5, 10].map(function (m) { return m * step; }).find(function (s) { return max / s <= 4; }) || step;
+  if (nice < 1) nice = 1;
+  var top = Math.ceil(max / nice) * nice;
+  var y = function (v) { return T + (H - T - B) * (1 - v / top); };
+  var bw = (W - L) / days.length, gap = Math.min(4, bw * 0.25);
+  var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + label + '"><g class="grid">';
+  for (var v = 0; v <= top; v += nice) s += '<line x1="' + L + '" x2="' + W + '" y1="' + y(v) + '" y2="' + y(v) + '"/><text x="' + (L - 6) + '" y="' + (y(v) + 4) + '" text-anchor="end">' + v + '</text>';
+  s += '</g>';
+  var every = Math.ceil(days.length / 8);
+  days.forEach(function (d, i) {
+    var x = L + i * bw + gap / 2, w = Math.max(1, bw - gap), v = d[field], yy = y(v), h = (H - B) - yy;
+    if (v > 0) {
+      var r = Math.min(4, w / 2, h);
+      s += '<path class="bar" fill="var(--' + (cls ? 'bar-2' : 'bar') + ')" data-i="' + i + '" d="M' + x + ' ' + (H - B) + 'V' + (yy + r) + 'Q' + x + ' ' + yy + ' ' + (x + r) + ' ' + yy + 'H' + (x + w - r) + 'Q' + (x + w) + ' ' + yy + ' ' + (x + w) + ' ' + (yy + r) + 'V' + (H - B) + 'Z"/>';
+    }
+    if (i % every === 0 || days.length <= 8) s += '<text x="' + (x + w / 2) + '" y="' + (H - 6) + '" text-anchor="middle">' + d.day.slice(5).replace('-', '.') + '</text>';
+    s += '<rect class="hit" data-i="' + i + '" x="' + (L + i * bw) + '" y="0" width="' + bw + '" height="' + (H - B) + '"/>';
+  });
+  s += '</svg><div class="tip" hidden></div>';
+  el.innerHTML = s;
+  var tip = el.querySelector('.tip'), svg = el.querySelector('svg');
+  el.querySelectorAll('rect.hit').forEach(function (r) {
+    r.addEventListener('mouseenter', function () {
+      var d = days[+r.dataset.i];
+      var box = svg.getBoundingClientRect(), k = box.width / W;
+      tip.innerHTML = d.day.replace(/-/g, '.') + ' · 방문자 ' + d.visitors + ' · 조회 ' + d.views + ' · 전화 ' + d.calls;
+      tip.style.left = Math.min(Math.max((+r.getAttribute('x') + bw / 2) * k, 90), box.width - 90) + 'px';
+      tip.style.top = (y(d[field]) * k - 6) + 'px';
+      tip.hidden = false;
+    });
+    r.addEventListener('mouseleave', function () { tip.hidden = true; });
+  });
+}
+function list(el, obj, names, limit) {
+  var rows = Object.keys(obj).map(function (k) { return [k, obj[k]]; }).sort(function (a, b) { return b[1] - a[1]; }).slice(0, limit || 99);
+  if (!rows.length) { el.innerHTML = '<p class="empty">아직 기록이 없어요.</p>'; return; }
+  var total = Object.keys(obj).reduce(function (a, k) { return a + obj[k]; }, 0), max = rows[0][1];
+  el.innerHTML = '<table><tbody>' + rows.map(function (r) {
+    var name = names(r[0]);
+    return '<tr><td class="pt">' + name + '<div class="meter"><i style="width:' + (r[1] / max * 100) + '%"></i></div></td><td class="n">' + PS.num(r[1]) + '</td><td class="n" style="color:var(--muted)">' + Math.round(r[1] / total * 100) + '%</td></tr>';
+  }).join('') + '</tbody></table>';
+}
+function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+function render() {
+  var all = DATA.days, cur = all.slice(-N), prev = all.length >= 2 * N ? all.slice(-2 * N, -N) : null;
+  ['calls', 'visitors', 'views', 'copies'].forEach(function (f) {
+    var c = sum(cur, f);
+    document.getElementById('t-' + f).textContent = PS.num(c);
+    document.getElementById('d-' + f).textContent = N === 1 ? '' : delta(c, prev ? sum(prev, f) : null);
+  });
+  document.getElementById('range-label').textContent = cur[0].day.replace(/-/g, '.') + ' ~ ' + cur[cur.length - 1].day.replace(/-/g, '.');
+  var chartDays = N === 1 ? all.slice(-7) : cur;
+  bars(document.getElementById('c-visitors'), chartDays, 'visitors', '일별 방문자');
+  bars(document.getElementById('c-calls'), chartDays, 'calls', '일별 전화 버튼 누름', true);
+  list(document.getElementById('refs'), merge(cur, 'refs'), function (k) { return esc(REF_NAMES[k] || (k.indexOf('other:') === 0 ? k.slice(6) : k)); });
+  list(document.getElementById('devices'), merge(cur, 'devices'), function (k) { return k === 'm' ? '휴대폰' : 'PC'; });
+  list(document.getElementById('pages'), merge(cur, 'pages'), function (k) {
+    var n = pageName(k); return esc(n) + (n !== k ? '<small>' + esc(decodeURI(k)) + '</small>' : '');
+  }, 15);
+}
+async function load(key) {
+  DATA = await PS.api('/api/stats?days=' + Math.min(Math.max(N * 2, 7), 92), { key: key });
+  render();
+}
+document.querySelectorAll('[data-n]').forEach(function (b) {
+  b.addEventListener('click', async function () {
+    N = +b.dataset.n;
+    document.querySelectorAll('[data-n]').forEach(function (x) { x.setAttribute('aria-pressed', x === b); });
+    try { await load(); } catch (e) { document.getElementById('range-label').textContent = '불러오지 못했어요. 새로고침해 주세요.'; }
+  });
+});
+PS.gate(load);
+</script>
+</body>
+</html>
