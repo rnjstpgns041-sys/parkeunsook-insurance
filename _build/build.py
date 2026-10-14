@@ -5,23 +5,28 @@ OUT = os.path.dirname(SP)
 BASE = 'https://parkeunsook-insurance.netlify.app'
 PHONE = '010-6378-6964'
 TODAY = '2026-10-13'
-ORDER = """silson-generations silson-4th-switch silson-claim-docs silson-duplicate silson-dosu silson-mri-ultrasound silson-overseas silson-group-personal
-brain-coverage-range heart-coverage-range cancer-amount similar-cancer cancer-exemption-period anticancer-drug-rider cancer-recurrence disability-rider hospital-daily fracture-rider
-renewal-vs-nonrenewal payment-period-maturity no-surrender-value premium-waiver main-vs-rider refund-type policy-loan lapse-revival paid-up-extended
-when-remodeling before-cancel replacement-contract reduce-premium coverage-analysis-how insurance-budget coverage-gap-priority
-fetal-insurance-timing child-insurance-maturity parents-simple-insurance newlywed-insurance single-household first-job-insurance forties-checkup fifties-checkup sixties-insurance thirties-checkup breadwinner-coverage
-self-employed driver-insurance driver-legal-cost daily-liability fire-insurance-business dental-insurance caregiver-daily dementia-insurance whole-vs-term surgery-rider pet-insurance travel-insurance annuity-vs-pension-savings variable-insurance women-coverage
-claim-time-limit claim-documents claim-denied hidden-claims designated-claimant claim-adjuster claim-multiple-policies
-duty-to-disclose disclosure-violation simple-underwriting-355 withdrawal-right quality-guarantee-cancel read-policy-terms beneficiary-designation insurance-tax-credit""".split('\n')
+ORDER = """silson-generations silson-4th-switch silson-claim-docs silson-duplicate silson-dosu silson-mri-ultrasound silson-overseas silson-group-personal silson-renewal-increase silson-senior silson-mental-health
+brain-coverage-range heart-coverage-range cancer-amount similar-cancer cancer-exemption-period anticancer-drug-rider cancer-recurrence disability-rider hospital-daily fracture-rider cancer-treatment-rider ci-insurance
+renewal-vs-nonrenewal payment-period-maturity no-surrender-value premium-waiver main-vs-rider refund-type policy-loan lapse-revival paid-up-extended premium-factors policy-certificate surrender-value
+when-remodeling before-cancel replacement-contract reduce-premium coverage-analysis-how insurance-budget coverage-gap-priority family-history-coverage yearly-checkup-list
+fetal-insurance-timing child-insurance-maturity parents-simple-insurance newlywed-insurance single-household first-job-insurance forties-checkup fifties-checkup sixties-insurance thirties-checkup breadwinner-coverage child-turns-adult pregnancy-planning freelancer-insurance
+self-employed driver-insurance driver-legal-cost daily-liability fire-insurance-business dental-insurance caregiver-daily dementia-insurance whole-vs-term surgery-rider pet-insurance travel-insurance annuity-vs-pension-savings variable-insurance women-coverage home-fire-insurance pm-bicycle-insurance savings-insurance
+claim-time-limit claim-documents claim-denied hidden-claims designated-claimant claim-adjuster claim-multiple-policies car-accident-claims claim-after-death
+duty-to-disclose disclosure-violation simple-underwriting-355 withdrawal-right quality-guarantee-cancel read-policy-terms beneficiary-designation insurance-tax-credit chronic-disease-insurance policyholder-change""".split('\n')
 CATS = ['실손의료비', '진단비 · 특약', '보험 구조 이해', '리모델링 · 보장 분석', '가족 · 연령별 보험', '상품별 가이드', '보험금 청구', '가입 · 계약 제도']
 cat_of = {}; order = []
 for c, line in zip(CATS, ORDER):
     for s in line.split(): cat_of[s] = c; order.append(s)
-assert len(order) == len(set(order)) == 75
+assert len(order) == len(set(order)) == 95
 
 arts = {}
+# Articles in later data files were published later.
+PART_DATES = {11: '2026-10-14', 12: '2026-10-14', 13: '2026-10-14', 14: '2026-10-14'}
 for f in sorted(glob.glob(SP + '/articles/part*.json'), key=lambda f: int(f.rsplit('part',1)[1].split('.')[0])):
-    for a in json.load(open(f, encoding='utf-8')): arts[a['slug']] = a
+    part = int(f.rsplit('part', 1)[1].split('.')[0])
+    for a in json.load(open(f, encoding='utf-8')):
+        a['date'] = PART_DATES.get(part, TODAY)
+        arts[a['slug']] = a
 missing = [s for s in order if s not in arts]
 extra = [s for s in arts if s not in cat_of]
 if missing or extra: print('MISSING', missing, 'EXTRA', extra); sys.exit(1)
@@ -72,7 +77,7 @@ os.makedirs(OUT + '/guide', exist_ok=True)
 for i, s in enumerate(order):
     a = arts[s]; c = cat_of[s]; url = f'{BASE}/guide/{s}.html'
     ld = {"@context": "https://schema.org", "@graph": [
-        {"@type": "Article", "headline": a['title'], "description": a['description'], "datePublished": TODAY, "dateModified": TODAY,
+        {"@type": "Article", "headline": a['title'], "description": a['description'], "datePublished": a['date'], "dateModified": a['date'],
          "author": {"@type": "Person", "name": "박은숙"}, "mainEntityOfPage": url, "inLanguage": "ko"},
         {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q['q'], "acceptedAnswer": {"@type": "Answer", "text": q['a']}} for q in a['faq']]},
         {"@type": "BreadcrumbList", "itemListElement": [
@@ -109,11 +114,19 @@ idx.append(FOOT)
 open(f'{OUT}/guide/index.html', 'w', encoding='utf-8').write('\n'.join(idx))
 
 # sitemap
-urls = [(BASE + '/', '1.0'), (BASE + '/guide/', '0.8')] + [(f'{BASE}/guide/{s}.html', '0.6') for s in order]
+LATEST = max(arts[x]['date'] for x in order)
+urls = [(BASE + '/', '1.0', LATEST), (BASE + '/guide/', '0.8', LATEST)] + [(f'{BASE}/guide/{s}.html', '0.6', arts[s]['date']) for s in order]
 sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-sm += [f'  <url><loc>{u}</loc><lastmod>{TODAY}</lastmod><priority>{p}</priority></url>' for u, p in urls]
+sm += [f'  <url><loc>{u}</loc><lastmod>{d}</lastmod><priority>{p}</priority></url>' for u, p, d in urls]
 sm.append('</urlset>')
 open(f'{OUT}/sitemap.xml', 'w', encoding='utf-8').write('\n'.join(sm) + '\n')
+
+# homepage guide count
+import re
+hp = open(OUT + '/index.html', encoding='utf-8').read()
+hp = re.sub(r'자주 받는 질문 \d+가지를', f'자주 받는 질문 {len(order)}가지를', hp)
+hp = re.sub(r'보험 가이드 \d+편 전체 보기', f'보험 가이드 {len(order)}편 전체 보기', hp)
+open(OUT + '/index.html', 'w', encoding='utf-8').write(hp)
 
 # page titles for the stats page
 os.makedirs(OUT + '/stats', exist_ok=True)
