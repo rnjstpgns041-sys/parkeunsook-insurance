@@ -60,6 +60,7 @@ def head(title, desc, url, extra=''):
 FOOT = f'''<footer><div class="wrap">
   <p><strong>박은숙</strong> 보험설계사 · 상담 문의 {PHONE}</p>
   <p>이 글은 일반적인 정보 제공을 위한 것으로, 실제 보장 내용과 지급 조건은 가입하신 상품의 약관과 증권에 따릅니다. 보험계약 체결 전 상품설명서 및 약관을 반드시 읽어 보시기 바랍니다. 기존 계약 해지 후 신계약 체결 시 보험인수 거절, 보험료 인상, 보장내용 변경 등 불이익이 발생할 수 있습니다.</p>
+  <p class="credit">제작 <a href="https://webstudio-4e9.pages.dev/" target="_blank" rel="noopener">웹 스튜디오</a></p>
 </div></footer>
 <div class="mbar"><a class="btn plain" href="tel:01063786964">전화 상담</a><a class="btn solid" href="../#contact">무료 상담 신청</a></div>
 </body>
