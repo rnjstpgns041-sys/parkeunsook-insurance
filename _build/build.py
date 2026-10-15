@@ -5,23 +5,24 @@ OUT = os.path.dirname(SP)
 BASE = 'https://parkeunsook-insurance.netlify.app'
 PHONE = '010-6378-6964'
 TODAY = '2026-10-13'
-ORDER = """silson-generations silson-4th-switch silson-claim-docs silson-duplicate silson-dosu silson-mri-ultrasound silson-overseas silson-group-personal silson-renewal-increase silson-senior silson-mental-health
-brain-coverage-range heart-coverage-range cancer-amount similar-cancer cancer-exemption-period anticancer-drug-rider cancer-recurrence disability-rider hospital-daily fracture-rider cancer-treatment-rider ci-insurance
-renewal-vs-nonrenewal payment-period-maturity no-surrender-value premium-waiver main-vs-rider refund-type policy-loan lapse-revival paid-up-extended premium-factors policy-certificate surrender-value
-when-remodeling before-cancel replacement-contract reduce-premium coverage-analysis-how insurance-budget coverage-gap-priority family-history-coverage yearly-checkup-list
-fetal-insurance-timing child-insurance-maturity parents-simple-insurance newlywed-insurance single-household first-job-insurance forties-checkup fifties-checkup sixties-insurance thirties-checkup breadwinner-coverage child-turns-adult pregnancy-planning freelancer-insurance
-self-employed driver-insurance driver-legal-cost daily-liability fire-insurance-business dental-insurance caregiver-daily dementia-insurance whole-vs-term surgery-rider pet-insurance travel-insurance annuity-vs-pension-savings variable-insurance women-coverage home-fire-insurance pm-bicycle-insurance savings-insurance
-claim-time-limit claim-documents claim-denied hidden-claims designated-claimant claim-adjuster claim-multiple-policies car-accident-claims claim-after-death
-duty-to-disclose disclosure-violation simple-underwriting-355 withdrawal-right quality-guarantee-cancel read-policy-terms beneficiary-designation insurance-tax-credit chronic-disease-insurance policyholder-change""".split('\n')
+ORDER = """silson-generations silson-4th-switch silson-claim-docs silson-duplicate silson-dosu silson-mri-ultrasound silson-overseas silson-group-personal silson-renewal-increase silson-senior silson-mental-health silson-rejoin silson-pharmacy silson-hospital-level
+brain-coverage-range heart-coverage-range cancer-amount similar-cancer cancer-exemption-period anticancer-drug-rider cancer-recurrence disability-rider hospital-daily fracture-rider cancer-treatment-rider ci-insurance heart-procedure-rider cancer-nursing-hospital injury-vs-disease cataract-surgery stroke-rehab
+renewal-vs-nonrenewal payment-period-maturity no-surrender-value premium-waiver main-vs-rider refund-type policy-loan lapse-revival paid-up-extended premium-factors policy-certificate surrender-value level-vs-increasing interest-rate-terms group-insurance-work premium-payment-tips
+when-remodeling before-cancel replacement-contract reduce-premium coverage-analysis-how insurance-budget coverage-gap-priority family-history-coverage yearly-checkup-list too-many-policies keep-old-policy coverage-amount-guide direct-vs-agent
+fetal-insurance-timing child-insurance-maturity parents-simple-insurance newlywed-insurance single-household first-job-insurance forties-checkup fifties-checkup sixties-insurance thirties-checkup breadwinner-coverage child-turns-adult pregnancy-planning freelancer-insurance twenties-insurance dual-income-couple divorce-insurance study-abroad-insurance
+self-employed driver-insurance driver-legal-cost daily-liability fire-insurance-business dental-insurance caregiver-daily dementia-insurance whole-vs-term surgery-rider pet-insurance travel-insurance annuity-vs-pension-savings variable-insurance women-coverage home-fire-insurance pm-bicycle-insurance savings-insurance choose-cancer-insurance nursing-hospital-cost funeral-vs-insurance business-liability
+claim-time-limit claim-documents claim-denied hidden-claims designated-claimant claim-adjuster claim-multiple-policies car-accident-claims claim-after-death claim-digital small-claims claim-dispute
+duty-to-disclose disclosure-violation simple-underwriting-355 withdrawal-right quality-guarantee-cancel read-policy-terms beneficiary-designation insurance-tax-credit chronic-disease-insurance policyholder-change illegal-contract-cancel health-checkup-disclosure insurance-age""".split('\n')
 CATS = ['실손의료비', '진단비 · 특약', '보험 구조 이해', '리모델링 · 보장 분석', '가족 · 연령별 보험', '상품별 가이드', '보험금 청구', '가입 · 계약 제도']
 cat_of = {}; order = []
 for c, line in zip(CATS, ORDER):
     for s in line.split(): cat_of[s] = c; order.append(s)
-assert len(order) == len(set(order)) == 95
+assert len(order) == len(set(order)) == 125
 
 arts = {}
 # Articles in later data files were published later.
-PART_DATES = {11: '2026-10-14', 12: '2026-10-14', 13: '2026-10-14', 14: '2026-10-14'}
+PART_DATES = {11: '2026-10-14', 12: '2026-10-14', 13: '2026-10-14', 14: '2026-10-14',
+              15: '2026-10-15', 16: '2026-10-15', 17: '2026-10-15', 18: '2026-10-15', 19: '2026-10-15', 20: '2026-10-15'}
 for f in sorted(glob.glob(SP + '/articles/part*.json'), key=lambda f: int(f.rsplit('part',1)[1].split('.')[0])):
     part = int(f.rsplit('part', 1)[1].split('.')[0])
     for a in json.load(open(f, encoding='utf-8')):
