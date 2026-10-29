@@ -55,6 +55,8 @@
     </div>
     <section class="panel"><h2>많이 본 페이지 <small>조회 기준, 상위 15개</small></h2><div class="scroll" id="pages"></div></section>
 
+    <section class="panel"><h2>네이버 자동 색인 요청 <small>새 글을 배포할 때마다 자동으로 보냅니다</small></h2><div id="indexnow" class="hint">불러오는 중…</div></section>
+
     <p class="hint">방문자는 하루 단위로 셉니다. 같은 사람이 여러 날 들어오면 날마다 한 번씩 셉니다. 검색 로봇과 이 통계를 연 기기는 빠지고, 개인을 알아볼 수 있는 정보는 저장하지 않습니다. 통계는 이 기능을 켠 날부터 쌓입니다.</p>
   </div>
 </div>
@@ -149,6 +151,16 @@ async function load(key) {
   DATA = await PS.api('/api/stats?days=' + Math.min(Math.max(N * 2, 7), 92), { key: key });
   render();
 }
+async function loadIndexNow(key) {
+  var el = document.getElementById('indexnow');
+  try {
+    var r = await PS.api('/api/indexnow', { key: key });
+    if (!r.at) { el.textContent = '아직 보낸 기록이 없어요. 다음 배포 때 새 글이 자동으로 전송됩니다.'; return; }
+    var when = new Date(r.at).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' });
+    var ok = r.ok === r.total;
+    el.innerHTML = esc(when) + ' · 새 글 ' + PS.num(r.total) + '개 중 ' + PS.num(r.ok) + '개 전송 ' + (ok ? '완료' : '실패 (응답 ' + esc((r.status || []).join(', ')) + ')');
+  } catch (e) { el.textContent = '불러오지 못했어요.'; }
+}
 document.querySelectorAll('[data-n]').forEach(function (b) {
   b.addEventListener('click', async function () {
     N = +b.dataset.n;
@@ -156,7 +168,7 @@ document.querySelectorAll('[data-n]').forEach(function (b) {
     try { await load(); } catch (e) { document.getElementById('range-label').textContent = '불러오지 못했어요. 새로고침해 주세요.'; }
   });
 });
-PS.gate(load);
+PS.gate(function (key) { loadIndexNow(key); return load(key); });
 </script>
 </body>
 </html>
