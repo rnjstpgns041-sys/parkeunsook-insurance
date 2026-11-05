@@ -65,10 +65,21 @@ FOOT = f'''<footer><div class="wrap">
   <p>이 글은 일반적인 정보 제공을 위한 것으로, 실제 보장 내용과 지급 조건은 가입하신 상품의 약관과 증권에 따릅니다. 보험계약 체결 전 상품설명서 및 약관을 반드시 읽어 보시기 바랍니다. 기존 계약 해지 후 신계약 체결 시 보험인수 거절, 보험료 인상, 보장내용 변경 등 불이익이 발생할 수 있습니다.</p>
   <p class="credit">제작 <a href="https://webstudio-4e9.pages.dev/" target="_blank" rel="noopener">웹 스튜디오</a></p>
 </div></footer>
-<div class="mbar"><a class="btn plain" href="tel:01063786964">전화 상담</a><a class="btn solid" href="../#contact">무료 상담 신청</a></div>
+<div class="mbar"><a class="btn solid call" href="tel:01063786964">무료 전화 상담</a><a class="btn plain" href="../#contact">상담 신청</a></div>
 </body>
 </html>
 '''
+ASK = {
+    '실손의료비': ('내 실비로도 될까요?', '증권만 있으면 이 치료가 내 실비에서 되는지 전화로 바로 확인해 드려요.'),
+    '진단비 · 특약': ('내 보험엔 이 보장이 있을까요?', '가입하신 보험에 이 진단비·특약이 있는지, 금액은 얼마인지 전화로 확인해 드려요.'),
+    '보험금 청구': ('청구, 혼자 하기 막막하신가요?', '어떤 서류를 어디에 내야 하는지 전화로 바로 알려 드려요.'),
+    '가입 · 계약 제도': ('지금 내 계약은 어떻게 하는 게 나을까요?', '해지·변경 전에 전화 한 통이면 손해 보지 않는 방법을 같이 찾아 드려요.'),
+}
+def ask(c, mid=False):
+    h, p = ASK.get(c, ('내 보험은 어떨까요?', '가입하신 보험을 보며 이 내용이 나에게 해당되는지 전화로 바로 확인해 드려요.'))
+    if mid: h, p = '읽다가 궁금한 점이 생기셨나요?', '내 경우는 어떤지 전화로 물어보시면 바로 답해 드려요. 상담은 무료이고 가입 권유는 하지 않아요.'
+    return f'''<aside class="ask"><div><p class="ask-h">{h}</p><p>{p}</p></div><a class="btn solid call" href="tel:01063786964">전화 {PHONE}</a></aside>'''
+
 def cta():
     return f'''<aside class="cta">
   <p class="cta-label">무료 보장 분석</p>
@@ -92,8 +103,10 @@ for i, s in enumerate(order):
     body = [head(f"{a['title']} | 박은숙 보험상담", a['description'], url, extra)]
     body.append(f'<main class="wrap article">\n<nav class="crumbs" aria-label="현재 위치"><a href="../">홈</a> › <a href="./">보험 가이드</a> › <span>{e(c)}</span></nav>')
     body.append(f'<p class="cat">{e(c)}</p>\n<h1>{e(a["title"])}</h1>\n<p class="byline">글 · 보험설계사 박은숙</p>\n<p class="lead">{e(a["lead"])}</p>')
+    body.append(ask(c))
     body.append('<nav class="toc" aria-label="목차"><p>목차</p><ol>' + ''.join(f'<li><a href="#s{j+1}">{e(sec["h"])}</a></li>' for j, sec in enumerate(a['sections'])) + '</ol></nav>')
     for j, sec in enumerate(a['sections']):
+        if j == 2: body.append(ask(c, mid=True))
         body.append(f'<section id="s{j+1}"><h2>{e(sec["h"])}</h2>' + ''.join(f'<p>{e(p)}</p>' for p in sec['p']) + '</section>')
     body.append('<div class="checklist"><h2>상담 전 확인해 두면 좋은 것</h2><ul>' + ''.join(f'<li>{e(x)}</li>' for x in a['checklist']) + '</ul></div>')
     body.append('<section class="faq"><h2>자주 묻는 질문</h2>' + ''.join(f'<details><summary>{e(q["q"])}</summary><p>{e(q["a"])}</p></details>' for q in a['faq']) + '</section>')
