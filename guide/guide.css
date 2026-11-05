@@ -128,3 +128,16 @@ footer strong { color: var(--ink); }
   .ask .btn { width: 100%; }
   .mbar .btn.call { flex: 1.6; }
 }
+
+/* Illustrations */
+.art-img { margin: 28px 0 0; }
+.art-img img { display: block; width: 100%; height: auto; border-radius: 6px; }
+.gi-head { display: flex; align-items: center; gap: 20px; }
+.gi-head img { width: 168px; height: auto; border-radius: 6px; flex: none; }
+.gi-head h2 { margin: 0; }
+@media (max-width: 600px) {
+  .art-img { margin-top: 20px; }
+  .gi-head img { width: 112px; }
+}
+.gi-head { border-bottom: 2px solid var(--ink); padding-bottom: 12px; }
+.gi-head h2 { border-bottom: 0; padding-bottom: 0; }

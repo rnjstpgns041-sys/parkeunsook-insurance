@@ -35,7 +35,7 @@ extra = [s for s in arts if s not in cat_of]
 if missing or extra: print('MISSING', missing, 'EXTRA', extra); sys.exit(1)
 
 e = html.escape
-def head(title, desc, url, extra=''):
+def head(title, desc, url, extra='', img=BASE + '/assets/img/cat-4.png'):
     return f'''<!doctype html>
 <html lang="ko">
 <head>
@@ -48,6 +48,10 @@ def head(title, desc, url, extra=''):
 <meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{url}">
+<meta property="og:image" content="{img}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@600&display=swap">
@@ -90,19 +94,19 @@ def cta():
 
 os.makedirs(OUT + '/guide', exist_ok=True)
 for i, s in enumerate(order):
-    a = arts[s]; c = cat_of[s]; url = f'{BASE}/guide/{s}.html'
+    a = arts[s]; c = cat_of[s]; url = f'{BASE}/guide/{s}.html'; ci = CATS.index(c) + 1; img = f'{BASE}/assets/img/cat-{ci}.png'
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "Article", "headline": a['title'], "description": a['description'], "datePublished": a['date'], "dateModified": a['date'],
-         "author": {"@type": "Person", "name": "박은숙"}, "mainEntityOfPage": url, "inLanguage": "ko"},
+         "author": {"@type": "Person", "name": "박은숙"}, "image": img, "mainEntityOfPage": url, "inLanguage": "ko"},
         {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q['q'], "acceptedAnswer": {"@type": "Answer", "text": q['a']}} for q in a['faq']]},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "홈", "item": BASE + '/'},
             {"@type": "ListItem", "position": 2, "name": "보험 가이드", "item": BASE + '/guide/'},
             {"@type": "ListItem", "position": 3, "name": a['title'], "item": url}]}]}
     extra = '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False).replace('</', '<\\/') + '</script>\n'
-    body = [head(f"{a['title']} | 박은숙 보험상담", a['description'], url, extra)]
+    body = [head(f"{a['title']} | 박은숙 보험상담", a['description'], url, extra, img)]
     body.append(f'<main class="wrap article">\n<nav class="crumbs" aria-label="현재 위치"><a href="../">홈</a> › <a href="./">보험 가이드</a> › <span>{e(c)}</span></nav>')
-    body.append(f'<p class="cat">{e(c)}</p>\n<h1>{e(a["title"])}</h1>\n<p class="byline">글 · 보험설계사 박은숙</p>\n<p class="lead">{e(a["lead"])}</p>')
+    body.append(f'<p class="cat">{e(c)}</p>\n<h1>{e(a["title"])}</h1>\n<p class="byline">글 · 보험설계사 박은숙</p>\n<figure class="art-img"><img src="/assets/img/cat-{ci}.svg" width="1200" height="630" alt="{e(a["title"])} 설명 그림"></figure>\n<p class="lead">{e(a["lead"])}</p>')
     body.append(ask(c))
     body.append('<nav class="toc" aria-label="목차"><p>목차</p><ol>' + ''.join(f'<li><a href="#s{j+1}">{e(sec["h"])}</a></li>' for j, sec in enumerate(a['sections'])) + '</ol></nav>')
     for j, sec in enumerate(a['sections']):
@@ -124,7 +128,7 @@ idx.append('<main><section class="gi-hero"><div class="wrap"><p class="cat">보�
 idx.append('<nav class="cat-nav" aria-label="주제">' + ''.join(f'<a href="#c{k+1}">{e(c)}</a>' for k, c in enumerate(CATS)) + '</nav></div></section><div class="wrap">')
 for k, c in enumerate(CATS):
     items = [x for x in order if cat_of[x] == c]
-    idx.append(f'<section class="gi-cat" id="c{k+1}"><h2>{e(c)} <small>{len(items)}편</small></h2><ul class="gi-list">' + ''.join(f'<li><a href="{x}.html"><b>{e(arts[x]["title"])}</b><span>{e(arts[x]["description"])}</span></a></li>' for x in items) + '</ul></section>')
+    idx.append(f'<section class="gi-cat" id="c{k+1}"><div class="gi-head"><img src="/assets/img/cat-{k+1}.svg" width="1200" height="630" alt="{e(c)} 가이드" loading="lazy"><h2>{e(c)} <small>{len(items)}편</small></h2></div><ul class="gi-list">' + ''.join(f'<li><a href="{x}.html"><b>{e(arts[x]["title"])}</b><span>{e(arts[x]["description"])}</span></a></li>' for x in items) + '</ul></section>')
 idx.append(cta().replace('<aside class="cta">', '<aside class="cta" style="margin-bottom:72px">'))
 idx.append('</div></main>')
 idx.append(FOOT)
