@@ -141,3 +141,9 @@ footer strong { color: var(--ink); }
 }
 .gi-head { border-bottom: 2px solid var(--ink); padding-bottom: 12px; }
 .gi-head h2 { border-bottom: 0; padding-bottom: 0; }
+
+/* Direct answer block (for readers and AI answer engines) */
+.answer { margin-top: 28px; padding: 18px 20px; background: var(--alt); border-left: 4px solid var(--amber); }
+.answer-label { margin: 0 0 6px; font-size: 13px; font-weight: 700; color: var(--brand); }
+.answer .lead { margin-top: 0; }
+.byline a { color: inherit; }

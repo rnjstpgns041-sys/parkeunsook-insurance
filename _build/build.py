@@ -92,12 +92,20 @@ def cta():
   <div class="cta-row"><a class="btn amber" href="tel:01063786964">전화 상담 {PHONE}</a><a class="btn ghost" href="../#contact">상담 신청하기</a></div>
 </aside>'''
 
+AUTHOR = {"@type": "Person", "@id": BASE + '/#author', "name": "박은숙", "jobTitle": "보험설계사", "url": BASE + '/#about',
+          "telephone": "+82-10-6378-6964", "knowsAbout": CATS, "worksFor": {"@id": BASE + '/#agency'}}
+AGENCY = {"@type": "InsuranceAgency", "@id": BASE + '/#agency', "name": "박은숙 보험상담", "url": BASE + '/',
+          "telephone": "+82-10-6378-6964", "image": BASE + '/assets/img/cat-4.png', "areaServed": "KR", "priceRange": "무료 상담",
+          "description": "보험설계사 박은숙의 약관 기준 무료 보장 분석, 보험 리모델링, 보험금 청구 전화 상담.", "founder": {"@id": BASE + '/#author'}}
+
 os.makedirs(OUT + '/guide', exist_ok=True)
 for i, s in enumerate(order):
     a = arts[s]; c = cat_of[s]; url = f'{BASE}/guide/{s}.html'; ci = CATS.index(c) + 1; img = f'{BASE}/assets/img/cat-{ci}.png'
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "Article", "headline": a['title'], "description": a['description'], "datePublished": a['date'], "dateModified": a['date'],
-         "author": {"@type": "Person", "name": "박은숙"}, "image": img, "mainEntityOfPage": url, "inLanguage": "ko"},
+         "author": AUTHOR, "publisher": {"@id": BASE + '/#agency'}, "image": img, "mainEntityOfPage": url, "inLanguage": "ko",
+         "articleSection": c, "about": c, "isAccessibleForFree": True,
+         "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["h1", ".answer .lead"]}},
         {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q['q'], "acceptedAnswer": {"@type": "Answer", "text": q['a']}} for q in a['faq']]},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "홈", "item": BASE + '/'},
@@ -106,7 +114,7 @@ for i, s in enumerate(order):
     extra = '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False).replace('</', '<\\/') + '</script>\n'
     body = [head(f"{a['title']} | 박은숙 보험상담", a['description'], url, extra, img)]
     body.append(f'<main class="wrap article">\n<nav class="crumbs" aria-label="현재 위치"><a href="../">홈</a> › <a href="./">보험 가이드</a> › <span>{e(c)}</span></nav>')
-    body.append(f'<p class="cat">{e(c)}</p>\n<h1>{e(a["title"])}</h1>\n<p class="byline">글 · 보험설계사 박은숙</p>\n<figure class="art-img"><img src="/assets/img/cat-{ci}.svg" width="1200" height="630" alt="{e(a["title"])} 설명 그림"></figure>\n<p class="lead">{e(a["lead"])}</p>')
+    body.append(f'<p class="cat">{e(c)}</p>\n<h1>{e(a["title"])}</h1>\n<p class="byline">글 · <a href="../#about" rel="author">보험설계사 박은숙</a> · <time datetime="{a['date']}">{a['date'].replace('-', '.')}</time> 작성</p>\n<figure class="art-img"><img src="/assets/img/cat-{ci}.svg" width="1200" height="630" alt="{e(a["title"])} 설명 그림"></figure>\n<div class="answer"><p class="answer-label">핵심 답변</p><p class="lead">{e(a["lead"])}</p></div>')
     body.append(ask(c))
     body.append('<nav class="toc" aria-label="목차"><p>목차</p><ol>' + ''.join(f'<li><a href="#s{j+1}">{e(sec["h"])}</a></li>' for j, sec in enumerate(a['sections'])) + '</ol></nav>')
     for j, sec in enumerate(a['sections']):
@@ -147,7 +155,30 @@ import re
 hp = open(OUT + '/index.html', encoding='utf-8').read()
 hp = re.sub(r'자주 받는 질문 \d+가지를', f'자주 받는 질문 {len(order)}가지를', hp)
 hp = re.sub(r'보험 가이드 \d+편 전체 보기', f'보험 가이드 {len(order)}편 전체 보기', hp)
+faqs = re.findall(r'<details[^>]*><summary>(.*?)</summary><p>(.*?)</p></details>', hp.split('id="faq"', 1)[1].split('</section>', 1)[0])
+home_ld = {"@context": "https://schema.org", "@graph": [AGENCY, AUTHOR,
+    {"@type": "WebSite", "@id": BASE + '/#site', "url": BASE + '/', "name": "박은숙 보험상담", "inLanguage": "ko", "publisher": {"@id": BASE + '/#agency'}},
+    {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": re.sub('<[^>]+>', '', an)}} for q, an in faqs]}]}
+block = '<script type="application/ld+json" id="ld-home">' + json.dumps(home_ld, ensure_ascii=False).replace('</', '<\\/') + '</script>'
+hp = re.sub(r'<script type="application/ld\+json" id="ld-home">.*?</script>\n?', '', hp, flags=re.S)
+hp = hp.replace('</head>', block + '\n</head>', 1)
 open(OUT + '/index.html', 'w', encoding='utf-8').write(hp)
+
+# llms.txt: plain-language map of the site for AI assistants and answer engines
+L = ['# 박은숙 보험상담', '',
+     '> 보험설계사 박은숙이 운영하는 보험 정보 사이트입니다. 실손보험(실비), 진단비·특약, 보험 구조, 보험 리모델링, 가족·연령별 보험, 상품별 가이드, 보험금 청구, 가입·계약 제도에 관한 질문 ' + str(len(order)) + '가지를 약관 기준으로 정리했습니다. 무료 보장 분석 전화 상담: 010-6378-6964.', '',
+     '- 운영자: 박은숙 (보험설계사)',
+     '- 상담: 무료 전화 상담, 가입 권유 없음, 전화 010-6378-6964',
+     '- 홈페이지: ' + BASE + '/',
+     '- 가이드 전체 목록: ' + BASE + '/guide/',
+     '- 안내: 글은 일반 정보이며 실제 보장과 지급 조건은 가입한 상품의 약관과 증권을 따릅니다. 인용 시 출처로 이 사이트 주소를 밝혀 주세요.', '']
+for c in CATS:
+    L.append('## ' + c); L.append('')
+    for x in order:
+        if cat_of[x] == c:
+            L.append(f'- [{arts[x]["title"]}]({BASE}/guide/{x}.html): {arts[x]["description"]}')
+    L.append('')
+open(OUT + '/llms.txt', 'w', encoding='utf-8').write('\n'.join(L))
 
 # page titles for the stats page
 os.makedirs(OUT + '/stats', exist_ok=True)
