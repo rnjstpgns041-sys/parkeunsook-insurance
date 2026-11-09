@@ -1,6 +1,6 @@
 # 박은숙 보험상담
 
-> 보험설계사 박은숙이 운영하는 보험 정보 사이트입니다. 실손보험(실비), 진단비·특약, 보험 구조, 보험 리모델링, 가족·연령별 보험, 상품별 가이드, 보험금 청구, 가입·계약 제도에 관한 질문 655가지를 약관 기준으로 정리했습니다. 무료 보장 분석 전화 상담: 010-6378-6964.
+> 보험설계사 박은숙이 운영하는 보험 정보 사이트입니다. 실손보험(실비), 진단비·특약, 보험 구조, 보험 리모델링, 가족·연령별 보험, 상품별 가이드, 보험금 청구, 가입·계약 제도에 관한 질문 695가지를 약관 기준으로 정리했습니다. 무료 보장 분석 전화 상담: 010-6378-6964.
 
 - 운영자: 박은숙 (보험설계사)
 - 상담: 무료 전화 상담, 가입 권유 없음, 전화 010-6378-6964
@@ -284,6 +284,11 @@
 - [보장성 보험과 저축성 보험 차이](https://parkeunsook-insurance.netlify.app/guide/protection-vs-savings.html): 보장성 보험과 저축성 보험 차이를 목적과 보험료 구조, 해지환급금, 자주 헷갈리는 점까지 정리하고 내 계약이 어느 쪽인지 확인하는 방법을 안내합니다.
 - [진단비 수술비 입원비 차이, 무엇부터 볼까](https://parkeunsook-insurance.netlify.app/guide/benefit-types.html): 진단비 수술비 입원비 차이를 지급 조건과 역할 중심으로 정리하고, 보험을 점검할 때 어떤 순서로 보면 좋은지와 자주 헷갈리는 점을 함께 안내합니다.
 - [상해의 기준, 급격·우연·외래란](https://parkeunsook-insurance.netlify.app/guide/accident-definition.html): 상해의 기준인 급격·우연·외래의 뜻을 예시로 풀어 설명하고, 상해로 인정되지 않는 경우와 사고 후 상해 보험금을 청구할 때 확인할 점을 정리했습니다.
+- [보험 상담 받으면 꼭 가입해야 할까](https://parkeunsook-insurance.netlify.app/guide/consult-no-obligation.html): 보험 상담을 받으면 꼭 가입해야 하는지, 상담과 청약의 차이, 거절해도 되는 이유, 부담 없이 상담을 활용하는 방법을 보험설계사가 정리했습니다.
+- [좋은 보험설계사 알아보는 법](https://parkeunsook-insurance.netlify.app/guide/good-agent-signs.html): 좋은 보험설계사를 알아보는 법, 상담에서 확인할 태도와 설명 방식, 피해야 할 신호, 오래 함께할 담당자를 고르는 기준을 보험설계사가 정리했습니다.
+- [암보험과 실비, 무엇부터 들어야 할까](https://parkeunsook-insurance.netlify.app/guide/cancer-vs-silson-first.html): 암보험과 실비 중 무엇부터 들어야 할지, 두 보험의 보장 방식 차이와 우선순위를 정하는 기준, 함께 준비할 때 확인할 점을 보험설계사가 정리했습니다.
+- [보험 가입 전 꼭 물어볼 질문](https://parkeunsook-insurance.netlify.app/guide/questions-before-join.html): 보험 가입 전 설계사에게 꼭 물어볼 질문을 정리했습니다. 보장 범위와 제외 사항, 갱신 여부, 납입 기간, 해지환급금까지 확인할 질문을 보험설계사가 안내합니다.
+- [보험에 대한 흔한 오해](https://parkeunsook-insurance.netlify.app/guide/insurance-myths.html): 보험에 대한 흔한 오해를 정리했습니다. 보험이 많을수록 좋다, 실비가 있으면 다 된다, 오래된 보험은 바꿔야 한다는 생각이 왜 틀릴 수 있는지 설명합니다.
 
 ## 리모델링 · 보장 분석
 
@@ -355,6 +360,16 @@
 - [보험료 납입 끝나갈 때 점검할 것](https://parkeunsook-insurance.netlify.app/guide/payment-ending-soon.html): 보험료 납입 끝나갈 때 무엇을 점검해야 하는지, 갱신형 특약과 자동이체, 납입면제 여부, 보장 공백 확인까지 보험설계사가 차근차근 정리했습니다.
 - [건강해졌을 때 보험료 줄이는 법](https://parkeunsook-insurance.netlify.app/guide/health-improved-review.html): 건강해졌을 때 보험료 줄이는 법을 정리했습니다. 건강체 할인, 부담보 해제, 간편보험 재검토 등 확인할 것과 상품마다 다른 부분을 보험설계사가 짚었습니다.
 - [차 샀을 때 운전자보험 점검할 것](https://parkeunsook-insurance.netlify.app/guide/new-car-check.html): 차 샀을 때 운전자보험 점검이 필요한 이유와 자동차보험과의 역할 구분, 중복 가입, 가족 운전, 특약 확인 순서까지 보험설계사가 차분하게 정리했습니다.
+- [모르는 번호 보장 분석 전화 받았을 때](https://parkeunsook-insurance.netlify.app/guide/unknown-agent-call.html): 모르는 번호로 무료 보장 분석을 해준다는 전화를 받았을 때 개인정보 동의, 해지 권유, 신규 가입 요청 앞에서 먼저 확인할 것과 흔한 실수를 정리했습니다.
+- [대학병원 진료의뢰서 받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/big-hospital-referral.html): 동네 병원에서 대학병원 진료의뢰서를 받았을 때 검사와 진단 전에 내 보험에서 먼저 확인할 진단비, 실손, 서류 챙기는 법과 흔한 실수를 정리했습니다.
+- [치과 큰 견적 받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/dental-big-estimate.html): 치과에서 임플란트나 크라운 등 큰 견적을 받았을 때 치료 시작 전에 치아보험과 실손, 수술비 담보에서 확인할 것과 흔히 하는 실수를 정리했습니다.
+- [통원 잦아 보험사에서 연락 왔을 때](https://parkeunsook-insurance.netlify.app/guide/outpatient-frequent-call.html): 병원 통원이 잦아 보험사에서 확인 연락이나 서류 요청을 받았을 때 왜 연락이 오는지, 무엇을 준비하고 어떤 동의는 신중해야 하는지 정리했습니다.
+- [다이렉트 보험 가입했는데 내용 모를 때](https://parkeunsook-insurance.netlify.app/guide/direct-policy-confused.html): 온라인 다이렉트로 가입한 보험의 보장 내용을 잘 모를 때 증권과 약관을 찾는 법, 담보 구성 확인 순서, 해지하기 전에 조심할 점을 정리했습니다.
+- [보장 분석이란 무엇이고 무엇을 알려줄까](https://parkeunsook-insurance.netlify.app/guide/what-is-coverage-analysis.html): 보장 분석이란 무엇인지, 분석으로 알 수 있는 중복·부족 보장과 보험료 구조, 분석이 알려주지 않는 것까지 경험 많은 보험설계사가 차분히 정리했습니다.
+- [보험 가입할 때 많이 하는 실수는](https://parkeunsook-insurance.netlify.app/guide/join-mistakes.html): 보험 가입할 때 많이 하는 실수를 고지의무, 갱신형 구조, 보험료 비중, 수익자 지정 순서로 정리하고 가입 전에 확인할 점을 보험설계사가 안내합니다.
+- [보험이 하나도 없다면 무엇부터 들까](https://parkeunsook-insurance.netlify.app/guide/no-insurance-start.html): 보험이 하나도 없을 때 무엇부터 준비할지, 실손의료비와 주요 진단비의 우선순위, 보험료 범위 정하는 법과 가입 전 확인할 점을 보험설계사가 정리했습니다.
+- [보험 대신 저축하면 안 될까](https://parkeunsook-insurance.netlify.app/guide/insurance-vs-saving-money.html): 보험 대신 저축으로 병원비를 대비해도 되는지, 저축과 보험의 역할 차이, 저축만으로 어려운 상황, 둘을 나누는 기준을 보험설계사가 차분히 정리했습니다.
+- [보장 분석 상담은 어떻게 진행될까](https://parkeunsook-insurance.netlify.app/guide/analysis-process.html): 보장 분석 상담이 어떤 순서로 진행되는지, 가입 내역 확인부터 분석표 작성, 결과 설명까지 단계별로 무엇을 하는지 보험설계사가 차분히 정리했습니다.
 
 ## 가족 · 연령별 보험
 
@@ -432,6 +447,11 @@
 - [아이 요로감염 입원 보험](https://parkeunsook-insurance.netlify.app/guide/kids-uti.html): 아이 요로감염 입원 보험 청구를 정리했습니다. 실손 입원의료비와 입원일당, 신우신염 진단명 확인, 반복 입원 시 유의점, 청구 서류까지 안내합니다.
 - [임산부 교통사고, 보험 확인할 것](https://parkeunsook-insurance.netlify.app/guide/pregnant-car-accident.html): 임산부 교통사고 보험 처리를 정리했습니다. 자동차보험 대인 배상과 내 보험의 차이, 태아 검사 비용, 산모 상해 담보, 사고 후 챙길 서류까지 안내합니다.
 - [여름철 부모님 열사병·온열질환 보험](https://parkeunsook-insurance.netlify.app/guide/parents-heatstroke.html): 여름철 부모님 열사병·온열질환 보험을 정리했습니다. 응급실과 입원 치료비 실손 청구, 질병과 상해 구분, 일사병과 열사병 차이, 서류까지 안내합니다.
+- [배달 라이더 보험, 가입 거절됐을 때 확인할 것](https://parkeunsook-insurance.netlify.app/guide/delivery-rider-insurance.html): 배달 라이더 보험 가입이 거절됐을 때 이유가 무엇인지, 이륜차 운행 고지와 직업 분류, 기존 계약의 통지 의무, 다시 알아볼 방법까지 보험설계사가 차근차근 정리했습니다.
+- [택배기사 보험, 다쳤을 때와 가입 전 확인](https://parkeunsook-insurance.netlify.app/guide/courier-driver-insurance.html): 택배기사 보험에서 일하다 다쳤을 때 먼저 할 일, 산재와 개인보험 청구 순서, 직업 고지와 통지 의무, 가입 전에 확인할 담보까지 보험설계사가 정리했습니다.
+- [건설 일용직 보험, 산재와 개인보험](https://parkeunsook-insurance.netlify.app/guide/construction-worker-insurance.html): 건설 일용직으로 일하다 다쳤을 때 산재 신청과 개인보험 청구를 어떻게 함께 볼지, 직업 고지와 통지 의무, 자주 하는 실수까지 보험설계사가 차분히 정리했습니다.
+- [간호사·의료인 보험, 직업 고지와 보장](https://parkeunsook-insurance.netlify.app/guide/nurse-insurance.html): 간호사·의료인이 보험 가입이나 점검 때 직업 고지를 어떻게 하는지, 근무 중 감염이나 부상, 교대근무에 맞는 보장 점검과 자주 하는 실수를 보험설계사가 정리했습니다.
+- [택시·화물 기사 보험 점검](https://parkeunsook-insurance.netlify.app/guide/taxi-driver-insurance.html): 택시·화물 기사가 보험을 점검할 때 영업용 운전 고지와 직업 기재, 운전자보험의 운전 범위, 사고 후 자주 하는 실수와 도움이 필요한 시점까지 보험설계사가 정리했습니다.
 
 ## 상품별 가이드
 
@@ -518,6 +538,11 @@
 - [해외출장 보험, 회사와 개인 보험 확인](https://parkeunsook-insurance.netlify.app/guide/business-trip-insurance.html): 해외출장 보험은 회사가 가입한 단체보험과 내 개인 보험이 어떻게 나뉘는지가 핵심입니다. 출장 중 의료비와 상해, 산재와의 관계까지 정리했습니다.
 - [임대인 보험, 집주인이 챙길 배상책임](https://parkeunsook-insurance.netlify.app/guide/landlord-insurance.html): 임대인 보험이 왜 필요한지, 세입자 피해와 이웃 누수 사고에서 집주인 책임, 일상배상책임과의 차이, 가입한 화재보험 특약 점검 방법까지 차례로 정리했습니다.
 - [음식점 식중독 보험, 배상책임 확인법](https://parkeunsook-insurance.netlify.app/guide/restaurant-food-poisoning.html): 음식점 식중독 보험이 어떤 사고를 보장하는지, 영업배상책임과 생산물배상책임의 차이, 배달 음식 사고, 사고 후 대응과 확인할 점을 정리했습니다.
+- [폐업한 자영업자 보험 정리, 해지 전 순서](https://parkeunsook-insurance.netlify.app/guide/small-business-closing.html): 폐업한 자영업자 보험 정리를 어떻게 해야 하는지, 사업장 보험과 개인 보험 구분, 해지 전에 확인할 것과 흔한 실수, 상담이 필요한 경우를 보험설계사가 정리했습니다.
+- [농업인 보험, 농작업 사고 대비 점검](https://parkeunsook-insurance.netlify.app/guide/farmer-insurance.html): 농업인 보험을 어떻게 준비해야 하는지, 농작업 사고 시 확인할 담보와 직업 고지, 정책보험과 개인보험의 관계, 흔한 실수를 보험설계사가 정리했습니다.
+- [공무원 단체보험 있을 때 개인보험 점검](https://parkeunsook-insurance.netlify.app/guide/public-servant-insurance.html): 공무원 단체보험이 있을 때 개인보험을 어떻게 점검해야 하는지, 맞춤형 복지 단체보험의 범위와 퇴직 후 공백, 중복 가입 시 흔한 실수를 보험설계사가 정리했습니다.
+- [직업군인 보험, 단체보험과 개인보험](https://parkeunsook-insurance.netlify.app/guide/soldier-insurance.html): 직업군인 보험을 어떻게 준비해야 하는지, 군 단체보험의 범위와 훈련 중 사고 시 확인할 것, 전역 후 공백과 직업 고지 실수를 보험설계사가 정리했습니다.
+- [미용·네일 종사자 보험, 손목·피부 질환](https://parkeunsook-insurance.netlify.app/guide/beautician-insurance.html): 미용·네일 종사자 보험을 어떻게 점검해야 하는지, 손목터널증후군과 접촉피부염 같은 직업성 질환, 직업 고지와 청구 시 흔한 실수를 보험설계사가 정리했습니다.
 
 ## 보험금 청구
 
@@ -597,6 +622,16 @@
 - [쓰러져 다쳤을 때, 상해일까 질병일까](https://parkeunsook-insurance.netlify.app/guide/claim-fainting-injury.html): 쓰러져 다쳤을 때 상해로 보는지 질병으로 보는지 정리했습니다. 실신 원인과 다친 부위를 나눠 보는 방식, 실손과 정액 담보의 차이, 경위서 작성법을 설명합니다.
 - [술 마시고 다쳤을 때 보험금 받을 수 있을까](https://parkeunsook-insurance.netlify.app/guide/claim-drunk-injury.html): 술 마시고 다쳤을 때 보험금을 받을 수 있는지 정리했습니다. 상해보험과 실손의 일반적인 기준, 싸움·음주운전처럼 따로 보는 경우, 확인할 약관 조항을 설명합니다.
 - [성형 부작용 치료 실비 될까](https://parkeunsook-insurance.netlify.app/guide/claim-cosmetic-complication.html): 성형 부작용 치료 실비가 되는지 정리했습니다. 미용 목적 수술과 합병증 치료를 보는 일반적인 기준, 판단이 갈리는 경우, 의료사고일 때 확인할 점을 설명합니다.
+- [손해사정사 직접 선임, 언제 필요할까](https://parkeunsook-insurance.netlify.app/guide/adjuster-hire.html): 보험금 심사가 길어지거나 장해·과실 판단에 이견이 있을 때 손해사정사를 직접 선임하는 방법, 비용과 절차, 먼저 확인할 서류까지 함께 정리했습니다.
+- [보험사에서 소송 안내를 받았을 때](https://parkeunsook-insurance.netlify.app/guide/claim-lawsuit-notice.html): 보험사에서 채무부존재확인 소송이나 조정 신청 안내를 받았을 때 먼저 할 일, 확인할 서류, 흔한 실수와 변호사 상담이 필요한 경우를 정리했습니다.
+- [보험사가 합의금 제시했을 때, 바로 서명해도 될까](https://parkeunsook-insurance.netlify.app/guide/settlement-offer.html): 보험사가 합의금을 제시했을 때 바로 서명하기 전에 확인할 치료 종결 여부, 후유장해, 합의서 문구와 흔한 실수, 도움이 필요한 경우를 정리했습니다.
+- [보험사가 입원이 길다고 할 때](https://parkeunsook-insurance.netlify.app/guide/hospital-stay-questioned.html): 보험사가 입원 기간이 길다며 입원비 지급을 줄이거나 의료자문을 요청할 때 확인할 약관과 의무기록, 흔한 실수와 대응 순서를 차례로 정리했습니다.
+- [가족이 의식이 없을 때 보험금 청구](https://parkeunsook-insurance.netlify.app/guide/family-unconscious-claim.html): 가족이 의식이 없어 직접 청구할 수 없을 때 지정대리청구인, 성년후견 등 청구 방법과 확인할 서류, 흔한 실수와 도움이 필요한 경우를 정리했습니다.
+- [가족이 중환자실에 있을 때 챙길 보험](https://parkeunsook-insurance.netlify.app/guide/family-in-icu.html): 가족이 중환자실에 입원했을 때 보호자가 지금 챙길 보험을 정리했습니다. 가입 계약 찾기, 진단서 발급 시점, 실손과 정액 담보, 흔한 실수까지 순서대로 안내합니다.
+- [학교폭력으로 다쳤을 때 보험 청구](https://parkeunsook-insurance.netlify.app/guide/school-violence-injury.html): 자녀가 학교폭력으로 다쳤을 때 치료비와 보험 청구를 어떻게 준비할지 정리했습니다. 실손과 어린이보험, 학교안전공제, 가해 측 배상까지 확인 순서를 안내합니다.
+- [폭행 피해로 다쳤을 때 치료비와 보험](https://parkeunsook-insurance.netlify.app/guide/assault-victim.html): 폭행 피해로 다쳤을 때 치료비를 어떻게 처리하는지 정리했습니다. 건강보험 적용, 실손과 상해 담보 청구, 합의 전 주의할 점, 전문가 도움이 필요한 때를 안내합니다.
+- [집에 불이 났을 때 보험 처리 순서](https://parkeunsook-insurance.netlify.app/guide/house-fire-steps.html): 집에 불이 났을 때 보험 처리를 어떤 순서로 해야 하는지 정리했습니다. 화재증명원과 피해 기록, 가입 계약 확인, 이웃 피해 배상, 자주 하는 실수를 안내합니다.
+- [국내 여행 중 다쳤을 때 보험 청구](https://parkeunsook-insurance.netlify.app/guide/domestic-trip-injury.html): 국내 여행 중 다쳤을 때 보험 청구를 어떻게 준비할지 정리했습니다. 현지 진료 서류, 실손과 상해 담보, 레저 활동과 숙소 사고 확인, 자주 하는 실수를 안내합니다.
 
 ## 가입 · 계약 제도
 
@@ -686,3 +721,8 @@
 - [보험료 카드 납부 될까, 확인할 점](https://parkeunsook-insurance.netlify.app/guide/card-premium-payment.html): 보험료 카드 납부가 되는지, 상품별로 달라지는 이유와 첫 회만 가능한 경우, 카드 납부 전에 확인할 점과 문의하는 방법을 보험설계사가 정리했습니다.
 - [수익자 법정상속인이란 무슨 뜻일까](https://parkeunsook-insurance.netlify.app/guide/legal-heir-beneficiary.html): 수익자 법정상속인이란 무슨 뜻인지, 보험금을 누가 어떤 비율로 받는지, 상속포기와의 관계 등 자주 헷갈리는 부분과 확인할 점을 보험설계사가 정리했습니다.
 - [다른 보험 가입 사실, 알려야 할까](https://parkeunsook-insurance.netlify.app/guide/other-policy-disclosure.html): 다른 보험 가입 사실을 알려야 하는지, 청약서 질문과 실손 중복 확인, 가입 후 새 계약을 알려야 하는 경우와 놓치기 쉬운 부분을 보험설계사가 정리했습니다.
+- [보험사가 의료기록 열람 동의서를 요구할 때](https://parkeunsook-insurance.netlify.app/guide/medical-records-consent.html): 보험금 청구 뒤 보험사가 의료기록 열람 동의서를 보내왔을 때 동의 범위, 서명 전 확인할 내용, 흔한 실수와 도움이 필요한 시점을 보험설계사가 차분히 정리했습니다.
+- [보험 가입하자마자 아플 때, 보장될까](https://parkeunsook-insurance.netlify.app/guide/sick-right-after-join.html): 보험 가입하자마자 아프거나 진단을 받았을 때 보장 개시일, 면책·감액기간, 고지 내용 확인법과 해지 전에 주의할 점을 보험설계사가 차근차근 정리했습니다.
+- [설계사가 고지 안 해도 된다고 했을 때](https://parkeunsook-insurance.netlify.app/guide/agent-said-no-disclosure.html): 설계사가 병력은 고지 안 해도 된다고 해서 그대로 가입했을 때 생길 수 있는 문제, 지금 확인할 서류, 흔한 실수와 바로잡는 방법을 보험설계사가 정리했습니다.
+- [부모님이 모르고 가입한 보험, 취소할 수 있을까](https://parkeunsook-insurance.netlify.app/guide/parents-unwanted-policy.html): 부모님이 내용을 잘 모르고 가입한 보험을 발견했을 때 자녀가 확인할 계약 정보, 취소 방법을 고르는 순서, 흔한 실수와 도움이 필요한 시점을 정리했습니다.
+- [모르는 보험료가 빠져나갈 때 확인할 것](https://parkeunsook-insurance.netlify.app/guide/unknown-premium-debit.html): 통장이나 카드에서 모르는 보험료가 빠져나갈 때 어떤 계약인지 찾는 법, 출금 중지 전 확인할 점, 흔한 실수와 도움이 필요한 시점을 보험설계사가 정리했습니다.
