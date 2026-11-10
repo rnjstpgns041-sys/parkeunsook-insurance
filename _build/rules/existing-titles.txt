@@ -203,11 +203,51 @@ join-mistakes | 보험 가입할 때 많이 하는 실수는
 no-insurance-start | 보험이 하나도 없다면 무엇부터 들까
 insurance-vs-saving-money | 보험 대신 저축하면 안 될까
 analysis-process | 보장 분석 상담은 어떻게 진행될까
+cook-insurance | 요리사 보험, 화상·베임과 직업 고지
+care-worker-insurance | 요양보호사 보험, 허리 부상과 배상책임
+teacher-insurance | 교사 보험, 성대 질환과 단체보험 겹침
+desk-worker-insurance | 사무직 직장인 보험, 디스크·손목 점검
+factory-worker-insurance | 공장 생산직 보험, 끼임 사고와 직업 등급
+bank-sold-insurance | 은행에서 예금인 줄 알고 가입한 보험
+home-shopping-insurance | 홈쇼핑 보고 보험 가입하기 전 확인할 것
+switch-pressure-call | 보험 갈아타라는 전화를 받았을 때
+friend-agent-refuse | 지인 설계사가 보험 권유할 때 대처법
+card-company-tm-insurance | 카드사 전화로 가입된 보험 확인하는 법
+silson-cast-brace | 깁스·보조기 실비 청구, 구입비도 될까
+silson-gastroenteritis | 장염 수액 맞았을 때 실비 청구
+silson-old-receipts | 오래된 병원 영수증 몰아서 실비 청구
+silson-ankle-sprain | 발목 접질림 치료 실비 청구, 확인할 것
+silson-day-surgery-ward | 낮병동 당일 입원 실비, 입원일까 통원일까
+thyroid-nodule-found | 갑상선 결절 발견됐을 때 보험 확인
+lung-nodule-found | 폐결절 발견됐을 때 보험 확인
+stent-recommended | 심장 스텐트 시술 권유받았을 때 보험 확인
+tia-symptoms-claim | 일과성 뇌허혈 진단 받았을 때 보험
+kidney-function-drop | 신장 수치 이상 나왔을 때 보험 확인
+pedestrian-hit-claim | 길 가다 차에 치였을 때 보험 처리
+slip-in-store-claim | 마트·식당에서 미끄러져 다쳤을 때
+our-dog-bit-someone | 우리 개가 사람을 물었을 때 보험
+kids-hurt-friend | 아이가 친구를 다치게 했을 때 보험
+neighbor-leak-claim | 아랫집 누수 배상 요청 왔을 때
 savings-insurance | 저축보험과 적금, 무엇이 다를까
 car-accident-claims | 교통사고 치료 시 보험 청구 순서
 claim-after-death | 가족 사망 후 보험 확인과 청구
 chronic-disease-insurance | 고혈압·당뇨가 있어도 가입하는 보험
 policyholder-change | 보험 계약자 변경, 주의할 점
+medical-accident-suspected | 의료사고가 의심될 때, 보험과 대처 순서
+claim-paid-less | 보험금이 적게 나왔을 때, 지급 내역서 보는 법
+insurer-refund-demand | 보험사가 보험금 돌려달라고 할 때
+icy-road-fall | 빙판길 넘어져 다쳤을 때 보험 청구
+sports-club-injury | 조기축구·동호회 운동하다 다쳤을 때
+silson-worth-it | 실비보험 꼭 있어야 할까
+insurance-waste-question | 보험은 돈 낭비일까
+healthy-young-need-insurance | 건강한 20·30대도 보험이 필요할까
+cheap-insurance-bad | 보험료 싼 보험은 안 좋은 걸까
+premium-rise-why | 보험료는 왜 자꾸 오를까
+how-agents-earn | 보험설계사는 어떻게 돈을 벌까
+what-is-underwriting | 보험 가입 심사는 어떻게 이뤄질까
+insurer-vs-ga-agent | 보험사 전속 설계사와 GA 설계사 차이는
+family-of-four-premium | 4인 가족 보험료 어느 정도가 적당할까
+insurance-tell-family | 내 보험을 가족이 알아야 하는 이유
 silson-rejoin | 실손보험 해지 후 다시 가입하기 어려운 이유
 silson-pharmacy | 약값, 실손으로 얼마나 돌려받을까
 silson-hospital-level | 의원·병원·상급종합병원, 공제금액이 다른 이유
