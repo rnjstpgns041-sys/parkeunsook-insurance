@@ -248,11 +248,51 @@ what-is-underwriting | 보험 가입 심사는 어떻게 이뤄질까
 insurer-vs-ga-agent | 보험사 전속 설계사와 GA 설계사 차이는
 family-of-four-premium | 4인 가족 보험료 어느 정도가 적당할까
 insurance-tell-family | 내 보험을 가족이 알아야 하는 이유
+security-guard-insurance | 경비원 보험, 낙상·폭행과 고령 가입
+cleaning-worker-insurance | 환경미화원 보험, 허리·무릎과 직업 고지
+electrician-insurance | 전기기사 보험, 감전·추락과 직업 등급
+fisher-insurance | 어업인 보험, 해상 사고와 개인보험 구분
+call-center-worker-insurance | 콜센터 상담원 보험, 성대·정신건강 고지
+unsigned-contract | 내가 서명하지 않은 보험이 있을 때
+late-disclosure-fix | 가입할 때 병력 안 알린 걸 뒤늦게 알았을 때
+premium-account-closed | 보험료 자동이체 계좌가 막혀 미납됐을 때
+blank-form-sign-request | 설계사가 빈 서류에 서명부터 하라고 할 때
+agent-promised-refund | "원금 다 돌려받는다" 듣고 가입했을 때
+silson-flu-test | 독감 검사비 실비 청구, 통원 서류 정리
+silson-bunion | 무지외반증 수술 실비 청구, 치료 목적 확인
+silson-sleep-test | 수면다원검사 실비 청구, 급여 여부 차이
+silson-knee-injection | 무릎 주사 실비 청구, 연골·관절주사 기준
+silson-burn-dressing | 화상 치료 실비 청구, 드레싱과 흉터 구분
+psa-high-found | 건강검진 PSA 수치 높을 때 보험 확인
+prediabetes-found | 공복혈당장애 나왔을 때 보험 확인
+hypertension-first-diagnosis | 고혈압 처음 진단받았을 때 보험 확인
+ovarian-cyst-found | 난소 낭종 발견됐을 때 보험 확인
+liver-ultrasound-abnormal | 간 초음파 이상 나왔을 때 보험 확인
+bike-hit-pedestrian | 자전거 타다 보행자를 다치게 했을 때
+kids-cafe-injury | 키즈카페·놀이터에서 아이가 다쳤을 때
+home-burn-claim | 집에서 화상 입었을 때 보험 청구
+scooter-hit-victim | 전동킥보드에 치였을 때 보험 처리
+hit-and-run-victim | 뺑소니·무보험차에 다쳤을 때
+interior-work-damage | 인테리어 공사로 이웃 피해 생겼을 때
+dog-attacked-my-dog | 우리 개가 다른 개에게 물렸을 때
+car-passenger-injury | 지인 차 동승 중 사고로 다쳤을 때
+broken-tooth-accident | 넘어져 이가 부러졌을 때 보험 청구
+escalator-injury | 에스컬레이터·엘리베이터에서 다쳤을 때
+low-income-insurance | 월급이 적은데 보험은 어떻게 들어야 할까
+why-diagnosis-with-silson | 실비가 있는데 진단비 보험이 왜 필요할까
+one-insurer-or-many | 보험은 한 회사로 몰아서 드는 게 좋을까
+good-policy-signs | 좋은 보험인지 어떻게 알 수 있을까
+why-coverage-analysis-free | 보장 분석은 왜 무료일까
 silson-rejoin | 실손보험 해지 후 다시 가입하기 어려운 이유
 silson-pharmacy | 약값, 실손으로 얼마나 돌려받을까
 silson-hospital-level | 의원·병원·상급종합병원, 공제금액이 다른 이유
 heart-procedure-rider | 스텐트·심장 시술, 수술비 특약으로 보장될까
 cancer-nursing-hospital | 암 치료 중 요양병원 입원, 보장 확인법
+tell-agent-before-claim | 보험금 청구 전에 설계사에게 먼저 말해야 할까
+accident-proof-how | 사고로 다친 건 어떻게 증명할까
+claim-affects-new-join | 보험금 청구하면 나중에 보험 가입이 어려울까
+insurer-see-medical-records | 보험사는 내 병원 기록을 다 볼 수 있을까
+where-insurance-consult | 보험 상담은 어디서 받는 게 좋을까
 injury-vs-disease | 상해와 질병, 구분에 따라 보험금이 달라지는 이유
 cataract-surgery | 백내장 수술, 실손과 수술비 보장 확인 포인트
 stroke-rehab | 뇌졸중 이후 재활치료와 보험 보장
