@@ -293,6 +293,46 @@ accident-proof-how | 사고로 다친 건 어떻게 증명할까
 claim-affects-new-join | 보험금 청구하면 나중에 보험 가입이 어려울까
 insurer-see-medical-records | 보험사는 내 병원 기록을 다 볼 수 있을까
 where-insurance-consult | 보험 상담은 어디서 받는 게 좋을까
+bus-driver-insurance | 버스기사 보험, 운전 중 사고와 공제 확인
+daycare-teacher-insurance | 어린이집 교사 보험, 아이 사고 났을 때
+warehouse-worker-insurance | 물류센터 근무자 보험, 다쳤을 때 확인
+firefighter-police-insurance | 소방관·경찰관 보험, 가입 제한과 공무 부상
+flight-attendant-insurance | 승무원 보험, 해외 체류 중 진료와 고지
+cancel-not-processed | 보험 해지 신청했는데 보험료가 계속 나갈 때
+parents-policy-loan-found | 부모님 보험 약관대출 발견했을 때
+premium-double-charged | 보험료가 두 번 빠져나갔을 때 확인할 것
+beneficiary-ex-spouse | 보험 수익자가 전 배우자로 되어 있을 때
+policy-differs-explanation | 보험증권이 설명 들은 내용과 다를 때
+silson-ganglion-cyst | 결절종 실비 청구, 손목 혹 흡인·수술
+silson-biopsy-cost | 조직검사 비용 실비 청구, 결과 전에도
+silson-cold-outpatient | 감기 병원비 실비 청구, 할 만할까
+silson-floaters | 비문증 검사 실비 청구, 눈앞 날파리
+silson-pain-injection | 통증주사 실비 청구, TPI·신경주사
+gallbladder-polyp-found | 담낭 용종 발견됐을 때 보험 확인
+breast-calcification-found | 유방 미세석회화 소견 나왔을 때 보험 확인
+carotid-plaque-found | 경동맥 플라크 소견 나왔을 때 보험 확인
+kidney-cyst-found | 신장 낭종 발견됐을 때 보험 확인
+bone-density-low | 골밀도 낮게 나왔을 때 보험 확인
+finger-cut-stitches | 손가락 베여 꿰맸을 때 보험 청구
+commute-accident | 출퇴근길 사고로 다쳤을 때 보험 순서
+camping-accident | 캠핑 중 다쳤을 때 보험 청구
+child-swallowed-object | 아이가 이물질을 삼켰을 때 보험 청구
+trampoline-injury | 트램펄린장에서 다쳤을 때 보험
+hiking-injury | 등산 중 다쳤을 때 보험 청구, 구조·골절 정리
+massage-shop-injury | 마사지 받다 다쳤을 때, 업체 배상과 실비
+salon-treatment-damage | 미용실 시술로 두피 상했을 때 보험 처리
+eye-injury-accident | 사고로 눈 다쳤을 때 보험 청구 순서
+adult-concussion | 머리 부딪쳐 뇌진탕 진단받았을 때 보험
+insurer-cancel-my-policy | 보험사가 내 보험을 마음대로 해지할 수 있을까
+coverage-analysis-privacy | 보장 분석 받을 때 개인정보는 괜찮을까
+keep-insurance-docs-how-long | 병원 영수증과 보험 서류는 얼마나 보관해야 할까
+insurance-vs-government-support | 국가 의료비 지원이 있는데 보험이 필요할까
+family-insurance-one-agent | 가족 보험을 한 설계사에게 맡겨도 될까
+how-payout-decided | 보험금은 누가 어떻게 결정할까
+why-insurance-hard | 보험은 왜 이렇게 어렵게 느껴질까
+kids-or-parents-first | 아이 보험과 부모 보험 중 무엇을 먼저 챙길까
+minor-visit-disclosure | 감기 같은 가벼운 진료도 보험 가입 때 알려야 할까
+insurance-with-debt | 빚이 있는데 보험료를 계속 내야 할까
 injury-vs-disease | 상해와 질병, 구분에 따라 보험금이 달라지는 이유
 cataract-surgery | 백내장 수술, 실손과 수술비 보장 확인 포인트
 stroke-rehab | 뇌졸중 이후 재활치료와 보험 보장
