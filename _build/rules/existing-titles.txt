@@ -333,11 +333,51 @@ why-insurance-hard | 보험은 왜 이렇게 어렵게 느껴질까
 kids-or-parents-first | 아이 보험과 부모 보험 중 무엇을 먼저 챙길까
 minor-visit-disclosure | 감기 같은 가벼운 진료도 보험 가입 때 알려야 할까
 insurance-with-debt | 빚이 있는데 보험료를 계속 내야 할까
+pharmacist-insurance | 약사 보험, 하지정맥류·허리와 배상책임
+realtor-insurance | 공인중개사 보험, 이동 중 사고와 직업 고지
+cafe-owner-insurance | 카페 사장님 보험, 화상·손목과 손님 사고
+mover-insurance | 이삿짐 운반 종사자 보험, 허리·추락과 산재
+tutor-insurance | 학원 강사 보험, 성대·목과 소득 공백
 injury-vs-disease | 상해와 질병, 구분에 따라 보험금이 달라지는 이유
 cataract-surgery | 백내장 수술, 실손과 수술비 보장 확인 포인트
 stroke-rehab | 뇌졸중 이후 재활치료와 보험 보장
 level-vs-increasing | 체증형·체감형·정액형 보장, 무엇이 다를까
 interest-rate-terms | 예정이율과 공시이율, 보험료와 환급금 영향
+premium-raise-sms | 보험료 인상 문자 받았을 때 확인할 것
+rider-expired-notice | 특약 보장 만기 안내를 받았을 때
+spouse-hid-policy | 배우자 몰래 가입된 보험을 알게 됐을 때
+beneficiary-minor-child | 미성년 자녀가 보험 수익자일 때
+holder-died-premium | 보험 계약자 사망 후 보험료는 어떻게 될까
+silson-dizziness-mri | 어지러워서 MRI 찍었을 때 실비 청구
+silson-kids-ent | 아이 이비인후과 자주 갈 때 실비 청구
+silson-neck-injection | 목 디스크 주사치료 실비 청구
+silson-pediatric-er | 아이가 밤에 응급실 갔을 때 실비 청구
+silson-rehab-after-cast | 깁스 푼 뒤 재활치료 실비 청구
+ecg-abnormal-checkup | 건강검진 심전도 이상 나왔을 때 보험 확인
+liver-enzyme-high | 간수치 높게 나왔을 때 보험 확인
+thyroid-hormone-abnormal | 갑상선 기능 이상 나왔을 때 보험 확인
+anemia-found | 빈혈 소견 나왔을 때 보험 확인
+hearing-test-abnormal | 청력검사 이상 나왔을 때 보험 확인
+car-door-finger-injury | 차 문에 손가락 끼었을 때 보험 청구
+kids-bike-fall | 아이 자전거 타다 넘어져 다쳤을 때
+bathroom-fall-adult | 욕실에서 미끄러져 다쳤을 때 보험 청구
+dog-walk-fall | 강아지 산책하다 넘어져 다쳤을 때
+snow-shoveling-injury | 눈 치우다 허리 다쳤을 때 보험 청구
+heater-burn-claim | 난로·전기장판 화상 보험 청구
+gas-leak-accident | 가스 사고로 다쳤을 때 보험 확인
+frozen-pipe-burst | 수도관 동파 피해, 아랫집까지 번졌을 때
+food-allergy-restaurant | 식당 음식 먹고 알레르기 반응 왔을 때
+babysitter-child-injury | 아이돌보미 돌보는 중 아이가 다쳤을 때
+preexisting-condition-covered | 가입 전에 앓던 병도 보험으로 보장될까
+premium-differs-gender | 남자와 여자 보험료는 왜 다를까
+agent-asks-health-why | 보험설계사는 왜 건강 상태를 자세히 물어볼까
+what-happens-insurance-when-die | 내가 사망하면 내 보험은 어떻게 될까
+premium-differs-by-job | 직업에 따라 보험료가 달라지는 이유는
+single-need-life-insurance | 미혼인데 사망보험이 필요할까
+why-claim-docs-many | 보험금 청구 서류는 왜 이렇게 많이 필요할까
+long-hospital-stay-pays | 오래 입원하면 보험에서 무엇을 받을 수 있을까
+live-without-insurance | 보험 없이 살아도 괜찮을까
+why-agent-recommends-new | 설계사는 왜 새 보험을 권할까
 group-insurance-work | 회사 단체보험 있을 때 개인보험 정리법
 premium-payment-tips | 보험료 납입 방법과 연체 시 주의할 점
 too-many-policies | 보험이 너무 많을 때 정리하는 순서
