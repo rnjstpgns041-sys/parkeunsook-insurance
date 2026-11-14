@@ -378,11 +378,51 @@ why-claim-docs-many | 보험금 청구 서류는 왜 이렇게 많이 필요할�
 long-hospital-stay-pays | 오래 입원하면 보험에서 무엇을 받을 수 있을까
 live-without-insurance | 보험 없이 살아도 괜찮을까
 why-agent-recommends-new | 설계사는 왜 새 보험을 권할까
+online-seller-insurance | 온라인 쇼핑몰 사장님 보험, 허리·손목과 소득 공백
+plumber-insurance | 설비·배관 기사 보험, 추락·공구 사고와 고객 배상
+fitness-trainer-insurance | 헬스 트레이너·필라테스 강사 보험, 회원 배상
+social-worker-insurance | 사회복지사 보험, 허리 부상과 이용자 사고 배상
+creator-insurance | 1인 크리에이터·유튜버 보험, 소득 공백과 직업 고지
+holder-is-company-policy | 회사가 계약자인 보험, 퇴사 전 확인할 것
+silson-switch-4th-call | 실비 4세대 전환 전화 받았을 때
+agent-stopped-answering | 설계사 연락 안 될 때, 보험사에 직접 확인하기
+insurer-review-letter | 보험사 계약 적부 조사 안내 받았을 때
+fake-insurer-scam | 보험사 사칭 문자·전화 받았을 때
+silson-adenoid-surgery | 아이 아데노이드 수술 실비 청구 서류
+silson-glaucoma-test | 녹내장 검사비 실비 청구, 시야검사·OCT
+silson-calcific-tendinitis | 석회성 건염 체외충격파 실비 청구
+silson-foot-orthotics | 맞춤 깔창 실비 청구, 처방 있으면 될까
+silson-dermatitis-kids | 아이 아토피 실비 청구, 연고·보습제 구분
 group-insurance-work | 회사 단체보험 있을 때 개인보험 정리법
 premium-payment-tips | 보험료 납입 방법과 연체 시 주의할 점
 too-many-policies | 보험이 너무 많을 때 정리하는 순서
 keep-old-policy | 오래된 보험, 해지보다 유지가 나은 경우
 coverage-amount-guide | 진단비·사망보장 가입금액 정하는 법
+eye-pressure-high-found | 안압 높게 나왔을 때 보험 확인
+urine-protein-found | 소변검사 단백뇨 나왔을 때 보험 확인
+stomach-erosion-found | 위내시경 위염·미란 소견 나왔을 때 보험 확인
+lung-function-low | 폐기능 검사 저하 나왔을 때 보험 확인
+uric-acid-high-found | 요산 수치 높게 나왔을 때 보험 확인
+kids-sled-injury | 눈썰매장에서 아이가 다쳤을 때 보험 처리
+icy-road-car-crash | 빙판길에서 차가 미끄러져 사고 났을 때
+neighbor-fire-spread | 이웃집 불이 번져 우리 집이 피해 입었을 때
+power-tool-injury | 집에서 공구 쓰다 다쳤을 때 보험 청구
+ballpark-ball-injury | 야구장에서 공에 맞아 다쳤을 때 보험
+daycare-bite-injury | 어린이집에서 친구에게 물렸을 때 보험
+nail-salon-infection | 네일숍 시술 후 손톱 염증 생겼을 때
+acupuncture-side-effect | 한의원 침·약침 후 이상이 생겼을 때
+dental-treatment-complication | 치과 치료 후 문제가 생겼을 때 대처
+vaccine-side-effect | 예방접종 후 이상반응, 보상과 보험
+same-disease-claim-twice | 같은 병으로 보험금 두 번 받을 수 있을까
+child-hurt-who-gets-money | 아이가 다치면 보험금은 누구 통장으로 받을까
+silson-cover-family | 실비보험 하나로 가족 모두 보장될까
+claim-timing-best | 보험금은 언제 청구하는 게 좋을까
+first-thing-after-accident | 사고가 나면 보험 때문에 가장 먼저 할 일은
+agent-mistake-responsibility | 설계사 실수로 손해를 보면 누가 책임질까
+hospital-direct-claim | 보험사가 병원비를 병원에 바로 내줄 수 있을까
+hospital-closed-records | 병원이 문을 닫았으면 진료기록은 어디서 받을까
+premium-grace-period | 보험료가 밀리면 언제까지 괜찮을까
+claim-agent-fee | 보험금 청구 대행은 돈이 들까
 direct-vs-agent | 다이렉트 보험과 설계사 가입, 무엇이 다를까
 twenties-insurance | 20대 보험, 처음 정리할 때 볼 것
 dual-income-couple | 맞벌이 부부 보험, 소득 공백 대비하기
