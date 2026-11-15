@@ -423,11 +423,51 @@ hospital-direct-claim | 보험사가 병원비를 병원에 바로 내줄 수 �
 hospital-closed-records | 병원이 문을 닫았으면 진료기록은 어디서 받을까
 premium-grace-period | 보험료가 밀리면 언제까지 괜찮을까
 claim-agent-fee | 보험금 청구 대행은 돈이 들까
+dental-hygienist-insurance | 치위생사 보험, 손목·감염과 직업 고지
+convenience-store-worker-insurance | 편의점 근무자 보험, 야간 폭행과 산재
+golf-caddie-insurance | 골프장 캐디 보험, 타구·카트 사고와 산재
+landscaper-insurance | 조경·벌목 작업자 보험, 추락과 가입 제한
+vet-clinic-worker-insurance | 동물병원 근무자 보험, 물림·감염과 고지
+job-change-not-reported | 직업 바뀐 걸 보험사에 안 알렸을 때
+premium-waiver-missed | 납입면제 대상인데 보험료 계속 냈을 때
+two-silson-found | 실비 두 개 가입된 걸 알았을 때
+auto-loan-premium-found | 보험료 자동대출납입 된 걸 알았을 때
+phone-recording-request | 보험 가입 통화 녹취 확인하고 싶을 때
+silson-meniere | 메니에르병 실비 청구, 검사와 반복 통원
+silson-allergy-immunotherapy | 알레르기 면역치료 실비 청구, 설하·주사
+silson-iron-injection | 철분주사 실비 청구, 빈혈 진단이 기준
+silson-knee-mri | 무릎 MRI 실비 청구, 급여 조건과 진단
+silson-postpartum | 출산 후 치료비 실비 청구, 산후 질환 확인
+dense-breast-found | 치밀유방 소견 나왔을 때 보험 확인
+cervical-cell-abnormal | 자궁경부 세포검사 이상 나왔을 때 보험 확인
+cholesterol-high-found | 콜레스테롤 높게 나왔을 때 보험 확인
+heart-echo-abnormal | 심장초음파 이상 소견 나왔을 때 보험 확인
+eye-retina-abnormal | 안저검사 이상 나왔을 때 보험 확인
+hospital-fall-injury | 입원 중 병원에서 넘어져 다쳤을 때 보험 청구
+surgery-infection-after | 수술 후 감염이 생겼을 때 보험, 재수술 청구
+medication-side-effect | 처방약 부작용으로 치료받았을 때 보험 청구
+pharmacy-dispensing-error | 약국 조제 실수로 피해를 입었을 때 대처
+school-trip-injury | 수학여행·현장학습 중 아이가 다쳤을 때
 direct-vs-agent | 다이렉트 보험과 설계사 가입, 무엇이 다를까
 twenties-insurance | 20대 보험, 처음 정리할 때 볼 것
 dual-income-couple | 맞벌이 부부 보험, 소득 공백 대비하기
 divorce-insurance | 이혼할 때 보험 정리, 계약자와 수익자 확인
 study-abroad-insurance | 유학·해외 장기체류 전 보험 정리법
+subway-injury | 지하철 계단·출입문에서 다쳤을 때 보험 처리
+taxi-passenger-injury | 택시 타고 가다 사고로 다쳤을 때
+bus-sudden-stop-injury | 버스 급정거로 넘어져 다쳤을 때
+delivery-bike-hit-me | 배달 오토바이에 치였을 때 보험 처리
+apartment-gym-injury | 아파트 커뮤니티 헬스장에서 다쳤을 때
+cosmetic-procedure-covered | 미용 시술이나 성형도 보험이 될까
+hospital-choice-insurance | 보험 때문에 병원을 골라서 가야 할까
+recommended-nonpay-treatment | 병원에서 권한 비급여 치료, 실비 될까
+which-insurer-best | 어느 보험사가 제일 좋을까
+mutual-aid-vs-insurance | 공제와 보험은 무엇이 다를까
+old-vs-new-policy | 예전 보험과 요즘 보험은 무엇이 다를까
+agents-different-advice | 설계사마다 말이 다를 때 누구 말을 믿어야 할까
+diagnosed-abroad-claim | 해외에서 진단받아도 진단비를 받을 수 있을까
+family-see-my-insurance | 가족이 내 보험 가입 내역을 볼 수 있을까
+hobby-risk-insurance | 위험한 취미가 있으면 보험 가입이 어려울까
 choose-cancer-insurance | 암보험 고를 때 보는 선택 기준
 nursing-hospital-cost | 요양병원·요양원 비용, 보험으로 대비하기
 funeral-vs-insurance | 상조와 보험, 무엇이 다를까
