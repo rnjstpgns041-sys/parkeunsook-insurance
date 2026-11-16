@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://parkeunsook-insurance.netlify.app/</loc><lastmod>2026-11-16</lastmod><priority>1.0</priority></url>
-  <url><loc>https://parkeunsook-insurance.netlify.app/guide/</loc><lastmod>2026-11-16</lastmod><priority>0.8</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/</loc><lastmod>2026-11-17</lastmod><priority>1.0</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/</loc><lastmod>2026-11-17</lastmod><priority>0.8</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/silson-generations.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/silson-4th-switch.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/silson-claim-docs.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
@@ -134,6 +134,11 @@
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/silson-bruxism.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/silson-vitamin-d.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/silson-sebaceous-cyst.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/silson-de-quervain.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/silson-knee-cartilage-injection.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/silson-eardrum-perforation.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/silson-growth-plate-test.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/silson-cystitis.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/brain-coverage-range.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/heart-coverage-range.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/cancer-amount.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
@@ -284,6 +289,11 @@
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/intestinal-metaplasia-found.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/hematuria-found.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/tumor-marker-high.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/lung-ground-glass-found.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/colon-diverticulum-found.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/gastric-submucosal-tumor-found.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/osteopenia-found.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/liver-cyst-found.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/renewal-vs-nonrenewal.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/payment-period-maturity.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/no-surrender-value.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
@@ -370,6 +380,9 @@
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/mutual-aid-vs-insurance.html</loc><lastmod>2026-11-15</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/old-vs-new-policy.html</loc><lastmod>2026-11-15</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/youtube-insurance-info.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/insurance-company-bankrupt.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/silson-plus-injury-needed.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/payout-ends-policy.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/when-remodeling.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/before-cancel.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/replacement-contract.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
@@ -459,6 +472,9 @@
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/insurance-must-have-only.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/ai-insurance-advice.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/insurance-cancel-regret.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/delay-buying-insurance.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/parents-bought-policy-keep.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/multiple-consultations-ok.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/fetal-insurance-timing.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/child-insurance-maturity.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/parents-simple-insurance.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
@@ -577,6 +593,11 @@
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/car-mechanic-insurance.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/livestock-farmer-insurance.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/living-alone-first-insurance.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/forklift-operator-insurance.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/crane-excavator-operator-insurance.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/wallpaper-tile-installer-insurance.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/boiler-technician-insurance.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/florist-insurance.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/self-employed.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/driver-insurance.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/driver-legal-cost.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
@@ -666,6 +687,7 @@
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/soldier-insurance.html</loc><lastmod>2026-11-09</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/beautician-insurance.html</loc><lastmod>2026-11-09</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/rare-driver-insurance.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/all-in-one-insurance.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/claim-time-limit.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/claim-documents.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/claim-denied.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
@@ -836,6 +858,16 @@
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/horse-riding-fall.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/wedding-venue-fall.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/after-dinner-walk-home-fall.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/bowling-injury.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/badminton-injury.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/pool-swimming-injury.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/waterpark-injury.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/ice-rink-fall.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/dermatology-procedure-burn.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/restaurant-hot-soup-burn.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/screen-golf-injury.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/concert-crowd-injury.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/guesthouse-bathroom-slip.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/duty-to-disclose.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/disclosure-violation.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/simple-underwriting-355.html</loc><lastmod>2026-10-13</lastmod><priority>0.6</priority></url>
@@ -977,4 +1009,12 @@
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/last-chance-sales.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/checkup-before-joining.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
   <url><loc>https://parkeunsook-insurance.netlify.app/guide/family-history-disclosure.html</loc><lastmod>2026-11-16</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/discount-rider-missed.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/cancel-retention-call.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/double-premium-withdrawal.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/coverage-reduction-renewal-notice.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/death-benefit-claim-steps.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/online-premium-calculator.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/many-policies-rejection.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
+  <url><loc>https://parkeunsook-insurance.netlify.app/guide/coverage-increase-later.html</loc><lastmod>2026-11-17</lastmod><priority>0.6</priority></url>
 </urlset>
