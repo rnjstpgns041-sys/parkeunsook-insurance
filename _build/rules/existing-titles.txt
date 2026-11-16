@@ -468,11 +468,51 @@ agents-different-advice | 설계사마다 말이 다를 때 누구 말을 믿어
 diagnosed-abroad-claim | 해외에서 진단받아도 진단비를 받을 수 있을까
 family-see-my-insurance | 가족이 내 보험 가입 내역을 볼 수 있을까
 hobby-risk-insurance | 위험한 취미가 있으면 보험 가입이 어려울까
+welder-insurance | 용접공 보험, 화상·눈 부상과 흄 노출
+baker-insurance | 제빵사 보험, 오븐 화상·손목과 새벽 근무
+barista-insurance | 바리스타 보험, 알바 중 화상·손목 부상
+car-mechanic-insurance | 자동차 정비사 보험, 리프트·끼임과 손 부상
+livestock-farmer-insurance | 축산업 보험, 가축 사고와 직업 고지 점검
+planner-left-orphan | 설계사 퇴사로 고아계약 됐을 때
+claim-partial-paid | 보험금이 청구액보다 적게 들어왔을 때
+documents-supplement-request | 보험사 서류 보완 요청 받았을 때
+premium-paid-off-check | 보험료 납입 끝났을 때 확인할 것
+annuity-start-notice | 연금 개시 안내를 받았을 때
+silson-restless-legs | 하지불안증후군 실비 청구, 진료·검사비
+silson-osmidrosis | 액취증 수술 실비 될까, 치료와 미용 구분
+silson-bruxism | 이갈이 치료 실비, 스플린트·보톡스 구분
+silson-vitamin-d | 비타민D 검사·주사 실비, 치료 목적 기준
+silson-sebaceous-cyst | 피지낭종 제거 실비, 표피낭종·지방종
+liver-hemangioma-found | 간 혈관종 소견 나왔을 때 보험 확인
+atrophic-gastritis-found | 위축성 위염 소견 나왔을 때 보험 확인
+intestinal-metaplasia-found | 장상피화생 소견 나왔을 때 보험 확인
+hematuria-found | 소변검사 혈뇨 나왔을 때 보험 확인
+tumor-marker-high | 종양표지자 수치 높게 나왔을 때 보험 확인
+amusement-ride-injury | 놀이공원 놀이기구 타다 다쳤을 때 보험
+parking-lot-walk-injury | 주차장에서 걷다가 다쳤을 때 보험
+sauna-slip-injury | 사우나·찜질방에서 미끄러져 다쳤을 때
+fishing-injury | 낚시하다 다쳤을 때 보험, 갯바위·선상
+company-sports-day-injury | 회사 체육대회·워크숍에서 다쳤을 때
+surfing-injury | 서핑하다 다쳤을 때 보험 확인 순서
+climbing-injury | 실내 클라이밍장에서 다쳤을 때 보험
+horse-riding-fall | 승마 체험 중 떨어졌을 때 보험 확인
+wedding-venue-fall | 결혼식장에서 하객이 미끄러져 다쳤을 때
+after-dinner-walk-home-fall | 회식 후 귀갓길에 넘어져 다쳤을 때
+insurance-must-have-only | 보험 꼭 필요한 것만 고르면 뭘까
+youtube-insurance-info | 유튜브 보험 정보, 믿어도 될까
+planner-commission-question | 설계사는 수수료 많은 상품을 권할까
+last-chance-sales | "곧 판매 중단"이라는데 서둘러 가입해야 할까
+ai-insurance-advice | AI한테 보험 추천받아도 될까
 choose-cancer-insurance | 암보험 고를 때 보는 선택 기준
 nursing-hospital-cost | 요양병원·요양원 비용, 보험으로 대비하기
 funeral-vs-insurance | 상조와 보험, 무엇이 다를까
 business-liability | 가게 운영자를 위한 영업배상책임보험
 claim-digital | 실손 청구 간소화와 앱 청구, 달라진 점
+checkup-before-joining | 보험 가입 전에 건강검진 받아야 할까
+living-alone-first-insurance | 자취 시작하면 보험 뭐부터 볼까
+insurance-cancel-regret | 보험 해지하고 후회하는 경우는 언제일까
+rare-driver-insurance | 운전 거의 안 하는데 운전자보험 필요할까
+family-history-disclosure | 보험 가입할 때 가족력도 알려야 할까
 anticancer-drug-rider | 표적항암 약물치료비 특약, 왜 따로 봐야 할까
 renewal-vs-nonrenewal | 갱신형 vs 비갱신형 보험, 어떤 걸 골라야 할까
 payment-period-maturity | 납입기간과 보장만기, 80세·90세·100세 정하는 법
