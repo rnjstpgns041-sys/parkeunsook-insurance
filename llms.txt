@@ -1,6 +1,6 @@
 # 박은숙 보험상담
 
-> 보험설계사 박은숙이 운영하는 보험 정보 사이트입니다. 실손보험(실비), 진단비·특약, 보험 구조, 보험 리모델링, 가족·연령별 보험, 상품별 가이드, 보험금 청구, 가입·계약 제도에 관한 질문 1015가지를 약관 기준으로 정리했습니다. 무료 보장 분석 전화 상담: 010-6378-6964.
+> 보험설계사 박은숙이 운영하는 보험 정보 사이트입니다. 실손보험(실비), 진단비·특약, 보험 구조, 보험 리모델링, 가족·연령별 보험, 상품별 가이드, 보험금 청구, 가입·계약 제도에 관한 질문 1055가지를 약관 기준으로 정리했습니다. 무료 보장 분석 전화 상담: 010-6378-6964.
 
 - 운영자: 박은숙 (보험설계사)
 - 상담: 무료 전화 상담, 가입 권유 없음, 전화 010-6378-6964
@@ -147,6 +147,11 @@
 - [고막 천공 치료·수술 실비 청구](https://parkeunsook-insurance.netlify.app/guide/silson-eardrum-perforation.html): 고막 천공으로 치료나 고막 성형술을 받을 때 실비 청구가 되는지, 외상과 질병 구분, 청력검사와 수술 서류, 상해 담보까지 확인할 점을 정리했습니다.
 - [아이 성장판 검사 실비 청구 될까](https://parkeunsook-insurance.netlify.app/guide/silson-growth-plate-test.html): 아이 성장판 검사 실비 청구가 되는지, 키 상담 목적과 질병 의심 검사의 차이, 뼈나이 엑스레이와 혈액검사 항목, 청구 전 확인할 서류를 정리했습니다.
 - [방광염 반복될 때 실비 청구 정리](https://parkeunsook-insurance.netlify.app/guide/silson-cystitis.html): 방광염이 자주 반복될 때 실비 청구가 되는지, 소변검사와 배양검사, 반복 통원과 약값, 소액 청구 요령과 확인할 서류를 보험설계사가 정리했습니다.
+- [주사비·안면홍조 실비 될까, 레이저 구분](https://parkeunsook-insurance.netlify.app/guide/silson-rosacea.html): 주사비나 안면홍조로 피부과에 다닐 때 실비가 되는지, 약물 치료와 레이저 시술의 차이, 약관의 피부질환 제외 항목, 청구 전 챙길 서류를 정리했습니다.
+- [속눈썹 찌름 수술 실비, 안검내반 확인할 점](https://parkeunsook-insurance.netlify.app/guide/silson-entropion.html): 속눈썹이 눈을 찔러 안검내반 수술을 권유받았을 때 실비가 되는지, 쌍꺼풀과 함께 할 때 달라지는 점, 수술비 담보와 필요한 청구 서류를 정리했습니다.
+- [검버섯 제거 실비 될까, 쥐젖·점과 구분](https://parkeunsook-insurance.netlify.app/guide/silson-seborrheic-keratosis.html): 검버섯이나 쥐젖을 제거할 때 실비가 되는지, 미용 목적으로 보는 경우와 조직검사가 필요한 경우의 차이, 약관에서 확인할 점과 서류를 정리했습니다.
+- [백반증 치료 실비 청구, 광선치료와 연고](https://parkeunsook-insurance.netlify.app/guide/silson-vitiligo.html): 백반증으로 광선치료나 연고 치료를 오래 받을 때 실비 청구가 되는지, 급여와 비급여 항목, 반복 통원 시 확인할 점과 필요한 서류를 정리했습니다.
+- [결막염 실비 청구, 안약과 검사비 정리](https://parkeunsook-insurance.netlify.app/guide/silson-conjunctivitis.html): 결막염으로 안과에 다닐 때 실비 청구가 되는지, 처방 안약과 시판 안약의 차이, 소액 청구 요령과 자기부담금, 함께 챙길 청구 서류를 정리했습니다.
 
 ## 진단비 · 특약
 
@@ -305,6 +310,11 @@
 - [위 점막하종양 소견 나왔을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/gastric-submucosal-tumor-found.html): 위내시경에서 점막하종양 소견이 나왔을 때, 내시경 초음파나 CT 같은 추가검사 전에 기존 보험에서 확인할 것과 서둘러 가입하거나 해지하면 안 되는 이유를 정리했습니다.
 - [골감소증 나왔을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/osteopenia-found.html): 건강검진 골밀도 결과에 골감소증이 나왔을 때, 진료 기록에 남는 내용과 고지 기준, 실손과 골절 보장에서 확인할 것, 부모님 보험까지 함께 볼 점을 정리했습니다.
 - [간 낭종 소견 나왔을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/liver-cyst-found.html): 복부초음파에서 간 낭종 소견이 나왔을 때, 추가 CT나 재검사 전에 기존 보험에서 확인할 것과 서둘러 가입하거나 해지하면 안 되는 이유, 상담 전 준비할 것을 정리했습니다.
+- [대변 잠혈 양성 나왔을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/fecal-occult-blood-found.html): 건강검진 분변잠혈검사에서 양성이 나왔을 때, 대장내시경 전에 기존 보험에서 확인할 것과 고지, 서둘러 가입하거나 해지하면 안 되는 이유, 상담 전 준비할 것을 정리했습니다.
+- [췌장 낭종 소견 나왔을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/pancreatic-cyst-found.html): 복부 CT나 초음파에서 췌장 낭종 소견이 나왔을 때, 추가 MRI나 추적검사 전에 기존 보험에서 확인할 것과 고지, 서둘러 가입하거나 해지하면 안 되는 이유를 정리했습니다.
+- [HPV 양성 나왔을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/hpv-positive-found.html): 자궁경부암 검진에서 HPV 양성이 나왔을 때, 추가 검사 전에 기존 보험에서 확인할 것과 상피내암·암 진단비 구분, 고지, 서둘러 가입하거나 해지하면 안 되는 이유를 정리했습니다.
+- [부신 결절 소견 나왔을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/adrenal-nodule-found.html): 복부 CT에서 부신 결절이나 종양 소견이 우연히 나왔을 때, 호르몬 검사와 추가 영상검사 전에 기존 보험에서 확인할 것과 고지, 서둘러 결정하면 안 되는 이유를 정리했습니다.
+- [자궁내막 두껍다는 소견 나왔을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/endometrial-thickening-found.html): 질초음파에서 자궁내막이 두껍다는 소견이 나왔을 때, 조직검사 전에 기존 보험에서 확인할 것과 수술비·실손 기준, 고지, 서둘러 가입하거나 해지하면 안 되는 이유를 정리했습니다.
 
 ## 보험 구조 이해
 
@@ -397,6 +407,9 @@
 - [보험사가 망하면 내 보험은 어떻게 될까](https://parkeunsook-insurance.netlify.app/guide/insurance-company-bankrupt.html): 보험사가 망하면 내 보험이 어떻게 되는지, 계약이전과 예금자보호의 차이, 보장이 달라질 수 있는 부분, 가입자가 미리 확인할 점까지 보험설계사가 정리했습니다.
 - [실비 있으면 상해보험 따로 필요할까](https://parkeunsook-insurance.netlify.app/guide/silson-plus-injury-needed.html): 실비가 있으면 상해보험이 따로 필요한지, 실손과 정액 보장의 차이, 실비로 채워지지 않는 부분, 중복 가입을 피하는 점검법을 보험설계사가 정리했습니다.
 - [보험금 받으면 보험이 끝날까](https://parkeunsook-insurance.netlify.app/guide/payout-ends-policy.html): 보험금을 받으면 보험 계약이 끝나는지, 소멸되는 담보와 계속 유지되는 담보, 납입면제와 남은 보험료, 받은 뒤 확인할 점까지 보험설계사가 정리했습니다.
+- [보험 비교할 때 월 보험료만 보면 될까](https://parkeunsook-insurance.netlify.app/guide/compare-total-premium.html): 보험을 비교할 때 월 보험료만 보면 안 되는 이유, 총 납입보험료와 갱신 구조, 보장 금액과 조건을 같은 기준으로 맞추는 방법과 비교표 만드는 순서를 정리했습니다.
+- [보험료 납입기간 중간에 바꿀 수 있을까](https://parkeunsook-insurance.netlify.app/guide/payment-period-change.html): 가입한 보험의 납입기간을 줄이거나 늘릴 수 있는지, 상품별 가능 여부와 납입기간 변경이 어려울 때 쓸 수 있는 감액·감액완납·납입 유예를 정리했습니다.
+- [보험 약관 뜻이 애매하면 누구 편으로 해석할까](https://parkeunsook-insurance.netlify.app/guide/ambiguous-terms-rule.html): 보험 약관 문구가 애매할 때 누구에게 유리하게 해석되는지, 작성자 불이익 원칙의 뜻과 적용되지 않는 경우, 분쟁 때 확인할 것과 대처 순서를 정리했습니다.
 
 ## 리모델링 · 보장 분석
 
@@ -492,6 +505,8 @@
 - [보험 나중에 들어도 될까](https://parkeunsook-insurance.netlify.app/guide/delay-buying-insurance.html): 보험을 나중에 들어도 되는지, 나이와 건강 상태가 가입 조건에 미치는 영향, 미뤄도 되는 경우와 서두를 경우, 가입 전 점검할 점을 보험설계사가 정리했습니다.
 - [부모님이 들어준 보험, 그대로 둬도 될까](https://parkeunsook-insurance.netlify.app/guide/parents-bought-policy-keep.html): 부모님이 어릴 때 들어준 보험을 그대로 둬도 되는지, 유지가 유리한 경우와 점검이 필요한 경우, 계약자 확인과 보장 공백 점검까지 보험설계사가 정리했습니다.
 - [보험 상담 여러 곳 받아도 될까](https://parkeunsook-insurance.netlify.app/guide/multiple-consultations-ok.html): 보험 상담을 여러 곳에서 받아도 되는지, 비교할 때 볼 기준과 개인정보 동의, 설계안 비교 요령, 가입 결정 전 주의할 점까지 보험설계사가 정리했습니다.
+- [가족 보험, 누구 것부터 들어야 할까](https://parkeunsook-insurance.netlify.app/guide/family-insurance-who-first.html): 가족 보험을 누구 것부터 들어야 할지, 소득을 책임지는 사람을 먼저 보는 이유와 아이·배우자·부모님 순서를 정할 때 따질 조건, 예산 나누는 법을 정리했습니다.
+- [건강할 때 보험 들라는 말, 맞을까](https://parkeunsook-insurance.netlify.app/guide/join-insurance-while-healthy.html): 건강할 때 보험을 들라는 말이 맞는지, 건강 상태가 가입 조건에 미치는 영향과 부담보·할증의 뜻, 서두르기 전에 따져볼 점과 무리하지 않는 기준을 정리했습니다.
 
 ## 가족 · 연령별 보험
 
@@ -618,6 +633,11 @@
 - [도배·타일 시공 기사 보험, 무릎·손목과 고객 배상](https://parkeunsook-insurance.netlify.app/guide/wallpaper-tile-installer-insurance.html): 도배·타일 시공 기사 보험을 점검하는 분께 사다리 추락과 무릎·손목 부담에 대한 보장, 직업 고지, 산재와 개인보험, 시공 하자로 인한 고객 배상 문제를 정리했습니다.
 - [보일러·설비 기사 보험, 가스·화상 사고와 고지](https://parkeunsook-insurance.netlify.app/guide/boiler-technician-insurance.html): 보일러·설비 기사 보험을 점검하는 분께 가스와 화상, 방문 이동 중 사고에 대한 보장, 직업 고지, 산재와 개인보험, 설치 후 사고에 대한 배상 문제를 정리했습니다.
 - [꽃집·플로리스트 보험, 손 부상과 직업 고지](https://parkeunsook-insurance.netlify.app/guide/florist-insurance.html): 꽃집·플로리스트 보험을 점검하는 분께 가위와 칼에 베이는 손 부상, 손목과 허리 부담, 직업 고지, 산재와 개인보험, 배달과 매장 손님 사고까지 차분히 정리했습니다.
+- [대리운전기사 보험, 운행 중 사고와 직업 고지](https://parkeunsook-insurance.netlify.app/guide/designated-driver-worker-insurance.html): 대리운전기사 보험을 점검할 때 업체 대리운전 보험과 개인 보험의 차이, 산재 적용 여부, 직업 고지와 운전자보험 약관에서 확인할 포인트를 정리했습니다.
+- [마트 판매직 보험, 진열·계산대 부상과 산재](https://parkeunsook-insurance.netlify.app/guide/retail-worker-insurance.html): 마트·매장 판매직 보험을 점검할 때 진열 중 허리·어깨 부상, 오래 서서 생기는 질환, 산재와 개인 보험의 차이, 직업 고지 확인 포인트를 정리했습니다.
+- [가사도우미 보험, 고객 집 파손과 내 부상](https://parkeunsook-insurance.netlify.app/guide/housekeeper-insurance.html): 가사도우미 보험을 점검할 때 고객 집 물건 파손 배상, 일하다 다친 내 부상, 소속 형태별 산재 차이와 일상생활배상책임의 한계까지 정리했습니다.
+- [식당 홀서빙 보험, 화상·미끄러짐과 산재](https://parkeunsook-insurance.netlify.app/guide/restaurant-server-insurance.html): 식당 홀서빙 보험을 점검할 때 화상과 미끄러짐 부상, 아르바이트 산재 적용, 손님 옷에 음식을 쏟았을 때 배상 문제와 직업 고지 확인 포인트를 정리했습니다.
+- [외근 영업사원 보험, 업무 운전과 직업 고지](https://parkeunsook-insurance.netlify.app/guide/field-sales-insurance.html): 외근 영업사원 보험을 점검할 때 업무 중 운전 사고, 개인 차량을 업무에 쓸 때 자동차보험 확인, 산재 적용과 직업 고지 포인트를 정리했습니다.
 
 ## 상품별 가이드
 
@@ -894,6 +914,16 @@
 - [스크린골프장에서 다쳤을 때 보험](https://parkeunsook-insurance.netlify.app/guide/screen-golf-injury.html): 스크린골프장에서 공이 튀거나 다른 사람 클럽에 맞아 다쳤을 때 업장 배상책임, 상대방 보험, 내 실손·상해 보장을 확인하는 순서를 정리했습니다.
 - [공연장·축제 인파 속에서 다쳤을 때 보험](https://parkeunsook-insurance.netlify.app/guide/concert-crowd-injury.html): 공연장이나 축제 인파에 밀려 넘어지거나 다쳤을 때 주최 측 배상책임보험과 내 실손·상해 보장을 확인하는 방법, 남길 기록과 청구 순서를 정리했습니다.
 - [펜션·숙소 욕실에서 미끄러져 다쳤을 때](https://parkeunsook-insurance.netlify.app/guide/guesthouse-bathroom-slip.html): 펜션이나 숙소 욕실에서 미끄러져 다쳤을 때 숙박업소 배상책임보험과 내 실손·상해 보장을 확인하는 방법, 체크아웃 전에 남길 기록과 청구 순서를 정리했습니다.
+- [스쿠버다이빙 하다 다쳤을 때 보험](https://parkeunsook-insurance.netlify.app/guide/scuba-diving-injury.html): 스쿠버다이빙이나 체험 다이빙 중 다쳤을 때 확인할 상해·실비 보장, 위험 레저 고지, 해외 다이빙과 여행자보험, 업체 배상책임까지 청구 순서를 보험설계사가 정리했습니다.
+- [패러글라이딩 체험 중 다쳤을 때 보험](https://parkeunsook-insurance.netlify.app/guide/paragliding-injury.html): 패러글라이딩 체험 비행이나 착륙 중 다쳤을 때 확인할 상해·실비 보장, 위험 레저 조항과 고지, 체험 업체 배상책임과 보험, 청구 순서를 보험설계사가 정리했습니다.
+- [래프팅·카약 타다 다쳤을 때 보험](https://parkeunsook-insurance.netlify.app/guide/rafting-kayak-injury.html): 래프팅이나 카약 체험 중 뒤집히거나 노에 맞아 다쳤을 때 확인할 상해·실비 보장, 수상레저 업체 배상책임, 일행을 다치게 한 경우와 청구 순서를 정리했습니다.
+- [카트·ATV 체험 중 다쳤을 때 보험](https://parkeunsook-insurance.netlify.app/guide/go-kart-atv-injury.html): 카트장이나 ATV 체험장에서 충돌하거나 전복돼 다쳤을 때 확인할 상해·실비 보장, 체험장 배상책임, 다른 사람을 다치게 한 경우와 청구 순서를 보험설계사가 정리했습니다.
+- [복싱·주짓수 하다 다쳤을 때 보험](https://parkeunsook-insurance.netlify.app/guide/boxing-jiujitsu-injury.html): 복싱이나 주짓수 스파링 중 다치거나 상대를 다치게 했을 때 확인할 상해·실비 보장, 격투 운동 고지, 체육관 배상책임과 일상생활배상책임, 청구 순서를 정리했습니다.
+- [마트 진열 상품이 떨어져 다쳤을 때](https://parkeunsook-insurance.netlify.app/guide/store-shelf-item-fell.html): 마트 진열대 상품이 떨어져 다쳤을 때 매장 배상책임과 내 상해·실비 보험을 어떻게 확인하고, 어떤 기록을 남기며 어떤 순서로 청구할지 정리했습니다.
+- [우리 집에 온 손님이 다쳤을 때 보험](https://parkeunsook-insurance.netlify.app/guide/guest-hurt-at-my-home.html): 우리 집에 놀러 온 손님이 넘어지거나 다쳤을 때 일상생활배상책임으로 처리되는지, 손님의 상해·실비와 관계, 남길 기록과 청구 순서를 정리했습니다.
+- [애견미용 맡겼다가 반려견이 다쳤을 때](https://parkeunsook-insurance.netlify.app/guide/pet-grooming-injury.html): 애견미용이나 펫호텔에 맡긴 반려견이 다쳤을 때 업체 배상책임과 펫보험을 어떻게 확인하는지, 남겨야 할 증거와 청구 순서, 흔한 실수를 정리했습니다.
+- [산후조리원에서 아기가 다쳤을 때 보험](https://parkeunsook-insurance.netlify.app/guide/postpartum-care-center-injury.html): 산후조리원에서 신생아가 다치거나 감염됐을 때 조리원 배상책임, 태아·어린이보험과 실손 확인법, 남겨야 할 기록과 청구 순서, 흔한 실수를 정리했습니다.
+- [베란다 화분이 떨어져 피해를 줬을 때](https://parkeunsook-insurance.netlify.app/guide/balcony-flowerpot-fell.html): 베란다나 창가 화분, 물건이 떨어져 지나가던 사람이나 차에 피해를 줬을 때 일상생활배상책임 확인법, 해야 할 일과 하지 말아야 할 일을 정리했습니다.
 
 ## 가입 · 계약 제도
 
@@ -1046,3 +1076,13 @@
 - [온라인 보험료 계산, 믿어도 될까](https://parkeunsook-insurance.netlify.app/guide/online-premium-calculator.html): 온라인 보험료 계산 결과를 믿어도 되는지, 실제 보험료와 달라지는 이유, 계산할 때 놓치기 쉬운 조건, 가입 전 확인할 점을 보험설계사가 정리했습니다.
 - [보험이 많으면 새 가입이 거절될까](https://parkeunsook-insurance.netlify.app/guide/many-policies-rejection.html): 보험이 많으면 새 보험 가입이 거절되는지, 가입 한도와 누적 심사, 소득 대비 보장 확인, 실손 중복 문제와 가입 전 정리할 것까지 보험설계사가 정리했습니다.
 - [보험 보장금액 나중에 늘릴 수 있을까](https://parkeunsook-insurance.netlify.app/guide/coverage-increase-later.html): 가입한 보험의 보장금액을 나중에 늘릴 수 있는지, 증액이 어려운 이유와 다시 심사받는 경우, 특약 추가와 새 가입 비교, 확인할 점까지 보험설계사가 정리했습니다.
+- [개인회생 신청 전 보험, 해지해야 할까](https://parkeunsook-insurance.netlify.app/guide/personal-rehabilitation-insurance.html): 개인회생이나 파산을 앞두고 보험을 해지해야 할지 고민될 때, 해지환급금이 재산으로 보는 이유와 보장 공백, 서두르면 안 되는 점, 상담 전 준비할 서류를 정리했습니다.
+- [신청 안 한 보험 변경 알림 받았을 때](https://parkeunsook-insurance.netlify.app/guide/unrequested-change-alert.html): 내가 신청하지 않은 보험 계약 변경, 수익자 변경, 대출 실행 알림을 받았을 때 사칭 여부 확인부터 보험사 문의, 가족 명의 변경 확인, 되돌리는 순서까지 차분히 정리했습니다.
+- [실손 재가입 안내 받았을 때 확인할 것](https://parkeunsook-insurance.netlify.app/guide/silson-rejoin-notice.html): 실손보험 재가입 안내를 받았을 때 재가입 주기가 있는 계약인지, 바뀌는 보장 구조와 자기부담, 거절하면 어떻게 되는지, 결정 전에 확인할 서류를 보험설계사가 정리했습니다.
+- [실손 보험료 할증 안내 받았을 때](https://parkeunsook-insurance.netlify.app/guide/silson-surcharge-notice.html): 실손보험 비급여 이용량에 따라 보험료 할증 안내를 받았을 때 할증이 붙는 구조와 산정 기간, 이의를 확인하는 법, 치료를 줄이기 전에 알아둘 점을 보험설계사가 정리했습니다.
+- [보험금 받은 뒤 계약 소멸 안내 받았을 때](https://parkeunsook-insurance.netlify.app/guide/contract-ended-after-claim.html): 진단비나 보험금을 받은 뒤 계약이나 특약이 소멸됐다는 안내를 받았을 때 소멸되는 이유, 남은 특약과 보험료 확인, 자동이체 정리, 다시 챙길 보장까지 정리했습니다.
+- [보험 가입 사은품, 받아도 될까](https://parkeunsook-insurance.netlify.app/guide/insurance-signup-gift.html): 보험 가입 사은품을 받아도 되는지, 법에서 금지하는 특별이익의 뜻과 허용 범위, 현금이나 보험료 대납을 권유받을 때의 위험, 상품을 고르는 기준을 정리했습니다.
+- [보험 가입 전 내 진료 이력 확인하는 법](https://parkeunsook-insurance.netlify.app/guide/check-medical-history-before-join.html): 보험 가입 전 내 진료 이력을 확인하는 방법, 건강보험 진료내역 조회로 알 수 있는 것과 빠질 수 있는 것, 고지 질문과 맞춰보는 순서를 정리했습니다.
+- [보험 가입 후 생긴 병, 보험사에 알려야 할까](https://parkeunsook-insurance.netlify.app/guide/new-illness-after-joining.html): 보험 가입 후 새로 생긴 병을 보험사에 알려야 하는지, 고지의무와 통지의무의 차이, 부활·추가 가입 때 달라지는 점과 확인할 것을 정리했습니다.
+- [보험증권 생년월일이 틀리면 어떻게 해야 할까](https://parkeunsook-insurance.netlify.app/guide/policy-birthdate-error.html): 보험증권에 생년월일이나 성별 같은 내 정보가 틀리게 적혀 있을 때 왜 바로잡아야 하는지, 보험료·보험금에 미치는 영향과 정정 신청 순서를 정리했습니다.
+- [부모님 보험료 자녀가 대신 내도 될까](https://parkeunsook-insurance.netlify.app/guide/premium-paid-by-child.html): 부모님 보험료를 자녀가 대신 내도 되는지, 납입자와 계약자의 차이, 자녀 계좌 자동이체 방법, 환급금과 세금에서 확인할 점을 보험설계사가 정리했습니다.
