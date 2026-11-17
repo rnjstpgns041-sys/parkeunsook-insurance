@@ -513,6 +513,46 @@ living-alone-first-insurance | 자취 시작하면 보험 뭐부터 볼까
 insurance-cancel-regret | 보험 해지하고 후회하는 경우는 언제일까
 rare-driver-insurance | 운전 거의 안 하는데 운전자보험 필요할까
 family-history-disclosure | 보험 가입할 때 가족력도 알려야 할까
+forklift-operator-insurance | 지게차 기사 보험, 끼임·전도 사고와 직업 고지
+crane-excavator-operator-insurance | 크레인·굴착기 기사 보험, 장비 사고와 직업 등급
+wallpaper-tile-installer-insurance | 도배·타일 시공 기사 보험, 무릎·손목과 고객 배상
+boiler-technician-insurance | 보일러·설비 기사 보험, 가스·화상 사고와 고지
+florist-insurance | 꽃집·플로리스트 보험, 손 부상과 직업 고지
+discount-rider-missed | 보험료 할인 못 받은 걸 알았을 때
+cancel-retention-call | 보험 해지하려는데 보험사가 붙잡을 때
+double-premium-withdrawal | 보험료 이중 출금, 환불 요청 순서
+coverage-reduction-renewal-notice | 갱신 때 보장 축소 안내를 받았을 때
+death-benefit-claim-steps | 사망보험금 청구 순서, 서류부터 지급까지
+silson-de-quervain | 손목 건초염 치료 실비, 드퀘르뱅 청구
+silson-knee-cartilage-injection | 무릎 연골주사 실비, 여러 회 맞을 때 청구
+silson-eardrum-perforation | 고막 천공 치료·수술 실비 청구
+silson-growth-plate-test | 아이 성장판 검사 실비 청구 될까
+silson-cystitis | 방광염 반복될 때 실비 청구 정리
+lung-ground-glass-found | 폐 간유리음영 소견 나왔을 때 보험 확인
+colon-diverticulum-found | 대장 게실 소견 나왔을 때 보험 확인
+gastric-submucosal-tumor-found | 위 점막하종양 소견 나왔을 때 보험 확인
+osteopenia-found | 골감소증 나왔을 때 보험 확인
+liver-cyst-found | 간 낭종 소견 나왔을 때 보험 확인
+bowling-injury | 볼링장에서 다쳤을 때 보험 확인 순서
+badminton-injury | 배드민턴 치다 다쳤을 때 보험, 아킬레스건·발목
+pool-swimming-injury | 수영장에서 다쳤을 때 보험 청구
+waterpark-injury | 워터파크 슬라이드에서 다쳤을 때 보험
+ice-rink-fall | 아이스링크에서 넘어져 다쳤을 때 보험
+dermatology-procedure-burn | 피부과 시술 후 화상·흉터 생겼을 때 보험
+restaurant-hot-soup-burn | 식당에서 뜨거운 국물에 데었을 때 보험
+screen-golf-injury | 스크린골프장에서 다쳤을 때 보험
+concert-crowd-injury | 공연장·축제 인파 속에서 다쳤을 때 보험
+guesthouse-bathroom-slip | 펜션·숙소 욕실에서 미끄러져 다쳤을 때
+insurance-company-bankrupt | 보험사가 망하면 내 보험은 어떻게 될까
+delay-buying-insurance | 보험 나중에 들어도 될까
+online-premium-calculator | 온라인 보험료 계산, 믿어도 될까
+silson-plus-injury-needed | 실비 있으면 상해보험 따로 필요할까
+all-in-one-insurance | 보험 하나로 다 되는 상품 있을까
+parents-bought-policy-keep | 부모님이 들어준 보험, 그대로 둬도 될까
+many-policies-rejection | 보험이 많으면 새 가입이 거절될까
+multiple-consultations-ok | 보험 상담 여러 곳 받아도 될까
+payout-ends-policy | 보험금 받으면 보험이 끝날까
+coverage-increase-later | 보험 보장금액 나중에 늘릴 수 있을까
 anticancer-drug-rider | 표적항암 약물치료비 특약, 왜 따로 봐야 할까
 renewal-vs-nonrenewal | 갱신형 vs 비갱신형 보험, 어떤 걸 골라야 할까
 payment-period-maturity | 납입기간과 보장만기, 80세·90세·100세 정하는 법
