@@ -553,6 +553,11 @@ many-policies-rejection | 보험이 많으면 새 가입이 거절될까
 multiple-consultations-ok | 보험 상담 여러 곳 받아도 될까
 payout-ends-policy | 보험금 받으면 보험이 끝날까
 coverage-increase-later | 보험 보장금액 나중에 늘릴 수 있을까
+designated-driver-worker-insurance | 대리운전기사 보험, 운행 중 사고와 직업 고지
+retail-worker-insurance | 마트 판매직 보험, 진열·계산대 부상과 산재
+housekeeper-insurance | 가사도우미 보험, 고객 집 파손과 내 부상
+restaurant-server-insurance | 식당 홀서빙 보험, 화상·미끄러짐과 산재
+field-sales-insurance | 외근 영업사원 보험, 업무 운전과 직업 고지
 anticancer-drug-rider | 표적항암 약물치료비 특약, 왜 따로 봐야 할까
 renewal-vs-nonrenewal | 갱신형 vs 비갱신형 보험, 어떤 걸 골라야 할까
 payment-period-maturity | 납입기간과 보장만기, 80세·90세·100세 정하는 법
@@ -568,6 +573,41 @@ claim-dispute | 보험금 분쟁, 금감원 민원과 분쟁조정 이용법
 illegal-contract-cancel | 위법계약해지권, 잘못 판매된 보험 해지하기
 health-checkup-disclosure | 건강검진 결과, 보험 가입 때 알려야 할까
 insurance-age | 보험나이 계산법과 상령일, 가입 시기 정하기
+personal-rehabilitation-insurance | 개인회생 신청 전 보험, 해지해야 할까
+unrequested-change-alert | 신청 안 한 보험 변경 알림 받았을 때
+silson-rejoin-notice | 실손 재가입 안내 받았을 때 확인할 것
+silson-surcharge-notice | 실손 보험료 할증 안내 받았을 때
+contract-ended-after-claim | 보험금 받은 뒤 계약 소멸 안내 받았을 때
+silson-rosacea | 주사비·안면홍조 실비 될까, 레이저 구분
+silson-entropion | 속눈썹 찌름 수술 실비, 안검내반 확인할 점
+silson-seborrheic-keratosis | 검버섯 제거 실비 될까, 쥐젖·점과 구분
+silson-vitiligo | 백반증 치료 실비 청구, 광선치료와 연고
+silson-conjunctivitis | 결막염 실비 청구, 안약과 검사비 정리
+fecal-occult-blood-found | 대변 잠혈 양성 나왔을 때 보험 확인
+pancreatic-cyst-found | 췌장 낭종 소견 나왔을 때 보험 확인
+hpv-positive-found | HPV 양성 나왔을 때 보험 확인
+adrenal-nodule-found | 부신 결절 소견 나왔을 때 보험 확인
+endometrial-thickening-found | 자궁내막 두껍다는 소견 나왔을 때 보험 확인
+scuba-diving-injury | 스쿠버다이빙 하다 다쳤을 때 보험
+paragliding-injury | 패러글라이딩 체험 중 다쳤을 때 보험
+rafting-kayak-injury | 래프팅·카약 타다 다쳤을 때 보험
+go-kart-atv-injury | 카트·ATV 체험 중 다쳤을 때 보험
+boxing-jiujitsu-injury | 복싱·주짓수 하다 다쳤을 때 보험
+store-shelf-item-fell | 마트 진열 상품이 떨어져 다쳤을 때
+guest-hurt-at-my-home | 우리 집에 온 손님이 다쳤을 때 보험
+pet-grooming-injury | 애견미용 맡겼다가 반려견이 다쳤을 때
+postpartum-care-center-injury | 산후조리원에서 아기가 다쳤을 때 보험
+balcony-flowerpot-fell | 베란다 화분이 떨어져 피해를 줬을 때
+insurance-signup-gift | 보험 가입 사은품, 받아도 될까
+check-medical-history-before-join | 보험 가입 전 내 진료 이력 확인하는 법
+family-insurance-who-first | 가족 보험, 누구 것부터 들어야 할까
+join-insurance-while-healthy | 건강할 때 보험 들라는 말, 맞을까
+compare-total-premium | 보험 비교할 때 월 보험료만 보면 될까
+new-illness-after-joining | 보험 가입 후 생긴 병, 보험사에 알려야 할까
+policy-birthdate-error | 보험증권 생년월일이 틀리면 어떻게 해야 할까
+premium-paid-by-child | 부모님 보험료 자녀가 대신 내도 될까
+payment-period-change | 보험료 납입기간 중간에 바꿀 수 있을까
+ambiguous-terms-rule | 보험 약관 뜻이 애매하면 누구 편으로 해석할까
 silson-exclusions | 실손보험으로 보장되지 않는 항목 정리
 silson-hospital-stay | 장기 입원할 때 실손 보장 한도 확인법
 silson-korean-medicine | 한의원 치료, 실손보험으로 보장될까
