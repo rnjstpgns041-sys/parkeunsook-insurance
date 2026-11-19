@@ -608,11 +608,51 @@ policy-birthdate-error | 보험증권 생년월일이 틀리면 어떻게 해야
 premium-paid-by-child | 부모님 보험료 자녀가 대신 내도 될까
 payment-period-change | 보험료 납입기간 중간에 바꿀 수 있을까
 ambiguous-terms-rule | 보험 약관 뜻이 애매하면 누구 편으로 해석할까
+aircon-installer-insurance | 에어컨 설치기사 보험, 실외기 추락과 고객 배상
+carpenter-insurance | 인테리어 목수 보험, 톱 사고와 직업 등급
+painter-insurance | 도장공 보험, 고소작업·유기용제와 직업 고지
+rental-visit-technician-insurance | 정수기 방문 점검원 보험, 이동 중 사고와 고지
+school-cafeteria-cook-insurance | 급식 조리실무사 보험, 화상·미끄럼과 폐 검진
+after-spouse-death-review | 배우자 사별 후 내 보험 정리할 것
+parents-license-return | 부모님 운전면허 반납할 때 보험 정리
+child-driver-license | 자녀가 운전면허 땄을 때 보험 확인
+rural-move-insurance | 귀농·귀촌 앞두고 보험 점검할 것
+daycare-start-insurance | 어린이집 처음 보낼 때 아이 보험 점검
+silson-vaginitis | 질염 실비 청구 될까, 반복 치료 정리
+silson-reflux-esophagitis | 역류성식도염 실비 청구, 내시경·약값
+silson-nerve-conduction | 손저림 근전도검사 실비 청구, 확인할 점
+silson-cellulitis | 봉와직염 실비 청구, 입원과 주사 치료
+silson-ibs | 과민성대장증후군 실비 청구, 확인할 점
 silson-exclusions | 실손보험으로 보장되지 않는 항목 정리
 silson-hospital-stay | 장기 입원할 때 실손 보장 한도 확인법
 silson-korean-medicine | 한의원 치료, 실손보험으로 보장될까
 carcinoma-in-situ | 제자리암·경계성종양, 일반암과 다른 이유
 kidney-dialysis | 말기신부전·투석, 대비할 수 있는 보장
+angina-diagnosed | 협심증 진단받았을 때 보험 확인
+diabetes-diagnosed | 당뇨 처음 진단받았을 때 보험 확인
+liver-cirrhosis-diagnosed | 간경화 진단받았을 때 보험 확인
+pneumothorax-diagnosed | 기흉 진단받았을 때 보험 확인
+ankylosing-spondylitis-diagnosed | 강직성척추염 진단받았을 때 보험 확인
+car-wash-injury | 세차장에서 다쳤을 때 보험 처리
+gas-station-injury | 주유소에서 다쳤을 때 보험 처리
+train-boarding-injury | 기차 타고 내리다 다쳤을 때 보험
+broken-sidewalk-fall | 파손된 보도블록에 걸려 넘어졌을 때
+cyclist-hit-by-car | 자전거 타다 차에 치였을 때 보험
+kids-taekwondo-class-injury | 태권도·체육교실에서 아이가 다쳤을 때
+kids-friend-house-injury | 친구 집에 놀러 가서 아이가 다쳤을 때
+kids-broke-others-item | 아이가 남의 물건을 망가뜨렸을 때 보험
+kids-toy-defect-injury | 온라인에서 산 장난감에 아이가 다쳤을 때
+kids-academy-shuttle-accident | 학원 차량 타다 아이가 다쳤을 때 보험
+general-vs-high-cost-cancer | 일반암과 고액암 차이는 뭔가요
+surgery-vs-procedure | 수술과 시술, 보험에서는 뭐가 다른가요
+workers-comp-vs-accident | 산재보험과 상해보험 차이는 뭔가요
+accidental-vs-general-death | 재해사망과 일반사망 보험금 차이는
+disability-vs-disability-status | 보험 후유장해와 장애 판정, 같은 건가요
+common-law-spouse-beneficiary | 사실혼 배우자도 보험 수익자가 될 수 있을까
+late-pregnancy-fetal-insurance | 마흔에 임신했는데 태아보험 들 수 있을까
+parental-leave-insurance | 육아휴직 중인데 보험료 계속 내야 할까
+childfree-couple-insurance | 아이 없는 부부도 사망보험이 필요할까
+reemployed-after-retirement | 정년퇴직 후 재취업했는데 보험 다시 봐야 할까
 herniated-disc | 허리 디스크 치료와 보험 보장 확인법
 rare-disease-rider | 파킨슨병·루게릭병 특약, 필요할까
 burn-rider | 화상 진단비·수술비 특약 확인 포인트
