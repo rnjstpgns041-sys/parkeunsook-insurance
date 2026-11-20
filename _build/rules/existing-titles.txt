@@ -653,11 +653,51 @@ late-pregnancy-fetal-insurance | 마흔에 임신했는데 태아보험 들 수 
 parental-leave-insurance | 육아휴직 중인데 보험료 계속 내야 할까
 childfree-couple-insurance | 아이 없는 부부도 사망보험이 필요할까
 reemployed-after-retirement | 정년퇴직 후 재취업했는데 보험 다시 봐야 할까
+postal-carrier-insurance | 집배원 보험, 이륜차 사고와 공무 재해 구분
+butcher-insurance | 정육점 종사자 보험, 칼·절단기 사고와 고지
+market-vendor-insurance | 전통시장 상인 보험, 점포 화재와 내 부상
+shipyard-worker-insurance | 조선소 근로자 보험, 협력업체와 직업 등급
+elevator-technician-insurance | 승강기 유지보수 기사 보험, 추락·끼임과 고지
+preexisting-contribution-cut | 보험사가 기왕증 감액한다고 할 때
+outside-policy-period-claim | 보험사가 보험기간 밖이라고 할 때
+diagnosis-requirement-unmet | 보험사가 진단 요건이 안 된다고 할 때
+claim-withdrawal-suggested | 보험사가 청구 취하를 권할 때
+own-fault-reduction-claim | 보험사가 내 과실로 감액한다고 할 때
+silson-nosebleed | 코피 안 멈출 때 실비 청구, 지혈·소작술
+silson-earwax | 귀지 제거 실비 될까, 이구전색 기준
+silson-fishbone | 목에 생선가시 걸렸을 때 실비 청구
+silson-eye-foreign-body | 눈에 이물질 들어갔을 때 실비 청구
+silson-cold-sore | 입술 물집·구내염 실비 청구 될까
+cataract-surgery-recommended | 백내장 수술 권유받았을 때 보험 확인
+spine-surgery-recommended | 허리 수술 권유받았을 때 보험 먼저 볼 것
+knee-replacement-recommended | 무릎 인공관절 수술 권유받았을 때
+fibroid-surgery-recommended | 자궁근종 수술 권유받았을 때 보험 확인
+gallbladder-surgery-recommended | 담낭 절제술 권유받았을 때 보험 확인
+inline-roller-skate-injury | 인라인·롤러스케이트 타다 다쳤을 때 보험
+zipline-bungee-injury | 짚라인·번지점프 체험 중 다쳤을 때 보험
+wakeboard-waterski-injury | 수상스키·웨이크보드 타다 다쳤을 때 보험
+squash-injury | 스쿼시 치다 다쳤을 때 보험, 눈·발목 부상
+dance-class-injury | 댄스학원에서 춤 배우다 다쳤을 때 보험
 herniated-disc | 허리 디스크 치료와 보험 보장 확인법
 rare-disease-rider | 파킨슨병·루게릭병 특약, 필요할까
 burn-rider | 화상 진단비·수술비 특약 확인 포인트
 universal-insurance | 유니버설 보험 추가납입과 중도인출
 life-vs-nonlife | 생명보험과 손해보험, 무엇이 다를까
+yard-tree-fell-neighbor | 마당 나무가 쓰러져 이웃 차를 파손했을 때
+icy-frontage-passerby-fall | 집 앞 빙판에 행인이 넘어졌을 때
+apartment-common-area-damage | 아파트 공용시설 파손 배상 요구받았을 때
+parked-bike-fell-on-car | 세워둔 자전거가 넘어져 남의 차 긁었을 때
+tenant-damaged-rental-home | 전셋집 시설 파손, 이사 때 배상 요구받았을 때
+myth-claim-employer-knows | 보험금 청구하면 회사에 알려진다던데 사실일까
+myth-own-fault-injury | 내 잘못으로 다치면 보험금 안 나온다던데 사실일까
+myth-payout-health-premium | 보험금 받으면 건강보험료 오른다던데 사실일까
+myth-hospital-overnight-leave | 입원 중 외박하면 입원비 안 나온다던데 사실일까
+myth-insurer-inquiry-record | 보험사에 문의만 해도 기록 남는다던데 사실일까
+insurance-marketing-call-stop | 보험 광고 전화 그만 받으려면 어떻게 하나
+premium-paid-total-check | 내가 낸 보험료 총액 어떻게 확인하나
+silson-payout-tax-check | 연말정산 실손보험금 수령액 어떻게 확인하나
+claim-cancel-request | 보험금 청구한 거 취소할 수 있나
+claim-advance-payment | 보험금 가지급금 신청은 어떻게 하나
 depositor-protection | 보험도 예금자보호가 될까
 annuity-conversion | 종신보험 연금전환, 할 때 따져볼 것
 analysis-documents | 보장 분석 받기 전 준비할 자료
