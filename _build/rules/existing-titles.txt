@@ -698,11 +698,51 @@ premium-paid-total-check | 내가 낸 보험료 총액 어떻게 확인하나
 silson-payout-tax-check | 연말정산 실손보험금 수령액 어떻게 확인하나
 claim-cancel-request | 보험금 청구한 거 취소할 수 있나
 claim-advance-payment | 보험금 가지급금 신청은 어떻게 하나
+physical-therapist-insurance | 물리치료사 보험, 손목·어깨 부상과 환자 배상
+telecom-installer-insurance | 통신·인터넷 설치 기사 보험, 추락과 고객 배상
+gas-station-attendant-insurance | 주유소 직원 보험, 차량 접촉·유증기와 산재
+postpartum-caregiver-insurance | 산후관리사 보험, 손목 부상과 신생아 사고 배상
+sewing-worker-insurance | 봉제공 보험, 손가락 바늘 사고와 직업 고지
+parents-injured-at-nursing-home | 요양원에서 부모님이 다치셨을 때
+dementia-parent-guardianship | 치매 부모님 보험 해지, 자녀가 해도 될까
+parents-hospice-ward | 부모님 호스피스 병동 입원, 보험 확인
+parents-beneficiary-one-sibling | 부모님 보험 수익자가 형제 한 명일 때
+parents-wheelchair-care-bed | 부모님 휠체어·전동침대 구입, 보험 될까
+silson-holter | 홀터 심전도 검사 실비 청구, 24시간 검사
+silson-hardware-removal | 골절 핀 제거 수술 실비 청구, 확인할 점
+silson-bee-sting | 벌에 쏘였을 때 실비 청구, 벌레 물림까지
+silson-folliculitis | 모낭염 실비 청구, 종기 째는 비용까지
+silson-keratitis | 각막염 실비 청구, 렌즈 때문에 생겼다면
+atrial-fibrillation-diagnosed | 심방세동 진단받았을 때 보험 확인
+dvt-diagnosed | 심부정맥혈전증 진단받았을 때 보험
+lymphoma-diagnosed | 림프종 진단받았을 때 보험 확인
+pcos-diagnosed | 다낭성난소증후군 진단받았을 때 보험
+knee-osteoarthritis-diagnosed | 퇴행성 무릎관절염 진단받았을 때 보험
+family-hospitalized-abroad | 해외에서 가족이 입원했을 때 보험 확인
+travel-claim-denied | 여행자보험 청구 거절됐을 때 확인할 것
+inflight-injury | 비행기 안에서 다쳤을 때 보험 처리
+abroad-scooter-accident | 해외여행 중 오토바이 사고 났을 때
+injured-abroad-treatment-home | 해외에서 다쳐 귀국 후 치료 이어갈 때
+hospital-discharge-urged | 병원에서 퇴원하라고 할 때 보험 확인
+integrated-nursing-ward | 간호간병통합서비스 입원, 간병 특약 될까
+policy-expiry-during-stay | 입원 중 보험 만기가 다가올 때
+new-diagnosis-during-stay | 입원 중 다른 병을 진단받았을 때
+admitted-for-tests | 검사 때문에 입원했을 때 실비 청구
+glaucoma-join | 녹내장 있어도 보험 가입할 수 있을까
+psoriasis-join | 건선 치료 중인데 보험 가입 될까
+adhd-medication-join | ADHD 약 먹는 중인데 보험 가입 될까
+vertigo-history-join | 어지럼증 진료 받았는데 보험 가입 될까
+frozen-shoulder-join | 오십견 치료 중인데 보험 가입 될까
 depositor-protection | 보험도 예금자보호가 될까
 annuity-conversion | 종신보험 연금전환, 할 때 따져볼 것
 analysis-documents | 보장 분석 받기 전 준비할 자료
 old-cancer-policy | 오래된 암보험, 보완이 필요한 신호
 rider-add-remove | 가입한 보험에 특약만 추가하거나 뺄 수 있을까
+early-claim-after-joining | 보험 가입 후 얼마 안 돼 청구하면 조사받을까
+car-accident-treatment-duration | 교통사고 치료는 몇 주까지 받을 수 있을까
+medical-record-retention-years | 병원 진료기록은 몇 년까지 뗄 수 있을까
+missing-person-death-benefit | 실종된 가족 사망보험금은 언제 받을 수 있을까
+late-hospital-visit-after-injury | 다치고 며칠 지나 병원 가도 보험 될까
 costly-riders | 보험료에서 비중이 큰 특약 찾는 법
 newborn-conversion | 출생 후 태아보험 전환 절차 정리
 teen-insurance | 10대 자녀 보험, 운동·상해 위험 점검
