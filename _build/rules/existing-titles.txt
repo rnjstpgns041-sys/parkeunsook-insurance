@@ -743,6 +743,46 @@ car-accident-treatment-duration | 교통사고 치료는 몇 주까지 받을 �
 medical-record-retention-years | 병원 진료기록은 몇 년까지 뗄 수 있을까
 missing-person-death-benefit | 실종된 가족 사망보험금은 언제 받을 수 있을까
 late-hospital-visit-after-injury | 다치고 며칠 지나 병원 가도 보험 될까
+building-cleaner-insurance | 건물 청소원 보험, 미끄러짐·세제와 직업 고지
+swimming-instructor-insurance | 수영강사 보험, 회원 사고와 어깨·귀 질환
+laundry-worker-insurance | 세탁소 종사자 보험, 다림질 화상과 고객 옷 배상
+pest-control-worker-insurance | 방역·소독원 보험, 약제 노출과 직업 고지
+martial-arts-instructor-insurance | 태권도 사범 보험, 수련생 사고와 내 부상
+wbc-abnormal-found | 백혈구 수치 이상 나왔을 때 보험 확인
+platelet-low-found | 혈소판 수치 낮게 나왔을 때 보험 확인
+old-tb-scar-found | 흉부 X선 결핵 흔적 나왔을 때 보험 확인
+gallbladder-wall-thickening-found | 담낭벽 비후 소견 나왔을 때 보험 확인
+hiatal-hernia-found | 식도 열공 탈장 소견 나왔을 때 보험 확인
+silson-nasal-fracture | 코뼈 골절 실비 청구, 정복술과 성형 구분
+silson-shoulder-dislocation | 어깨 탈구 실비 청구, 정복부터 재활까지
+silson-tonsil-stones | 편도결석 제거 실비 될까, 레이저 치료까지
+silson-amblyopia | 아이 약시 치료 실비, 가림치료와 안경 구분
+silson-enuresis | 아이 야뇨증 치료 실비 청구, 검사와 약값
+thyroidectomy-recommended | 갑상선 수술 권유받았을 때 보험 확인
+rotator-cuff-surgery-recommended | 어깨 회전근개 수술 권유받았을 때
+neck-disc-surgery-recommended | 목디스크 수술 권유받았을 때 보험 확인
+hip-replacement-recommended | 고관절 인공관절 수술 권유받았을 때
+arrhythmia-ablation-recommended | 부정맥 시술 권유받았을 때 보험 확인
+work-from-home-injury | 재택근무 중 다쳤을 때 산재와 보험
+part-timer-employer-refuses-sanjae | 알바 중 다쳤는데 사장이 산재 안 해줄 때
+company-offers-gongsang | 회사가 산재 대신 공상 처리하자고 할 때
+repetitive-work-musculoskeletal-sanjae | 반복 작업으로 어깨·손목 아플 때 산재와 실비
+work-trip-domestic-injury | 국내 출장 중 다쳤을 때 산재와 개인보험
+alley-pedestrian-hit-driver | 골목길에서 보행자를 쳤을 때 운전자 보험
+school-zone-accident-driver | 스쿨존 사고 났을 때 운전자가 볼 보험
+rental-car-accident-driver | 렌터카 사고 났을 때 보험 처리 순서
+car-sharing-accident-driver | 카셰어링 공유차 사고 났을 때 보험
+company-car-accident-driver | 회사차 운전 중 사고 났을 때 보험
+adult-child-join-kids-insurance | 다 큰 자녀도 어린이보험 가입할 수 있을까
+fetal-insurance-mother-coverage | 태아보험에 산모 보장도 넣을 수 있을까
+kids-premium-waiver-parent-illness | 부모가 아프면 아이 보험료 납입면제 될까
+kids-policyholder-mom-or-dad | 아이 보험 계약자, 엄마 아빠 중 누구로 할까
+fetal-insurance-miscarriage | 태아보험 가입 후 유산되면 어떻게 될까
+silson-same-across-insurers | 실비보험 회사마다 보장이 다를까
+silson-premium-for-life | 실비보험 보험료는 평생 내야 할까
+silson-no-maturity-refund | 실비보험은 나중에 돌려받는 돈이 있을까
+silson-premium-differs | 같은 실비인데 보험료가 왜 다를까
+silson-payout-how-long | 실비 청구하면 며칠 만에 들어올까
 costly-riders | 보험료에서 비중이 큰 특약 찾는 법
 newborn-conversion | 출생 후 태아보험 전환 절차 정리
 teen-insurance | 10대 자녀 보험, 운동·상해 위험 점검
