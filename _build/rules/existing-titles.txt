@@ -783,11 +783,51 @@ silson-premium-for-life | 실비보험 보험료는 평생 내야 할까
 silson-no-maturity-refund | 실비보험은 나중에 돌려받는 돈이 있을까
 silson-premium-differs | 같은 실비인데 보험료가 왜 다를까
 silson-payout-how-long | 실비 청구하면 며칠 만에 들어올까
+radiographer-insurance | 방사선사 보험, 피폭 걱정과 직업 고지 확인
+bath-attendant-insurance | 목욕관리사 보험, 손목·미끄러짐과 가입 확인
+funeral-director-insurance | 장례지도사 보험, 운구 부상과 감염 노출
+lab-researcher-insurance | 실험실 연구원 보험, 화학물질 사고와 고지
+broadcast-crew-insurance | 방송 촬영 스태프 보험, 현장 부상과 고지
 costly-riders | 보험료에서 비중이 큰 특약 찾는 법
 newborn-conversion | 출생 후 태아보험 전환 절차 정리
 teen-insurance | 10대 자녀 보험, 운동·상해 위험 점검
 single-parent | 한부모 가정 보험, 우선 챙길 보장
 grandchild-insurance | 조부모가 손주 보험 들어줄 때 확인할 점
+spleen-enlarged-found | 비장 비대 소견 나왔을 때 보험 확인
+barrett-esophagus-found | 바렛식도 소견 나왔을 때 보험 확인
+hepatitis-c-antibody-found | C형간염 항체 양성 나왔을 때 보험 확인
+coronary-calcium-found | 관상동맥 석회화 소견 나왔을 때 보험 확인
+gastric-ulcer-found | 위궤양 소견 나왔을 때 보험 확인
+silson-uveitis | 포도막염 진단받았을 때 실비 청구
+silson-chickenpox | 수두 걸렸을 때 실비 청구
+silson-subconjunctival-hemorrhage | 결막하출혈 진료 실비 청구
+silson-impetigo | 아이 농가진 치료 실비 청구
+silson-rib-fracture | 갈비뼈 골절 치료 실비 청구
+frostbite-cold-injury | 한파에 동상 입었을 때 보험 청구
+typhoon-flooded-car | 태풍·폭우에 차가 침수됐을 때 보험 처리
+scrub-typhus-claim | 쯔쯔가무시 진단받았을 때 보험 청구
+jellyfish-sting-claim | 해파리에 쏘였을 때 보험 청구, 실비와 상해
+fine-dust-asthma-flare | 미세먼지 심한 날 천식 악화로 병원 갔을 때
+ectopic-pregnancy-diagnosed | 자궁외임신 진단받았을 때 보험 확인
+cervical-cerclage-surgery | 자궁경부무력증 맥도날드 수술 보험
+molar-pregnancy-diagnosed | 포상기태 진단받았을 때 보험 확인
+lactation-mastitis-abscess | 수유 중 유선염·유방농양 보험 확인
+bartholin-cyst-surgery | 바르톨린낭종 수술 보험, 실비와 수술비
+chronic-prostatitis-diagnosed | 만성 전립선염 진단받았을 때 보험 확인
+hydrocele-surgery-recommended | 음낭수종 수술 권유받았을 때 보험 확인
+epididymitis-diagnosed | 부고환염 진단받았을 때 보험 확인
+vasectomy-insurance | 정관수술 실비 될까, 수술 전 확인할 것
+erectile-dysfunction-insurance | 발기부전 치료 실비 될까, 먼저 확인할 것
+extended-term-insurance-meaning | 연장정기보험이 무슨 뜻이에요
+insurable-value-meaning | 보험가액이 무슨 뜻이에요
+insurer-subrogation-meaning | 보험자대위가 무슨 뜻이에요
+premium-expense-loading-meaning | 보험료 사업비가 무슨 뜻이에요
+first-time-only-coverage-meaning | 최초 1회한이 무슨 뜻이에요
+premium-debit-date-change | 보험료 출금일 바꿀 수 있을까
+premium-advance-payment | 보험료 몇 달치 미리 낼 수 있을까
+premium-payment-certificate | 보험료 납입증명서 어디서 떼나
+premium-paying-from-abroad | 해외에 살면서 보험료 어떻게 내나
+premium-cash-to-agent | 보험료 설계사에게 현금으로 줘도 될까
 golf-insurance | 골프보험, 가입 전 확인할 보장
 smartphone-insurance | 휴대폰 보험, 가입할 만할까
 cyber-insurance | 보이스피싱·온라인 사기, 보험으로 대비할 수 있을까
