@@ -4,7 +4,7 @@ import { kstDay, b64e } from '../lib/common.mjs';
 
 // Records one visit or button event. Each hit is one blob whose key carries the
 // data, so the stats page can read a whole day with a single list call.
-const EVENTS = new Set(['view', 'call', 'copy']);
+const EVENTS = new Set(['view', 'call', 'copy', 'sms']);
 const BOT = /bot|crawl|spider|slurp|yeti|daum|bingpreview|headless|lighthouse|python|curl|wget/i;
 
 function refKind(ref, host) {

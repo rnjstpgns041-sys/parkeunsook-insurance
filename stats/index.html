@@ -43,7 +43,7 @@
       <div class="tile hero"><div class="k">전화 버튼 누름</div><div class="v" id="t-calls">-</div><div class="d" id="d-calls"></div></div>
       <div class="tile"><div class="k">방문자</div><div class="v" id="t-visitors">-</div><div class="d" id="d-visitors"></div></div>
       <div class="tile"><div class="k">페이지 조회</div><div class="v" id="t-views">-</div><div class="d" id="d-views"></div></div>
-      <div class="tile"><div class="k">번호 복사</div><div class="v" id="t-copies">-</div><div class="d" id="d-copies"></div></div>
+      <div class="tile"><div class="k">문자 · 번호 복사</div><div class="v" id="t-copies">-</div><div class="d" id="d-copies"></div></div>
     </div>
 
     <section class="panel"><h2>일별 방문자</h2><div class="chart" id="c-visitors"></div></section>
@@ -133,9 +133,11 @@ function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&
 function render() {
   var all = DATA.days, cur = all.slice(-N), prev = all.length >= 2 * N ? all.slice(-2 * N, -N) : null;
   ['calls', 'visitors', 'views', 'copies'].forEach(function (f) {
-    var c = sum(cur, f);
+    // the last tile counts text-message buttons and number copies together
+    var get = function (ds) { return f === 'copies' ? sum(ds, 'copies') + sum(ds, 'sms') : sum(ds, f); };
+    var c = get(cur);
     document.getElementById('t-' + f).textContent = PS.num(c);
-    document.getElementById('d-' + f).textContent = N === 1 ? '' : delta(c, prev ? sum(prev, f) : null);
+    document.getElementById('d-' + f).textContent = N === 1 ? '' : delta(c, prev ? get(prev) : null);
   });
   document.getElementById('range-label').textContent = cur[0].day.replace(/-/g, '.') + ' ~ ' + cur[cur.length - 1].day.replace(/-/g, '.');
   var chartDays = N === 1 ? all.slice(-7) : cur;

@@ -2,7 +2,7 @@ import { getStore } from '@netlify/blobs';
 import { authed, json, kstDay, b64d } from '../lib/common.mjs';
 
 function emptyDay() {
-  return { views: 0, visitors: 0, calls: 0, copies: 0, pages: {}, refs: {}, devices: {} };
+  return { views: 0, visitors: 0, calls: 0, copies: 0, sms: 0, pages: {}, refs: {}, devices: {} };
 }
 
 function aggregate(keys) {
@@ -13,6 +13,7 @@ function aggregate(keys) {
     if (!rec) continue;
     if (rec.e === 'call') { a.calls++; continue; }
     if (rec.e === 'copy') { a.copies++; continue; }
+    if (rec.e === 'sms') { a.sms++; continue; }
     a.views++;
     a.pages[rec.p] = (a.pages[rec.p] || 0) + 1;
     if (!seen.has(rec.v)) {

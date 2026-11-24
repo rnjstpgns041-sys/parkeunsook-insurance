@@ -155,6 +155,7 @@ import re
 hp = open(OUT + '/index.html', encoding='utf-8').read()
 hp = re.sub(r'자주 받는 질문 \d+가지를', f'자주 받는 질문 {len(order)}가지를', hp)
 hp = re.sub(r'보험 가이드 \d+편 전체 보기', f'보험 가이드 {len(order)}편 전체 보기', hp)
+hp = re.sub(r'(<span class="tnum" data-gc>)\d+(</span>)', lambda m: m.group(1) + str(len(order)) + m.group(2), hp)
 faqs = re.findall(r'<details[^>]*><summary>(.*?)</summary><p>(.*?)</p></details>', hp.split('id="faq"', 1)[1].split('</section>', 1)[0])
 home_ld = {"@context": "https://schema.org", "@graph": [AGENCY, AUTHOR,
     {"@type": "WebSite", "@id": BASE + '/#site', "url": BASE + '/', "name": "박은숙 보험상담", "inLanguage": "ko", "publisher": {"@id": BASE + '/#agency'}},
