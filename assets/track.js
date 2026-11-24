@@ -1,5 +1,5 @@
 /* Visit counter for the owner's stats page. Sends the page path, the referring
-   site and button clicks. No cookies; skipped on devices that opened /stats/. */
+   site and button clicks (call, text message, number copy). No cookies; skipped on devices that opened /stats/. */
 (function () {
   try { if (localStorage.getItem('ps_owner')) return; } catch (e) {}
   function send(e) {
@@ -14,6 +14,7 @@
     var t = ev.target;
     if (!t || !t.closest) return;
     if (t.closest('a[href^="tel:"]')) send('call');
+    else if (t.closest('a[href^="sms:"]')) send('sms');
     else if (t.closest('button.copy[data-copy="phone"]')) send('copy');
   }, true);
 })();
