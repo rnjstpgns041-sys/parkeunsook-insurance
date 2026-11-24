@@ -828,11 +828,51 @@ premium-advance-payment | 보험료 몇 달치 미리 낼 수 있을까
 premium-payment-certificate | 보험료 납입증명서 어디서 떼나
 premium-paying-from-abroad | 해외에 살면서 보험료 어떻게 내나
 premium-cash-to-agent | 보험료 설계사에게 현금으로 줘도 될까
+driving-instructor-insurance | 운전강사 보험, 연수 중 사고와 직업 고지
+tow-truck-driver-insurance | 견인차 기사 보험, 2차 사고와 가입 제한
+musician-insurance | 악기 연주자 보험, 손목·청력과 소득 공백
+ski-instructor-insurance | 스키강사 보험, 시즌 근무 중 부상과 배상
+valet-parking-attendant-insurance | 발레파킹 기사 보험, 고객 차 사고 났을 때
+coronary-bypass-recommended | 관상동맥 우회술 권유받았을 때 보험 확인
+pacemaker-recommended | 심장박동기 삽입 권유받았을 때 보험 확인
+vitrectomy-recommended | 망막 유리체절제술 권유받았을 때 보험
+vertebroplasty-recommended | 척추 압박골절 시술 권유받았을 때 보험
+gastric-esd-recommended | 위 내시경 점막하박리술 권유받았을 때
+kids-pulled-elbow | 아이 팔꿈치 빠졌을 때 보험 청구
+kids-front-tooth-broken | 아이 앞니 부러졌을 때 보험 확인
+kids-kawasaki-disease | 아이 가와사키병 진단, 보험 확인
+kids-febrile-seizure | 아이 열성경련 응급실, 보험 청구
+kids-intussusception | 아이 장중첩증 진단, 보험 청구
 golf-insurance | 골프보험, 가입 전 확인할 보장
 smartphone-insurance | 휴대폰 보험, 가입할 만할까
 cyber-insurance | 보이스피싱·온라인 사기, 보험으로 대비할 수 있을까
 jeonse-guarantee | 전세보증보험, 가입 전에 꼭 확인할 것
 claim-for-child | 자녀 보험금 청구할 때 필요한 서류와 주의점
+mci-diagnosed-insurance | 경도인지장애 진단받았을 때 보험 확인
+trigeminal-neuralgia-insurance | 삼차신경통 진단받았을 때 보험 청구
+bipolar-disorder-insurance | 양극성장애 진단 후 보험 청구와 가입
+essential-tremor-insurance | 본태성 떨림 진단 후 보험 확인
+narcolepsy-insurance | 기면증 진단받았을 때 보험 확인
+pterygium-surgery-insurance | 익상편 수술 앞두고 보험 확인할 점
+tear-duct-surgery-insurance | 눈물길 수술 받기 전 실비·수술비 확인
+preauricular-sinus-surgery | 귀 앞 구멍(이루공) 수술 보험 확인
+apicoectomy-insurance | 치근단절제술 권유받았을 때 보험 확인
+pilonidal-cyst-surgery | 모소낭 수술 앞두고 실비·수술비 확인
+family-car-passenger-injury | 가족이 운전하는 차에 타다 다쳤을 때
+scooter-rider-hit-by-car | 전동킥보드 타다 차와 부딪혀 다쳤을 때
+cyclist-collision-injury | 자전거끼리 부딪혀 다쳤을 때 보험
+motorcycle-pillion-injury | 오토바이 뒷자리 타다 다쳤을 때 보험
+tour-bus-passenger-injury | 관광버스 단체여행 중 사고로 다쳤을 때
+catastrophic-medical-aid-silson | 재난적의료비 지원 받으면 실비는 어떻게 돼요
+health-premium-arrears-silson | 건강보험료 밀렸는데 실비 청구 될까요
+medical-bill-refund-after-silson | 병원비 환불받으면 받은 실비도 돌려줘야 하나
+home-care-service-silson | 방문요양·주야간보호 비용도 실비 되나요
+copay-reduction-silson | 차상위 본인부담경감 받으면 실비는요
+variable-fund-switch | 변액보험 펀드 변경, 언제 해야 할까
+annuity-start-age-change | 연금보험 연금개시 나이 바꿀 수 있을까
+rider-added-waiting-period | 특약 추가하면 면책기간 다시 시작될까
+death-benefit-liquidation | 종신보험 사망보험금 살아서 받을 수 있을까
+policy-change-reversible | 보험 계약 변경, 나중에 되돌릴 수 있을까
 medical-bill-detail | 진료비 영수증과 세부내역서, 청구 전에 보는 법
 surgery-certificate | 수술비 청구 전 수술확인서에서 볼 것
 agent-registration-check | 상담받는 설계사, 등록 여부 확인하는 법
