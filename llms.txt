@@ -1,6 +1,6 @@
 # 박은숙 보험상담
 
-> 보험설계사 박은숙이 운영하는 보험 정보 사이트입니다. 실손보험(실비), 진단비·특약, 보험 구조, 보험 리모델링, 가족·연령별 보험, 상품별 가이드, 보험금 청구, 가입·계약 제도에 관한 질문 1335가지를 약관 기준으로 정리했습니다. 무료 보장 분석 전화 상담: 010-6378-6964.
+> 보험설계사 박은숙이 운영하는 보험 정보 사이트입니다. 실손보험(실비), 진단비·특약, 보험 구조, 보험 리모델링, 가족·연령별 보험, 상품별 가이드, 보험금 청구, 가입·계약 제도에 관한 질문 1375가지를 약관 기준으로 정리했습니다. 무료 보장 분석 전화 상담: 010-6378-6964.
 
 - 운영자: 박은숙 (보험설계사)
 - 상담: 무료 전화 상담, 가입 권유 없음, 전화 010-6378-6964
@@ -194,6 +194,11 @@
 - [쇄골 골절 실비 청구, 수술·보조기까지](https://parkeunsook-insurance.netlify.app/guide/silson-clavicle-fracture.html): 넘어지거나 자전거 사고로 쇄골이 부러졌을 때 실비 청구가 어떻게 되는지, 보존치료와 수술, 8자 보조기, 골절 진단비 같은 정액 담보와의 구분을 차례로 정리했습니다.
 - [무릎 물 뺐을 때 실비 청구, 관절천자](https://parkeunsook-insurance.netlify.app/guide/silson-knee-aspiration.html): 무릎이 붓고 물이 차서 병원에서 물을 뺐다면 실비 청구가 되는지, 관절천자와 이어서 맞는 주사의 구분, 반복 시술 시 계산과 청구 전에 챙길 서류를 정리했습니다.
 - [침샘결석 실비 청구, 시술과 수술 정리](https://parkeunsook-insurance.netlify.app/guide/silson-salivary-stone.html): 밥 먹을 때 턱밑이 붓고 아파 침샘결석 진단을 받았다면 실비 청구가 되는지, 결석 제거 시술과 침샘내시경, 침샘 절제 수술, 수술비 담보 확인까지 정리했습니다.
+- [지간신경종 실비 청구, 주사와 수술까지](https://parkeunsook-insurance.netlify.app/guide/silson-mortons-neuroma.html): 발가락 사이가 저리고 아파 지간신경종 진단을 받았을 때 실비 청구가 되는지, 검사·주사·체외충격파·수술 항목별로 확인할 점과 흔한 실수를 정리했습니다.
+- [발가락 골절 실비 청구, 깁스·보호신발까지](https://parkeunsook-insurance.netlify.app/guide/silson-toe-fracture.html): 문틀에 찧거나 물건을 떨어뜨려 발가락이 부러졌을 때 실비 청구 방법과 깁스·보호신발 비용, 골절 진단비 특약과 헷갈리는 점, 준비할 서류를 정리했습니다.
+- [꼬리뼈 다쳤을 때 실비 청구, 통증 치료까지](https://parkeunsook-insurance.netlify.app/guide/silson-tailbone-injury.html): 엉덩방아를 찧어 꼬리뼈가 아플 때 실비 청구가 되는지, 엑스레이·물리치료·주사 항목별 확인할 점과 타인 시설에서 다쳤을 때 주의할 점을 정리했습니다.
+- [장폐색으로 입원했을 때 실비 청구](https://parkeunsook-insurance.netlify.app/guide/silson-bowel-obstruction.html): 복통과 구토로 응급실에 갔다가 장폐색으로 입원했을 때 실비 청구가 되는지, 입원비·검사·수술 항목별 확인할 점과 입원 일당·수술비 담보까지 정리했습니다.
+- [아이 크룹 응급실 다녀왔을 때 실비 청구](https://parkeunsook-insurance.netlify.app/guide/silson-croup.html): 밤에 아이가 컹컹 기침하며 숨쉬기 힘들어 크룹으로 응급실이나 입원 치료를 받았을 때 실비 청구 방법과 응급실 비용, 준비할 서류를 정리했습니다.
 
 ## 진단비 · 특약
 
@@ -423,6 +428,21 @@
 - [IgA신증 진단받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/iga-nephropathy-diagnosed.html): IgA신증 진단을 받았다면 신장 조직검사 청구, 만성 신장질환 관련 특약, 기존 보험 유지와 새 가입 시 고지까지 확인할 순서를 차근차근 정리했습니다.
 - [자가면역간염 진단받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/autoimmune-hepatitis-diagnosed.html): 자가면역간염 진단을 받았다면 간질환 특약, 산정특례, 입원 청구와 기존 보험 유지, 새 가입 시 고지까지 상담 전에 확인할 순서를 정리했습니다.
 - [급성 신우신염 진단받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/pyelonephritis-diagnosed.html): 성인이 급성 신우신염으로 진단받아 입원했다면 입원일당, 실손, 반복 입원 시 청구와 이후 새 보험에 가입할 때 고지할 점까지 순서대로 정리했습니다.
+- [녹내장 수술 권유받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/glaucoma-surgery-recommended.html): 녹내장 수술을 권유받았다면 날짜를 잡기 전에 실손 가입 시기, 수술비 담보의 수술 정의, 레이저 치료 해당 여부, 서류 준비까지 미리 확인해두시면 청구가 훨씬 수월해집니다.
+- [다리 혈관 스텐트 시술 권유받았을 때](https://parkeunsook-insurance.netlify.app/guide/leg-artery-stent-recommended.html): 하지동맥 폐쇄증으로 다리 혈관 스텐트나 풍선확장술을 권유받았다면 시술 전에 실손 기준, 수술비 담보의 혈관 시술 인정 여부, 심장·뇌혈관 담보와의 차이를 확인해두세요.
+- [인공와우 수술 권유받았을 때 보험](https://parkeunsook-insurance.netlify.app/guide/cochlear-implant-recommended.html): 인공와우 수술을 권유받았다면 수술 전에 실손의 급여·비급여 구분, 수술비 담보 해당 여부, 아이 보험의 고지 문제, 기기 교체 비용까지 미리 확인해두시는 것이 좋습니다.
+- [비만대사수술 권유받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/bariatric-surgery-recommended.html): 비만대사수술을 권유받았다면 수술 전에 건강보험 적용 기준, 실손 약관의 비만 관련 제외 조항, 수술비 담보 해당 여부와 진단서 내용까지 미리 확인해두시는 것이 좋습니다.
+- [각막이식 수술 권유받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/corneal-transplant-recommended.html): 각막이식 수술을 권유받았다면 수술 전에 실손의 급여·비급여 구분, 수술비와 이식 관련 담보에 각막이 포함되는지, 대기 기간 중 고지 문제와 서류까지 미리 확인해두세요.
+- [암 전이 진단받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/cancer-metastasis-diagnosed.html): 암 치료 중 전이 진단을 받았을 때 진단비를 또 받을 수 있는지, 원발 부위 기준과 재진단암·계속받는 암 특약, 청구 전에 확인할 서류를 정리했습니다.
+- [항암 부작용으로 입원했을 때 보험](https://parkeunsook-insurance.netlify.app/guide/chemo-side-effect-admission.html): 항암치료 중 발열, 구내염, 호중구 감소 같은 부작용으로 입원했을 때 암 입원일당과 실손이 어떻게 적용되는지, 직접치료 판단과 서류 준비를 정리했습니다.
+- [암 고주파 온열치료 실비 청구](https://parkeunsook-insurance.netlify.app/guide/hyperthermia-cancer-claim.html): 암 치료 중 고주파 온열치료를 권유받았을 때 실손에서 보장되는지, 치료 목적 판단과 보험사 서류 요구, 요양병원 치료 시 확인할 점과 준비 서류를 정리했습니다.
+- [암 수술 후 림프부종 치료 보험](https://parkeunsook-insurance.netlify.app/guide/lymphedema-after-cancer.html): 암 수술이나 방사선치료 후 림프부종이 생겼을 때 실손과 암 특약이 어떻게 적용되는지, 압박 의류와 림프 마사지 치료의 구분, 서류 준비를 정리했습니다.
+- [중입자·양성자 치료 받게 됐을 때 보험](https://parkeunsook-insurance.netlify.app/guide/heavy-ion-proton-therapy.html): 암 치료 중 중입자나 양성자 치료를 권유받았을 때 실손과 방사선치료비, 고액 치료 특약이 어떻게 적용되는지, 급여 여부와 미리 확인할 서류를 정리했습니다.
+- [베체트병 진단받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/behcet-disease-diagnosed.html): 베체트병 진단을 받은 직후 실손 청구 범위, 희귀난치성질환 특약 확인, 기존 보험을 유지해야 하는 이유와 새 가입 시 고지할 내용까지 차분하게 정리했습니다.
+- [쇼그렌증후군 진단받았을 때 보험](https://parkeunsook-insurance.netlify.app/guide/sjogren-syndrome-diagnosed.html): 쇼그렌증후군 진단 후 안구건조·구강건조 치료비의 실손 청구, 비급여 안약과 검사비 확인, 기존 보험 유지와 새 가입 시 고지 방법까지 보험 상담 관점에서 정리했습니다.
+- [전신경화증 진단받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/systemic-sclerosis-diagnosed.html): 전신경화증(경피증) 진단 후 실손 청구 범위, 폐·신장 합병증에 따른 입원·수술 담보, 희귀난치 특약 확인과 기존 보험 유지 원칙을 보험 상담 관점에서 정리했습니다.
+- [재생불량성빈혈 진단받았을 때 보험](https://parkeunsook-insurance.netlify.app/guide/aplastic-anemia-diagnosed.html): 재생불량성빈혈 진단 후 수혈·면역치료 비용의 실손 청구, 조혈모세포이식과 수술비 담보, 암 진단비와의 차이, 기존 보험 유지와 고지 원칙까지 정리했습니다.
+- [부신기능저하증 진단받았을 때 보험](https://parkeunsook-insurance.netlify.app/guide/adrenal-insufficiency-diagnosed.html): 부신기능저하증(애디슨병) 진단 후 호르몬제 처방과 응급 입원의 실손 청구, 특약 확인, 평생 약 복용에 따른 새 보험 가입 시 고지 방법과 기존 계약 유지까지 정리했습니다.
 
 ## 보험 구조 이해
 
@@ -819,6 +839,16 @@
 - [백내장 수술 후 다시 뿌옇게 보일 때 보험](https://parkeunsook-insurance.netlify.app/guide/posterior-capsule-opacity-laser.html): 백내장 수술 후 몇 년 뒤 다시 시야가 뿌옇다면 후발백내장일 수 있습니다. 레이저 치료의 실손 청구, 수술비 담보 해당 여부, 첫 수술 때와 달라지는 점을 정리했습니다.
 - [인공관절 재수술 앞두고 보험 확인](https://parkeunsook-insurance.netlify.app/guide/joint-replacement-revision.html): 오래전 넣은 무릎·고관절 인공관절이 헐거워지거나 감염돼 재수술을 권유받으셨다면 실손 가입 시기, 수술비 반복 지급 조건, 부담보 여부를 수술 전에 확인하세요.
 - [당뇨발 상처가 낫지 않을 때 보험](https://parkeunsook-insurance.netlify.app/guide/diabetic-foot-wound.html): 당뇨가 있는데 발 상처가 오래 낫지 않아 드레싱이나 수술을 권유받으셨다면 실손 청구, 수술비와 장해 담보, 유병자 보험의 보장 조건을 정리했습니다.
+- [양봉업자 보험, 벌 쏘임 쇼크와 직업 고지](https://parkeunsook-insurance.netlify.app/guide/beekeeper-insurance.html): 양봉업자 보험이 궁금하신 분께, 벌 쏘임 아나필락시스와 벌통 운반 부상, 정책보험과 개인보험 구분, 직업 고지와 상담 전 확인할 서류를 정리했습니다.
+- [산업잠수사 보험, 잠수병과 가입 거절](https://parkeunsook-insurance.netlify.app/guide/commercial-diver-insurance.html): 산업잠수사 보험이 궁금하신 분께, 가입 거절이 잦은 이유와 잠수병 치료 때 확인할 약관, 산재와 개인보험 구분, 상담 전 준비할 서류를 정리했습니다.
+- [항공기 조종사 보험, 신체검사와 직업 고지](https://parkeunsook-insurance.netlify.app/guide/airline-pilot-insurance.html): 항공기 조종사 보험이 궁금하신 분께, 회사 단체보험과 개인보험 구분, 항공 신체검사에서 지적된 질환과 고지, 비행 중 사고 관련 약관 확인법을 정리했습니다.
+- [펜션·민박 운영자 보험, 손님 사고와 내 부상](https://parkeunsook-insurance.netlify.app/guide/pension-guesthouse-owner-insurance.html): 펜션이나 민박을 운영하신다면, 손님이 다쳤을 때 배상책임보험 확인 순서와 시설 화재, 청소·관리 중 내 부상까지 사장님이 점검할 보험을 정리했습니다.
+- [하수도·정화조 작업자 보험, 질식 사고와 고지](https://parkeunsook-insurance.netlify.app/guide/sewer-septic-worker-insurance.html): 하수도나 정화조 청소 일을 하신다면, 밀폐공간 가스 사고와 감염 위험, 산재와 개인보험 구분, 직업 고지와 상담 전 확인할 서류를 정리했습니다.
+- [가족 보험 갱신·만기 일정, 어떻게 관리할까](https://parkeunsook-insurance.netlify.app/guide/family-renewal-calendar.html): 가족 보험의 갱신일, 납입 완료 시점, 보장 만기를 한 장의 일정표로 관리하는 방법과 확인 순서, 놓치기 쉬운 특약 만기까지 보험설계사가 정리했습니다.
+- [가족 보험 계약자, 한 사람으로 몰아도 될까](https://parkeunsook-insurance.netlify.app/guide/family-single-policyholder.html): 가족 보험 계약자를 한 사람으로 몰았을 때의 편리한 점과, 계약자의 사망·이혼·소득 변화 때 생길 수 있는 문제, 세액공제와 납입면제 확인점을 정리했습니다.
+- [형제끼리 부모님 보험 관리, 어떻게 나눌까](https://parkeunsook-insurance.netlify.app/guide/siblings-share-parents-policy.html): 형제자매가 부모님 보험을 함께 관리할 때 보험료 납부, 청구 담당, 서류 보관, 수익자 확인을 어떻게 나누면 좋은지와 미리 정해둘 점을 정리했습니다.
+- [해외 사는 자녀가 부모님 보험 챙기려면](https://parkeunsook-insurance.netlify.app/guide/overseas-child-parents-policy.html): 해외에 사는 자녀가 한국에 계신 부모님 보험을 챙길 때 가입 내역 확인, 보험료 납부, 보험금 대리 청구, 서류 준비를 어떻게 하면 좋은지 정리했습니다.
+- [배우자 보험, 내가 대신 해지할 수 있을까](https://parkeunsook-insurance.netlify.app/guide/spouse-policy-cancel-by-me.html): 배우자 보험을 대신 해지할 수 있는지는 계약자가 누구인지에 따라 다릅니다. 계약자별 해지 가능 여부, 위임 서류, 해지 전에 함께 확인할 점을 정리했습니다.
 
 ## 상품별 가이드
 
@@ -1179,6 +1209,11 @@
 - [가게 누수로 아래층 점포 피해 줬을 때](https://parkeunsook-insurance.netlify.app/guide/shop-leak-downstairs-store.html): 내 가게에서 물이 새 아래층 점포에 피해를 줬을 때 일상생활배상책임이 아닌 영업배상책임을 봐야 하는 이유, 누수 원인 확인 순서, 흔한 실수와 상담 전 준비할 것을 정리했습니다.
 - [가게 간판이 떨어져 행인이 다쳤을 때](https://parkeunsook-insurance.netlify.app/guide/shop-sign-fell-passerby.html): 가게 간판이나 어닝이 떨어져 지나가던 사람이 다치거나 차량이 파손됐을 때 시설 배상책임 확인법, 옥외광고물 보험 의무 여부, 흔한 실수와 상담 전 준비할 것을 정리했습니다.
 - [음식 이물질로 손님 치아 다쳤을 때](https://parkeunsook-insurance.netlify.app/guide/food-foreign-object-tooth.html): 손님이 가게 음식 속 이물질을 씹어 치아가 깨졌다고 연락했을 때 사장님이 먼저 할 일, 생산물배상책임과 영업배상책임 확인법, 흔한 실수와 상담 전 준비할 것을 정리했습니다.
+- [파크골프 치다 다쳤을 때, 공에 맞은 경우까지](https://parkeunsook-insurance.netlify.app/guide/park-golf-injury.html): 파크골프장에서 넘어지거나 날아온 공에 맞아 다쳤을 때 내 상해보험과 실손, 친 사람의 배상책임, 지자체 시민안전보험까지 확인 순서를 정리했습니다.
+- [농구하다 다쳤을 때 보험, 발목·손가락 부상](https://parkeunsook-insurance.netlify.app/guide/pickup-basketball-injury.html): 동네 코트나 체육관에서 농구하다 발목 인대, 손가락 골절, 충돌 부상을 입었을 때 상해 담보와 실손, 상대 선수 배상책임까지 확인할 순서를 정리했습니다.
+- [테니스 치다 다쳤을 때 보험, 종아리·눈 부상](https://parkeunsook-insurance.netlify.app/guide/tennis-court-injury.html): 테니스 치다 종아리 근육이나 아킬레스건이 끊어졌을 때, 공에 눈을 맞았을 때 상해와 질병 구분, 실손과 수술비, 레슨장 배상책임까지 확인할 점을 정리했습니다.
+- [크로스핏 하다 다쳤을 때 보험, 횡문근융해증까지](https://parkeunsook-insurance.netlify.app/guide/crossfit-rhabdo-injury.html): 크로스핏이나 고강도 운동 중 허리·어깨를 다치거나 횡문근융해증으로 입원했을 때 상해와 질병 구분, 실손과 입원 담보, 박스 배상책임 확인법을 정리했습니다.
+- [배구하다 다쳤을 때 보험, 손가락 골절·착지 부상](https://parkeunsook-insurance.netlify.app/guide/volleyball-finger-injury.html): 배구 동호회나 생활체육 경기 중 손가락 골절·탈구, 블로킹 후 착지하다 발목과 무릎을 다쳤을 때 상해 담보와 실손, 동호회 보험 확인 순서를 정리했습니다.
 
 ## 가입 · 계약 제도
 
@@ -1366,3 +1401,8 @@
 - [설계사에게 인증서·비밀번호 알려줘도 될까](https://parkeunsook-insurance.netlify.app/guide/agent-login-password-request.html): 보험설계사가 보험 조회나 청구를 도와준다며 인증서, 비밀번호, 인증번호를 알려달라고 할 때 괜찮은지, 위험한 이유와 안전하게 도움받는 방법을 정리했습니다.
 - [보험 상담 내용, 녹음해도 될까](https://parkeunsook-insurance.netlify.app/guide/consult-recording-ok.html): 보험 상담 내용을 녹음하거나 기록해도 되는지, 녹음이 도움이 되는 경우와 주의할 점, 녹음 대신 설명을 문서로 남기는 방법까지 보험설계사가 정리했습니다.
 - [보험금 거절되면 설계사가 도와줄 수 있을까](https://parkeunsook-insurance.netlify.app/guide/agent-help-denied-claim.html): 보험금 지급이 거절됐을 때 담당 설계사가 어디까지 도와줄 수 있는지, 설계사가 할 수 있는 일과 할 수 없는 일, 손해사정사나 민원 등 다음 단계를 정리했습니다.
+- [보험 명의 빌려달라는 부탁, 들어줘도 될까](https://parkeunsook-insurance.netlify.app/guide/lend-name-for-policy-request.html): 지인이나 설계사가 보험 가입에 명의만 빌려달라고 할 때 생길 수 있는 문제, 차명계약의 위험, 거절하는 방법과 이미 빌려준 경우 확인할 점을 정리했습니다.
+- [실비로 공짜라는 병원 시술, 받아도 될까](https://parkeunsook-insurance.netlify.app/guide/free-treatment-with-silson-offer.html): 실비 처리하면 본인 부담이 없다며 시술을 권하는 병원, 그대로 받아도 될까요. 보험사기 연루 위험과 영수증 항목 확인법, 거절하는 방법을 정리했습니다.
+- [대출받는데 보험 가입하라고 하면 어떡하나](https://parkeunsook-insurance.netlify.app/guide/loan-with-insurance-pressure.html): 대출 상담 중 보험 가입을 조건처럼 권유받았을 때 알아둘 구속성 판매 규정, 거절해도 되는지, 이미 가입했다면 청약철회와 민원 절차까지 정리했습니다.
+- [보험 깨고 투자하라는 권유, 따라도 될까](https://parkeunsook-insurance.netlify.app/guide/cancel-insurance-to-invest-pitch.html): 보험을 해지하고 그 돈으로 투자하라는 권유를 받았을 때 확인할 점, 투자 사기의 흔한 신호, 해지 전에 따져볼 손실과 보장 공백을 정리했습니다.
+- [사고 후 보험금 받아준다는 사람, 믿어도 될까](https://parkeunsook-insurance.netlify.app/guide/accident-claim-broker-approach.html): 사고 뒤 병원이나 전화로 접근해 보험금을 더 받아주겠다는 사람을 만났을 때 확인할 자격, 과도한 수수료와 보험사기 연루 위험, 안전한 대응법을 정리했습니다.
