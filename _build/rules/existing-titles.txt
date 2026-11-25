@@ -873,11 +873,51 @@ annuity-start-age-change | 연금보험 연금개시 나이 바꿀 수 있을까
 rider-added-waiting-period | 특약 추가하면 면책기간 다시 시작될까
 death-benefit-liquidation | 종신보험 사망보험금 살아서 받을 수 있을까
 policy-change-reversible | 보험 계약 변경, 나중에 되돌릴 수 있을까
+railway-worker-insurance | 철도 기관사·역무원 보험, 선로 사고와 고지
+rope-access-worker-insurance | 외벽 로프공 보험, 추락 사고와 가입 거절
+port-stevedore-insurance | 항만 하역 근로자 보험, 중장비·추락과 산재
+dancer-insurance | 무용수 보험, 발목·허리 부상과 소득 공백
+dental-technician-insurance | 치과기공사 보험, 분진·손 부상과 직업 고지
+adenomyosis-found | 자궁선근증 소견 나왔을 때 보험 확인
+kidney-angiomyolipoma-found | 신장 혈관근지방종 소견 나왔을 때 보험 확인
+silent-brain-infarct-found | 무증상 뇌경색 소견 나왔을 때 보험 확인
+breast-cyst-found | 유방 낭종 소견 나왔을 때 보험 확인
+hydronephrosis-found | 수신증 소견 나왔을 때 보험 확인
+silson-seborrheic-dermatitis | 지루성 피부염 실비 청구, 반복 치료 정리
+silson-dyshidrosis | 한포진 실비 청구 될까, 손 물집 치료비
+silson-clavicle-fracture | 쇄골 골절 실비 청구, 수술·보조기까지
+silson-knee-aspiration | 무릎 물 뺐을 때 실비 청구, 관절천자
+silson-salivary-stone | 침샘결석 실비 청구, 시술과 수술 정리
+chronic-subdural-hematoma-after-fall | 넘어진 뒤 경막하혈종 진단받았을 때 보험
+aortic-valve-tavi-recommended | 대동맥판막 시술 권유받았을 때 보험
+posterior-capsule-opacity-laser | 백내장 수술 후 다시 뿌옇게 보일 때 보험
+joint-replacement-revision | 인공관절 재수술 앞두고 보험 확인
+diabetic-foot-wound | 당뇨발 상처가 낫지 않을 때 보험
+bronchiectasis-diagnosed | 기관지확장증 진단받았을 때 보험 확인
+pulmonary-fibrosis-diagnosed | 폐섬유증 진단받았을 때 보험 확인
+iga-nephropathy-diagnosed | IgA신증 진단받았을 때 보험 확인
+autoimmune-hepatitis-diagnosed | 자가면역간염 진단받았을 때 보험 확인
+pyelonephritis-diagnosed | 급성 신우신염 진단받았을 때 보험 확인
 medical-bill-detail | 진료비 영수증과 세부내역서, 청구 전에 보는 법
 surgery-certificate | 수술비 청구 전 수술확인서에서 볼 것
 agent-registration-check | 상담받는 설계사, 등록 여부 확인하는 법
 phone-sales-contract | 전화로 가입한 보험, 다시 확인할 점
 renewal-notice | 갱신 안내문 받았을 때 꼭 볼 항목
+employee-injured-at-shop | 직원이 가게에서 다쳤을 때 사장이 할 일
+shop-fire-spread-neighbor | 가게 불이 옆 점포로 번졌을 때 배상
+shop-leak-downstairs-store | 가게 누수로 아래층 점포 피해 줬을 때
+shop-sign-fell-passerby | 가게 간판이 떨어져 행인이 다쳤을 때
+food-foreign-object-tooth | 음식 이물질로 손님 치아 다쳤을 때
+premium-card-deduction | 보험료 카드로 내면 카드 소득공제 될까
+sole-proprietor-premium-expense | 개인사업자 보험료, 비용처리 될까
+payout-and-damages | 보험금 받았는데 가해자 배상도 받을까
+payout-welfare-benefits | 보험금 받으면 기초연금·수급에 영향 있을까
+group-policy-company-beneficiary | 회사 단체보험 수익자가 회사면 괜찮을까
+phone-consult-enough | 보험 상담, 전화로만 받아도 괜찮을까
+analysis-shortage-must-buy | 보장 분석에서 부족하다면 꼭 더 들어야 할까
+agent-login-password-request | 설계사에게 인증서·비밀번호 알려줘도 될까
+consult-recording-ok | 보험 상담 내용, 녹음해도 될까
+agent-help-denied-claim | 보험금 거절되면 설계사가 도와줄 수 있을까
 silson-dental | 치과 치료, 실손보험으로 어디까지 될까
 silson-dermatology | 피부과 치료, 실손 되는 경우와 안 되는 경우
 silson-pregnancy | 임신·출산 진료, 실손 보장 확인하는 법
