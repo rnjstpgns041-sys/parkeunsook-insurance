@@ -918,11 +918,51 @@ analysis-shortage-must-buy | 보장 분석에서 부족하다면 꼭 더 들어�
 agent-login-password-request | 설계사에게 인증서·비밀번호 알려줘도 될까
 consult-recording-ok | 보험 상담 내용, 녹음해도 될까
 agent-help-denied-claim | 보험금 거절되면 설계사가 도와줄 수 있을까
+beekeeper-insurance | 양봉업자 보험, 벌 쏘임 쇼크와 직업 고지
+commercial-diver-insurance | 산업잠수사 보험, 잠수병과 가입 거절
+airline-pilot-insurance | 항공기 조종사 보험, 신체검사와 직업 고지
+pension-guesthouse-owner-insurance | 펜션·민박 운영자 보험, 손님 사고와 내 부상
+sewer-septic-worker-insurance | 하수도·정화조 작업자 보험, 질식 사고와 고지
+glaucoma-surgery-recommended | 녹내장 수술 권유받았을 때 보험 확인
+leg-artery-stent-recommended | 다리 혈관 스텐트 시술 권유받았을 때
+cochlear-implant-recommended | 인공와우 수술 권유받았을 때 보험
+bariatric-surgery-recommended | 비만대사수술 권유받았을 때 보험 확인
+corneal-transplant-recommended | 각막이식 수술 권유받았을 때 보험 확인
+silson-mortons-neuroma | 지간신경종 실비 청구, 주사와 수술까지
+silson-toe-fracture | 발가락 골절 실비 청구, 깁스·보호신발까지
+silson-tailbone-injury | 꼬리뼈 다쳤을 때 실비 청구, 통증 치료까지
+silson-bowel-obstruction | 장폐색으로 입원했을 때 실비 청구
+silson-croup | 아이 크룹 응급실 다녀왔을 때 실비 청구
+park-golf-injury | 파크골프 치다 다쳤을 때, 공에 맞은 경우까지
+pickup-basketball-injury | 농구하다 다쳤을 때 보험, 발목·손가락 부상
+tennis-court-injury | 테니스 치다 다쳤을 때 보험, 종아리·눈 부상
+crossfit-rhabdo-injury | 크로스핏 하다 다쳤을 때 보험, 횡문근융해증까지
+volleyball-finger-injury | 배구하다 다쳤을 때 보험, 손가락 골절·착지 부상
+cancer-metastasis-diagnosed | 암 전이 진단받았을 때 보험 확인
+chemo-side-effect-admission | 항암 부작용으로 입원했을 때 보험
+hyperthermia-cancer-claim | 암 고주파 온열치료 실비 청구
+lymphedema-after-cancer | 암 수술 후 림프부종 치료 보험
+heavy-ion-proton-therapy | 중입자·양성자 치료 받게 됐을 때 보험
+behcet-disease-diagnosed | 베체트병 진단받았을 때 보험 확인
+sjogren-syndrome-diagnosed | 쇼그렌증후군 진단받았을 때 보험
+systemic-sclerosis-diagnosed | 전신경화증 진단받았을 때 보험 확인
+aplastic-anemia-diagnosed | 재생불량성빈혈 진단받았을 때 보험
+adrenal-insufficiency-diagnosed | 부신기능저하증 진단받았을 때 보험
+lend-name-for-policy-request | 보험 명의 빌려달라는 부탁, 들어줘도 될까
+free-treatment-with-silson-offer | 실비로 공짜라는 병원 시술, 받아도 될까
+loan-with-insurance-pressure | 대출받는데 보험 가입하라고 하면 어떡하나
+cancel-insurance-to-invest-pitch | 보험 깨고 투자하라는 권유, 따라도 될까
+accident-claim-broker-approach | 사고 후 보험금 받아준다는 사람, 믿어도 될까
 silson-dental | 치과 치료, 실손보험으로 어디까지 될까
 silson-dermatology | 피부과 치료, 실손 되는 경우와 안 되는 경우
 silson-pregnancy | 임신·출산 진료, 실손 보장 확인하는 법
 silson-infertility | 난임 치료와 실손보험, 확인할 점
 silson-emergency | 응급실 진료비와 실손보험
+family-renewal-calendar | 가족 보험 갱신·만기 일정, 어떻게 관리할까
+family-single-policyholder | 가족 보험 계약자, 한 사람으로 몰아도 될까
+siblings-share-parents-policy | 형제끼리 부모님 보험 관리, 어떻게 나눌까
+overseas-child-parents-policy | 해외 사는 자녀가 부모님 보험 챙기려면
+spouse-policy-cancel-by-me | 배우자 보험, 내가 대신 해지할 수 있을까
 colon-polyp | 대장 용종 제거, 수술비 특약으로 보장될까
 prostate-cancer | 전립선암은 일반암일까, 소액암일까
 aortic-disease | 대동맥 질환, 심장 진단비로 보장될까
