@@ -963,6 +963,46 @@ family-single-policyholder | 가족 보험 계약자, 한 사람으로 몰아도
 siblings-share-parents-policy | 형제끼리 부모님 보험 관리, 어떻게 나눌까
 overseas-child-parents-policy | 해외 사는 자녀가 부모님 보험 챙기려면
 spouse-policy-cancel-by-me | 배우자 보험, 내가 대신 해지할 수 있을까
+mine-tunnel-worker-insurance | 광산·터널 작업자 보험, 낙석·분진과 직업 고지
+merchant-seafarer-insurance | 선원 보험, 승선 중 부상과 개인보험 확인
+sign-installer-insurance | 간판 설치 기사 보험, 고소작업 추락과 고객 배상
+horse-groom-instructor-insurance | 마필관리사·승마 교관 보험, 낙마·발길질 부상
+airport-ground-crew-insurance | 공항 지상조업 보험, 수하물·장비 사고와 고지
+bilirubin-high-found | 빌리루빈 수치 높게 나왔을 때 보험 확인
+bile-duct-dilation-found | 담관 확장 소견 나왔을 때 보험 확인
+ana-positive-found | 항핵항체 양성 나왔을 때 보험 확인
+calcium-high-found | 혈중 칼슘 높게 나왔을 때 보험 확인
+cervical-polyp-found | 자궁경부 용종 소견 나왔을 때 보험 확인
+silson-hidradenitis | 화농성 한선염 실비 청구, 째고 짜는 치료까지
+silson-tfcc | 손목 TFCC 손상 실비 청구, MRI·주사·수술
+silson-mumps | 볼거리 실비 청구, 이하선염 진료와 입원
+silson-mallet-finger | 망치손가락 실비 청구, 부목·수술까지
+silson-ear-piercing-infection | 귀 피어싱 염증 실비 청구 될까, 연골까지
+home-ladder-fall | 사다리에서 떨어져 다쳤을 때 보험 청구
+moving-day-injury | 이삿날 짐 옮기다 다쳤을 때 보험
+bleach-gas-inhalation | 락스 섞어 청소하다 가스 마셨을 때 보험
+furniture-tipped-over-injury | 가구·TV가 넘어져 다쳤을 때 보험
+kimjang-injury | 김장하다 허리·손목 다쳤을 때 보험
+moyamoya-disease-diagnosed | 모야모야병 진단받았을 때 보험 확인
+hypertrophic-cardiomyopathy-diagnosed | 비후성 심근병증 진단받았을 때 보험 확인
+myocarditis-diagnosed | 심근염 진단받았을 때 보험 확인
+cervical-artery-dissection-diagnosed | 경동맥·척추동맥 박리 진단받았을 때 보험
+brain-avm-diagnosed | 뇌동정맥기형 진단받았을 때 보험 확인
+newborn-jaundice-phototherapy | 신생아 황달 광선치료, 보험 청구 정리
+infant-torticollis-rehab | 아기 사경 진단, 재활치료 보험 확인
+infant-head-shape-helmet | 아기 두상 교정 헬멧, 보험 될까
+infant-undescended-testis-surgery | 잠복고환 수술 앞둔 아기, 보험 확인
+infant-pyloric-stenosis | 아기 유문협착증 진단, 수술과 보험
+renewal-health-recheck | 보험 갱신할 때 건강 상태 다시 심사하나요
+renewal-rider-after-paid-off | 납입 끝났는데 보험료가 계속 나가요
+renewal-decline-by-policyholder | 갱신 안 하겠다고 하면 어떻게 되나요
+renewal-premium-forecast | 갱신 보험료 미리 알 수 있나요
+renewal-rider-after-claim | 보험금 받으면 갱신형 특약 보험료 오를까
+death-cover-after-kids-grown | 자녀 다 키웠는데 사망보험 줄여도 될까
+coverage-ends-at-80-next | 80세 만기 보험 끝나면 그 뒤엔 어떻게 하나
+care-insurance-in-fifties | 50대인데 간병보험 지금 준비해야 할까
+first-insurance-in-fifties | 50대에 보험 처음 들어도 늦지 않을까
+pension-or-protection-first | 은퇴 준비, 연금과 보장보험 중 뭐가 먼저일까
 colon-polyp | 대장 용종 제거, 수술비 특약으로 보장될까
 prostate-cancer | 전립선암은 일반암일까, 소액암일까
 aortic-disease | 대동맥 질환, 심장 진단비로 보장될까
