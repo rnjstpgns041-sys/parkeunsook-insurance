@@ -1,6 +1,6 @@
 # 박은숙 보험상담
 
-> 보험설계사 박은숙이 운영하는 보험 정보 사이트입니다. 실손보험(실비), 진단비·특약, 보험 구조, 보험 리모델링, 가족·연령별 보험, 상품별 가이드, 보험금 청구, 가입·계약 제도에 관한 질문 1415가지를 약관 기준으로 정리했습니다. 무료 보장 분석 전화 상담: 010-6378-6964.
+> 보험설계사 박은숙이 운영하는 보험 정보 사이트입니다. 실손보험(실비), 진단비·특약, 보험 구조, 보험 리모델링, 가족·연령별 보험, 상품별 가이드, 보험금 청구, 가입·계약 제도에 관한 질문 1455가지를 약관 기준으로 정리했습니다. 무료 보장 분석 전화 상담: 010-6378-6964.
 
 - 운영자: 박은숙 (보험설계사)
 - 상담: 무료 전화 상담, 가입 권유 없음, 전화 010-6378-6964
@@ -204,6 +204,11 @@
 - [볼거리 실비 청구, 이하선염 진료와 입원](https://parkeunsook-insurance.netlify.app/guide/silson-mumps.html): 볼거리(유행성 이하선염)나 침샘 염증으로 진료나 입원을 했을 때 실비 청구가 되는지, 검사비와 등원 중지 기간, 청구 전 확인할 서류를 정리했습니다.
 - [망치손가락 실비 청구, 부목·수술까지](https://parkeunsook-insurance.netlify.app/guide/silson-mallet-finger.html): 손가락 끝이 굽은 채 펴지지 않는 망치손가락으로 부목 고정이나 수술을 받았을 때 실비와 상해 담보로 청구할 수 있는지, 챙길 서류를 정리했습니다.
 - [귀 피어싱 염증 실비 청구 될까, 연골까지](https://parkeunsook-insurance.netlify.app/guide/silson-ear-piercing-infection.html): 귀 피어싱 뒤 염증이나 연골 고름으로 치료를 받았을 때 실비 청구가 되는지, 미용 시술과 치료의 구분, 켈로이드와의 차이, 챙길 서류를 정리했습니다.
+- [외이도염 실비 청구, 귀 염증 치료비](https://parkeunsook-insurance.netlify.app/guide/silson-otitis-externa.html): 외이도염으로 이비인후과를 다녀왔을 때 실비 청구가 되는지, 귀 세척과 약값, 반복 통원 시 자기부담금, 청구 전에 챙길 서류를 보험설계사가 차분히 정리했습니다.
+- [고양이에게 물리거나 할퀴었을 때 실비](https://parkeunsook-insurance.netlify.app/guide/silson-cat-scratch.html): 고양이에게 물리거나 할퀴어 병원 치료를 받았을 때 실비 청구가 되는지, 상처 처치와 주사, 남의 고양이였을 때 확인할 점과 서류를 보험설계사가 정리했습니다.
+- [목 림프절 부었을 때 실비, 검사비까지](https://parkeunsook-insurance.netlify.app/guide/silson-neck-lymph-node.html): 목 림프절이 부어 초음파나 조직검사를 받게 됐을 때 실비 청구가 되는지, 결과 전 보험 가입과 해지에서 주의할 점, 챙길 서류를 보험설계사가 정리했습니다.
+- [골반염 진단받았을 때 실비 청구](https://parkeunsook-insurance.netlify.app/guide/silson-pelvic-inflammatory.html): 골반염으로 통원하거나 입원했을 때 실비 청구가 되는지, 산부인과 검사와 주사 치료, 입원 시 확인할 점과 청구 서류를 보험설계사가 차분하게 정리했습니다.
+- [팔꿈치 점액낭염 실비 청구, 물혹 치료](https://parkeunsook-insurance.netlify.app/guide/silson-elbow-bursitis.html): 팔꿈치가 물혹처럼 부어 점액낭염 진단을 받았을 때 실비 청구가 되는지, 물 빼는 처치와 주사, 수술까지 확인할 점과 서류를 보험설계사가 정리했습니다.
 
 ## 진단비 · 특약
 
@@ -458,6 +463,21 @@
 - [심근염 진단받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/myocarditis-diagnosed.html): 감기나 독감 뒤 심근염 진단을 받았을 때 심장 관련 진단비가 해당되는지, 입원 실비 청구, 회복 후 보험 가입 시 고지할 내용까지 보험설계사가 정리했습니다.
 - [경동맥·척추동맥 박리 진단받았을 때 보험](https://parkeunsook-insurance.netlify.app/guide/cervical-artery-dissection-diagnosed.html): 목 혈관인 경동맥이나 척추동맥 박리 진단을 받았을 때 뇌혈관질환·뇌졸중 진단비 해당 여부가 왜 갈리는지, 확인할 서류와 흔한 실수를 정리했습니다.
 - [뇌동정맥기형 진단받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/brain-avm-diagnosed.html): 뇌동정맥기형 진단을 받았을 때 선천성 질환 코드 때문에 뇌혈관질환 진단비가 애매해지는 이유, 출혈 여부에 따른 차이, 감마나이프 등 치료 청구까지 정리했습니다.
+- [자궁경부 원추절제술 권유받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/cervical-conization-recommended.html): 자궁경부 원추절제술을 권유받았을 때 수술 전에 확인할 진단비·수술비·실손 담보와 조직검사 결과에 따라 달라지는 진단코드, 흔한 실수까지 정리했습니다.
+- [자궁탈출증 수술 권유받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/pelvic-prolapse-surgery-recommended.html): 자궁탈출증이나 골반장기탈출증 수술을 권유받았을 때 실손과 수술비 담보에서 확인할 점, 미용 목적 수술과 구분되는 기준, 수술 전 준비할 서류를 정리했습니다.
+- [안면경련 수술 권유받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/hemifacial-spasm-surgery-recommended.html): 반측성 안면경련으로 미세혈관감압술을 권유받았을 때 수술비 담보와 실손에서 확인할 점, 보톡스 주사 치료와의 차이, 수술 전 준비할 서류를 정리했습니다.
+- [발목 인대 수술 권유받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/ankle-ligament-surgery-recommended.html): 발목 인대 재건술이나 봉합술을 권유받았을 때 상해와 질병 중 어느 쪽으로 보는지, 상해수술비와 실손에서 확인할 점, 수술 전 준비할 서류를 정리했습니다.
+- [무릎 줄기세포 치료 권유받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/knee-stem-cell-recommended.html): 무릎 연골 줄기세포 치료를 권유받았을 때 실손 보장 여부를 미리 확인해야 하는 이유, 입원 여부와 비급여 기준, 치료 전 꼭 챙길 서류와 질문을 정리했습니다.
+- [기저세포암 진단받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/basal-cell-carcinoma-diagnosed.html): 기저세포암 진단을 받았을 때 진단비가 일반암인지 기타피부암인지, 수술비 청구와 조직검사 결과지 확인, 이후 보험 가입 시 고지할 점까지 순서대로 정리했습니다.
+- [진주종 진단받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/cholesteatoma-diagnosed.html): 진주종성 중이염 진단을 받았을 때 수술비 담보 확인, 재수술과 청력 검사 서류, 실손과 함께 볼 점, 이후 보험 가입 시 고지 기준까지 차례대로 정리했습니다.
+- [성대결절 진단받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/vocal-cord-nodule-diagnosed.html): 성대결절이나 성대용종 진단을 받았을 때 음성치료와 후두미세수술 청구, 수술비 담보 확인, 직업상 반복 진료 기록이 이후 보험 가입에 미치는 영향을 정리했습니다.
+- [천포창 진단받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/pemphigus-diagnosed.html): 천포창 진단을 받았을 때 산정특례 신청과 장기 치료비, 희귀질환 관련 특약과 입원비 확인, 스테로이드 치료 중 보험 가입 시 고지할 점까지 정리했습니다.
+- [원추각막 진단받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/keratoconus-diagnosed.html): 원추각막 진단을 받았을 때 각막교차결합술과 특수 렌즈의 보험 청구 기준, 각막이식 수술비 담보, 진행 중인 눈 질환이 있을 때 보험 가입 고지까지 정리했습니다.
+- [SFTS 진단받았을 때 보험 확인, 진드기 감염](https://parkeunsook-insurance.netlify.app/guide/sfts-tick-virus-diagnosed.html): SFTS 진단을 받았을 때 실비와 입원일당, 법정감염병 특약을 어떻게 확인하는지, 상해인지 질병인지 구분과 청구 전 챙길 서류를 보험설계사가 정리했습니다.
+- [뎅기열 진단받았을 때 보험, 여행 후 귀국 치료](https://parkeunsook-insurance.netlify.app/guide/dengue-fever-after-travel.html): 해외여행 뒤 뎅기열 진단을 받았을 때 현지 치료비와 귀국 후 국내 치료비를 어떤 보험으로 청구하는지, 실비와 여행자보험, 감염병 특약 확인법을 정리했습니다.
+- [A형간염 진단받았을 때 보험 청구 정리](https://parkeunsook-insurance.netlify.app/guide/hepatitis-a-diagnosed.html): A형간염 진단으로 입원하게 되었을 때 실비와 입원일당, 법정감염병 특약을 어떻게 확인하는지, 간 질환 진단비와 헷갈리는 점, 청구 전 서류를 정리했습니다.
+- [비브리오패혈증 진단받았을 때 보험 확인](https://parkeunsook-insurance.netlify.app/guide/vibrio-sepsis-diagnosed.html): 비브리오패혈증 진단을 받았을 때 실비와 입원일당, 감염병 특약을 어떻게 확인하는지, 상처 감염일 때 상해와 질병 구분, 수술과 장해 관련 담보까지 정리했습니다.
+- [말라리아 진단받았을 때 보험 청구 정리](https://parkeunsook-insurance.netlify.app/guide/malaria-diagnosed-claim.html): 말라리아 진단을 받았을 때 국내 감염과 해외 감염에 따라 실비와 여행자보험을 어떻게 확인하는지, 입원일당과 감염병 특약, 청구 전 서류를 정리했습니다.
 
 ## 보험 구조 이해
 
@@ -879,6 +899,21 @@
 - [아기 두상 교정 헬멧, 보험 될까](https://parkeunsook-insurance.netlify.app/guide/infant-head-shape-helmet.html): 아기가 사두증이나 단두증 소견으로 두상 교정 헬멧을 권유받았을 때 실비와 어린이보험에서 확인할 점, 검사비와 헬멧 비용 구분, 흔한 실수를 정리했습니다.
 - [잠복고환 수술 앞둔 아기, 보험 확인](https://parkeunsook-insurance.netlify.app/guide/infant-undescended-testis-surgery.html): 아기가 잠복고환 진단을 받고 수술을 앞두고 있을 때 태아보험 선천이상 특약, 수술비 담보, 실비에서 확인할 점과 수술 전에 챙길 서류를 정리했습니다.
 - [아기 유문협착증 진단, 수술과 보험](https://parkeunsook-insurance.netlify.app/guide/infant-pyloric-stenosis.html): 아기가 분수토를 반복하다 비후성 유문협착증 진단을 받고 수술하게 됐을 때 어린이보험 수술비, 입원 일당, 실비에서 확인할 점과 서류를 정리했습니다.
+- [교도관 보험, 수용자 폭행 부상과 공무상 재해](https://parkeunsook-insurance.netlify.app/guide/correctional-officer-insurance.html): 교도관 보험을 점검할 때 수용자 폭행이나 제압 중 부상이 공무상 재해로 처리되는 방식, 단체보험과 개인보험의 관계, 직업 고지와 청구 시 주의할 점을 정리했습니다.
+- [도예가·공방 운영자 보험, 가마 화상과 수강생 사고](https://parkeunsook-insurance.netlify.app/guide/potter-craft-studio-insurance.html): 도예가나 공방 운영자가 가마 화상이나 물레 작업으로 다쳤을 때, 수강생이 공방에서 다쳤을 때 확인할 개인보험과 배상책임, 직업 고지와 산재 가입 여부를 정리했습니다.
+- [취재기자 보험, 현장 취재 중 부상과 고지](https://parkeunsook-insurance.netlify.app/guide/journalist-insurance.html): 취재기자가 집회나 재난 현장, 해외 취재 중 다쳤을 때 산재와 개인보험 청구 순서, 직업 고지와 해외 위험지역 보장에서 확인할 점을 보험설계사가 정리했습니다.
+- [운동선수 보험, 경기 중 부상과 가입 제한](https://parkeunsook-insurance.netlify.app/guide/pro-athlete-insurance.html): 프로·실업팀 운동선수가 경기나 훈련 중 다쳤을 때 확인할 개인보험과 산재, 소속 단체 공제, 직업 선수라서 생기는 가입 제한과 고지 문제를 차분하게 정리했습니다.
+- [드론 조종사 보험, 방제·촬영 중 사고와 배상](https://parkeunsook-insurance.netlify.app/guide/drone-pilot-insurance.html): 드론 방제나 촬영을 하는 조종사가 사고를 냈거나 다쳤을 때 배상책임보험과 개인 상해보험을 어떻게 나눠 보는지, 직업 고지와 확인할 서류를 정리했습니다.
+- [군대에서 다쳤을 때 보험, 현역병이 볼 것](https://parkeunsook-insurance.netlify.app/guide/soldier-injured-during-service.html): 군대에서 다쳤을 때 보험 청구가 되는지, 군 병원과 민간병원 진료의 차이, 병사 단체보험과 개인 실손·상해보험 확인 순서, 놓치기 쉬운 서류를 정리했습니다.
+- [전역 후 보험 가입, 군 진료 기록 고지할까](https://parkeunsook-insurance.netlify.app/guide/after-discharge-military-record-join.html): 전역 후 보험에 가입하려는데 군 복무 중 받은 진료 기록도 알려야 하는지, 고지 기간을 세는 법, 국방 의료 기록 확인 방법과 흔한 실수를 정리했습니다.
+- [대학 MT·동아리 활동 중 다쳤을 때 보험](https://parkeunsook-insurance.netlify.app/guide/college-mt-club-injury.html): 대학 MT나 동아리 활동 중 다쳤을 때 개인 실손·상해보험 청구, 학교 단체보험이나 행사 보험 확인, 다른 학생 때문에 다친 경우 배상 문제까지 정리했습니다.
+- [현장실습·인턴 중 다쳤을 때 보험과 산재](https://parkeunsook-insurance.netlify.app/guide/internship-practicum-injury.html): 대학 현장실습이나 인턴 근무 중 다쳤을 때 산재 적용 가능성, 학교 단체보험과 개인 실손·상해보험 청구 순서, 흔한 실수와 준비할 서류를 정리했습니다.
+- [알바하다 손님 물건 망가뜨렸을 때 보험](https://parkeunsook-insurance.netlify.app/guide/part-timer-damaged-customer-item.html): 아르바이트 중 실수로 손님 물건을 파손하거나 손님을 다치게 했을 때 내 일상배상책임 특약이 되는지, 사업주 배상책임보험과 월급 공제 문제까지 정리했습니다.
+- [장애등급제 폐지, 예전 보험 약관은 어떻게 볼까](https://parkeunsook-insurance.netlify.app/guide/disability-grade-abolished-policy.html): 장애등급제가 바뀐 뒤 예전 보험 약관의 장애 등급 조항을 어떻게 보는지, 후유장해 담보와의 차이와 청구 전 확인할 서류를 보험설계사가 정리했습니다.
+- [가족 돌보는 보호자, 내 보험은 무엇부터 볼까](https://parkeunsook-insurance.netlify.app/guide/caregiver-own-insurance.html): 장애나 지병이 있는 가족을 돌보는 보호자가 자신의 보험에서 먼저 확인할 사망·소득 공백·질병 보장과 납입면제, 점검 순서를 보험설계사가 정리했습니다.
+- [장애가 있다고 보험 거절되면 차별인가요](https://parkeunsook-insurance.netlify.app/guide/disability-insurance-refusal.html): 장애를 이유로 보험 가입이 거절되거나 조건이 붙었을 때 차별에 해당하는지, 보험사가 설명해야 할 근거와 이의 제기 방법을 보험설계사가 정리했습니다.
+- [장애인 전용 보험, 따로 가입해야 하나요](https://parkeunsook-insurance.netlify.app/guide/disability-dedicated-insurance.html): 장애인 전용 보험이 별도 상품인지, 세법상 장애인전용 보장성보험의 의미와 기존 계약을 지정하는 방법, 연말정산 전 확인할 점을 보험설계사가 정리했습니다.
+- [발달장애 자녀 성인 되면 보험은 누가 관리할까](https://parkeunsook-insurance.netlify.app/guide/disabled-adult-child-policy.html): 발달장애 자녀가 성인이 된 뒤 보험 계약자와 수익자, 보험금 청구를 누가 맡을지, 후견과 지정대리청구 제도에서 확인할 점을 보험설계사가 정리했습니다.
 
 ## 상품별 가이드
 
@@ -978,6 +1013,11 @@
 - [부모가 아프면 아이 보험료 납입면제 될까](https://parkeunsook-insurance.netlify.app/guide/kids-premium-waiver-parent-illness.html): 부모가 큰 병에 걸리거나 다치면 아이 보험료가 납입면제 되는지, 피보험자 기준 면제와 계약자 납입면제 특약의 차이, 확인할 약관 내용을 보험설계사가 정리했습니다.
 - [아이 보험 계약자, 엄마 아빠 중 누구로 할까](https://parkeunsook-insurance.netlify.app/guide/kids-policyholder-mom-or-dad.html): 아이 보험 계약자를 엄마로 할지 아빠로 할지 고민될 때, 보험료 납부, 세액공제, 계약자 납입면제 특약, 나중의 계약자 변경까지 함께 볼 기준을 보험설계사가 정리했습니다.
 - [태아보험 가입 후 유산되면 어떻게 될까](https://parkeunsook-insurance.netlify.app/guide/fetal-insurance-miscarriage.html): 태아보험에 가입한 뒤 유산이 되었을 때 계약과 이미 낸 보험료가 어떻게 처리되는지, 산모 특약과 실손 확인, 보험사에 알릴 때 필요한 서류를 보험설계사가 정리했습니다.
+- [성인도 치아보험 꼭 필요할까](https://parkeunsook-insurance.netlify.app/guide/adult-dental-insurance-need.html): 성인에게 치아보험이 꼭 필요한지, 도움이 되는 사람과 필요성이 낮은 사람, 실손과 건강보험으로 되는 부분, 가입 전에 먼저 확인할 점을 정리했습니다.
+- [치매보험 꼭 들어야 할까](https://parkeunsook-insurance.netlify.app/guide/dementia-insurance-need.html): 치매보험을 꼭 들어야 하는지, 도움이 되는 경우와 필요성이 낮은 경우, 장기요양보험과의 관계, 가입 전에 확인할 보장 단계와 지정대리인까지 정리했습니다.
+- [실비 있는데 수술비 특약도 필요할까](https://parkeunsook-insurance.netlify.app/guide/surgery-rider-need-with-silson.html): 실손보험이 있는데 수술비 특약도 필요한지, 두 보장이 어떻게 다른지, 도움이 되는 경우와 필요성이 낮은 경우, 가입 전에 확인할 점을 정리했습니다.
+- [질병후유장해 특약 꼭 필요할까](https://parkeunsook-insurance.netlify.app/guide/disease-disability-rider-need.html): 질병후유장해 특약이 꼭 필요한지, 상해후유장해와의 차이, 도움이 되는 사람과 필요성이 낮은 경우, 가입 전 확인할 지급 기준을 차례로 정리했습니다.
+- [펫보험 꼭 들어야 할까](https://parkeunsook-insurance.netlify.app/guide/pet-insurance-need.html): 펫보험을 꼭 들어야 하는지, 도움이 되는 보호자와 필요성이 낮은 경우, 동물병원비 구조와 보장 한계, 가입 전에 먼저 확인할 조건을 정리했습니다.
 
 ## 보험금 청구
 
